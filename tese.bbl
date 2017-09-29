@@ -1,0 +1,56 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Abukhshim \textit{et al.} 2006]{abukhshim2006heat}
+\abntrefinfo{Abukhshim \textit{et al.}}{ABUKHSHIM \textit{et al.}}{2006}
+{ABUKHSHIM, N.; MATIVENGA, P.; SHEIKH, M. Heat generation and temperature
+  prediction in metal cutting: A review and implications for high speed
+  machining.
+\textbf{International Journal of Machine Tools and Manufacture}, Elsevier,
+  v.~46, n.~7, p. 782--800, 2006.}
+
+\bibitem[Augspurger \textit{et al.} 2016]{augspurger2016experimental}
+\abntrefinfo{Augspurger \textit{et al.}}{AUGSPURGER \textit{et al.}}{2016}
+{AUGSPURGER, T.; KLOCKE, F.; D{\"O}BBELER, B.; BROCKMANN, M.; LIMA, A.
+  \textbf{Experimental investigation of temperatures and heat flows for
+  orthogonal cutting 1045 steel by thermal imaging}. 08 2016.
+6~p.}
+
+\bibitem[Duda e Hart 1972]{duda1972use}
+\abntrefinfo{Duda e Hart}{DUDA; HART}{1972}
+{DUDA, R.~O.; HART, P.~E. Use of the hough transformation to detect lines and
+  curves in pictures.
+\textbf{Communications of the ACM}, ACM, v.~15, n.~1, p. 11--15, 1972.}
+
+\bibitem[Komanduri e Hou 2000]{komanduri2000thermal}
+\abntrefinfo{Komanduri e Hou}{KOMANDURI; HOU}{2000}
+{KOMANDURI, R.; HOU, Z.~B. Thermal modeling of the metal cutting process: part
+  i temperature rise distribution due to shear plane heat source.
+\textbf{International Journal of Mechanical Sciences}, Elsevier, v.~42, n.~9,
+  p. 1715--1752, 2000.}
+
+\bibitem[Komanduri e Hou 2001]{komanduri2001thermal}
+\abntrefinfo{Komanduri e Hou}{KOMANDURI; HOU}{2001}
+{KOMANDURI, R.; HOU, Z.~B. Thermal modeling of the metal cutting process part
+  ii: temperature rise distribution due to frictional heat source at the tool
+  chip interface.
+\textbf{International Journal of Mechanical Sciences}, Elsevier, v.~43, n.~1,
+  p. 57--88, 2001.}
+
+\bibitem[Maldague 2000]{maldague2000}
+\abntrefinfo{Maldague}{MALDAGUE}{2000}
+{MALDAGUE, X. Applications of infrared thermography in nondestructive
+  evaluation.
+\textbf{Trends in optical nondestructive testing}, Elsevier Science, p.
+  591--609, 2000.}
+
+\bibitem[Shaw e Cookson 2005]{shaw2005metal}
+\abntrefinfo{Shaw e Cookson}{SHAW; COOKSON}{2005}
+{SHAW, M.~C.; COOKSON, J. \textbf{Metal cutting principles}. [S.l.]: Oxford
+  university press New York, 2005.}
+
+\end{thebibliography}

@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: tese.aux
+The style file: abnt-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: abnt-options.bib
+Database file #2: Referencias/referencias.bib
+Warning--entry type for "augspurger2016experimental" isn't style-file defined
+--line 20 of file Referencias/referencias.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abnt-alf.bst versão 1.45.2.1           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+You've used 12 entries,
+            6480 wiz_defined-function locations,
+            1207 strings with 10551 characters,
+and the built_in function-call counts, 8097 in all, are:
+= -- 688
+> -- 245
+< -- 20
++ -- 142
+- -- 75
+* -- 545
+:= -- 1049
+add.period$ -- 22
+call.type$ -- 14
+change.case$ -- 95
+chr.to.int$ -- 32
+cite$ -- 7
+duplicate$ -- 330
+empty$ -- 672
+format.name$ -- 354
+if$ -- 1978
+int.to.chr$ -- 4
+int.to.str$ -- 3
+missing$ -- 181
+newline$ -- 42
+num.names$ -- 35
+pop$ -- 199
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 622
+stack$ -- 1
+substring$ -- 333
+swap$ -- 169
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 58
+width$ -- 0
+write$ -- 124
+(There was 1 warning)

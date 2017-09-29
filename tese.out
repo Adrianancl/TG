@@ -1,0 +1,39 @@
+\BOOKMARK [0][]{cover.0}{Cover}{}% 1
+\BOOKMARK [0][]{titulo.0}{Face Page}{}% 2
+\BOOKMARK [0][]{cip.0}{Cataloging-in-Publication}{}% 3
+\BOOKMARK [0][]{aprovacao.0}{Thesis Committee Composition:}{}% 4
+\BOOKMARK [0][]{dedication.0}{Dedication}{}% 5
+\BOOKMARK [0][]{acknowledgment.0}{Acknowledgments}{}% 6
+\BOOKMARK [0][]{epigrafe.0}{Epigraph}{}% 7
+\BOOKMARK [0][]{resumo.0}{Resumo}{}% 8
+\BOOKMARK [0][]{abstract.0}{Abstract}{}% 9
+\BOOKMARK [0][]{listafiguras.0}{List of Figures}{}% 10
+\BOOKMARK [0][]{listatabelas.0}{List of Tables}{}% 11
+\BOOKMARK [0][]{listaabreviaturas.0}{List of Abbreviations and Acronyms}{}% 12
+\BOOKMARK [0][]{listasimbolos.0}{List of Symbols}{}% 13
+\BOOKMARK [0][]{contents.0}{Contents}{}% 14
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 15
+\BOOKMARK [1][]{section.1.1}{1.1 Structure}{chapter.1}% 16
+\BOOKMARK [0][]{chapter.2}{2 State of the Art}{}% 17
+\BOOKMARK [1][]{section.2.1}{2.1 Infrared Termography}{chapter.2}% 18
+\BOOKMARK [1][]{section.2.2}{2.2 Temperature Modelling}{chapter.2}% 19
+\BOOKMARK [1][]{section.2.3}{2.3 Image Processing}{chapter.2}% 20
+\BOOKMARK [0][]{chapter.3}{3 Experimental Setup}{}% 21
+\BOOKMARK [0][]{chapter.4}{4 Code Implementation}{}% 22
+\BOOKMARK [1][]{section.4.1}{4.1 MATLAB environment}{chapter.4}% 23
+\BOOKMARK [1][]{section.4.2}{4.2 Auxiliar functions}{chapter.4}% 24
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Contour plot}{section.4.2}% 25
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Hough lines transformation}{section.4.2}% 26
+\BOOKMARK [1][]{section.4.3}{4.3 Implementation steps}{chapter.4}% 27
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Overview}{section.4.3}% 28
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Finding tool edges}{section.4.3}% 29
+\BOOKMARK [2][]{subsection.4.3.3}{4.3.3 Maximum temperatures}{section.4.3}% 30
+\BOOKMARK [2][]{subsection.4.3.4}{4.3.4 Temperature fields}{section.4.3}% 31
+\BOOKMARK [2][]{subsection.4.3.5}{4.3.5 Heat flows - Chip and Tool}{section.4.3}% 32
+\BOOKMARK [0][]{chapter.5}{5 Results}{}% 33
+\BOOKMARK [0][]{chapter.6}{6 Conclusion}{}% 34
+\BOOKMARK [0][]{chapter.7}{Bibliography}{}% 35
+\BOOKMARK [0][]{appendix.A}{A Source Code}{}% 36
+\BOOKMARK [1][]{section.A.1}{A.1 Temperature Analysis}{appendix.A}% 37
+\BOOKMARK [0][]{appendix.B}{Glossary}{}% 38
+\BOOKMARK [0][]{bla.0}{Folha de Registro do Documento}{}% 39

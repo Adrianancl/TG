@@ -1,0 +1,367 @@
+	When implementing the functions detailed on Chapter~\ref{ch:specs}, a constant concern was to optimize the code, so that computational time could be reduced to a minimum. This is specially important in this work, since a high amount of data is stored and constantly searched for.
+	
+	\section{Point sampling}
+	\label{sec:ptsampling}
+	
+	One major example is the evaluation of the NURBS surface on a given $(u,v)$ position, because the expressions for the surface are all piecewise polynomials. For every time that a point must be sampled, a search algorithm needs to be used to find which interval contains that point, so that the correct polynomial coefficients are used for the evaluation. To make matters even worse, each interval contains not one, but several functions which are non-zero on that interval. Therefore, there are two levels of nested loops, causing the code to have order $O(n^2)$.
+	
+	The first version of the function \textit{samplePt.m} used to search the entire $N$ array for the polynomial piece that was non-zero for the sample $u$ or $v$ value. After that, it searched within those pieces for the correct coefficients for the interval of interest. All searches were non-optimized, as they ran through the array, testing each and every value. The code for this earlier version of the function can be seen below.
+	\newline
+	
+	\begin{lstlisting}[language=matlab]
+% Number of functions for each direction
+[Lu,Lv] = size(S.x);
+
+% Initialize auxiliary variables
+vecU = 0;
+indU = 1;
+vecV = 0;
+indV = 1;
+
+% Get interval of influence in U
+for p=1:Lu
+    for r=1:size(Nu(p).knots,1)
+        if u>=Nu(p).knots(r,1) && u<=Nu(p).knots(r,2)
+            vecU(indU,1) = p;
+            vecU(indU,2) = r;
+            indU = indU+1;
+        end
+    end
+end
+lu = size(vecU,1);
+
+% Get interval of influence in V
+for q=1:Lv
+    for s=1:size(Nv(q).knots,1)
+        if v>=Nv(q).knots(s,1) && v<=Nv(q).knots(s,2)
+            vecV(indV,1) = q;
+            vecV(indV,2) = s;
+            indV = indV+1;
+        end
+    end
+end 
+lv = size(vecV,1);
+
+% Initiate output variables
+x = 0;
+y = 0;
+z = 0;
+
+% Calculate point
+for p=1:lu
+    funcU = polyval(Nu(vecU(p,1)).coefs(vecU(p,2),:),u);
+    for q=1:lv
+        funcV = polyval(Nv(vecV(q,1)).coefs(vecV(q,2),:),v);
+        
+        x = x + funcU*funcV*S.x(vecU(p,1),vecV(q,1));
+        y = y + funcU*funcV*S.y(vecU(p,1),vecV(q,1));
+        z = z + funcU*funcV*S.z(vecU(p,1),vecV(q,1));
+    end
+end
+	\end{lstlisting}
+	
+	There are sections of the program which run this function several times within loops, for example, when sampling a point grid on the surface. Therefore, even a slight optimization on this code would generate a considerable positive impact on the computational time.
+	
+	As the basis N-functions are ordered with relation to an increasing set of intervals of influence, it was decided to try to apply a search algorithm to previously find one function which would be non-zero for the given $u$ or $v$ value. After that, the neighbor functions would be searched for, greatly decreasing the run-time.
+	
+	A binary search algorithm was chosen for the job, as it has order $O(log_2 n)$. After it found one $N(i)$ that was non-zero on the desired interval, it would then search from $N(i-p)$ to $N(i+p)$, where $p$ is the degree of the polynomial. This way, only $2p+1$ functions where searched for, making it independent from the total number of functions. The new implemented code can be seen below.
+	\newline
+	
+	\begin{lstlisting}[language=matlab]
+% Number of functions for each direction
+[Lu,Lv] = size(S.x);
+
+% Initialize auxiliary variables
+vecU = 0;
+indU = 1;
+vecV = 0;
+indV = 1;
+
+% Get interval of influence in U
+uIndex = findInterval(Nu, u, 1, Lu,1);
+for p=max(1,(uIndex-S.d1)):min(Lu,(uIndex+S.d1))
+    for r=1:size(Nu(p).knots,1)
+        if u>=Nu(p).knots(r,1) && u<=Nu(p).knots(r,2)
+            vecU(indU,1) = p;
+            vecU(indU,2) = r;
+            indU = indU+1;
+        end
+    end
+end
+lu = size(vecU,1);
+
+% Get interval of influence in V
+vIndex = findInterval(Nv, v, 1, Lv,1);
+for q=max(1,(vIndex-S.d2)):min(Lv,(vIndex+S.d2))
+    for s=1:size(Nv(q).knots,1)
+        if v>=Nv(q).knots(s,1) && v<=Nv(q).knots(s,2)
+            vecV(indV,1) = q;
+            vecV(indV,2) = s;
+            indV = indV+1;
+        end
+    end
+end 
+lv = size(vecV,1);
+
+% Initiate output variables
+x = 0;
+y = 0;
+z = 0;
+
+% Calculate point
+for p=1:lu
+    funcU = polyval(Nu(vecU(p,1)).coefs(vecU(p,2),:),u);
+    for q=1:lv
+        funcV = polyval(Nv(vecV(q,1)).coefs(vecV(q,2),:),v);
+        
+        x = x + funcU*funcV*S.x(vecU(p,1),vecV(q,1));
+        y = y + funcU*funcV*S.y(vecU(p,1),vecV(q,1));
+        z = z + funcU*funcV*S.z(vecU(p,1),vecV(q,1));
+    end
+end
+	\end{lstlisting}
+	
+	The function \textit{findInterval.m} implements the binary search algorithm with recursion, and can be found in Appendix~\ref{sec:findinterval}. Tests run for $Lu=Lv=500$ have shown great improvement. While the earlier version used to take $0,081 s$ to sample a point, the new implementation reduced this time to $0,029 s$, which is a factor of 2,8. When sampling a large number of points, this means saving hours of computational time.
+	
+	\section{Surface sampling}
+	
+	There are several moments within the code when the whole surface needs to be sampled. For this, a number of sample points is defined for each direction, for example, $n_1$ for the u direction and $n_2$ for the v direction, then equally spaced $(u,v)$ pairs are defined, forming a rectangular point grid. After that, each point is sampled using the principles explained above.
+	
+	However, instead of simply repeating $n_1 \times n_2$ times the \textit{samplePt.m} function, a better and faster approach was defined. Since each $u$ value was present on a number of $(u,v)$ pairs, where only $v$ varies, the corresponding value was calculate only once, then used for every $v$ value. This reduced the number of $u$ calculations from $n_1 \times n_2$ to $n_1$, greatly reducing the total necessary time.
+	
+	The same use of the binary search was also applied to this function, with great results. Times where reduced in average by a factor of 3,3. The comparison of run-time with relation to $n_1=n_2=n$ can be seen on the Table~\ref{tab:samplesurf}. The code can be seen below.\newline
+	
+	\begin{table}[H]
+	\centering
+	\captionsetup{justification=centering}
+	\begin{tabular}{l c c c c c c}
+	\hline
+	n & 10 & 50 & 100 & 250 & 500 & 1032\\\hline
+	original algorithm & 0,166 & 3,827 & 15,15 & 100,4 & 450,3 & 1997,3\\
+	optimized algorithm & 0,161 & 1,181 & 4,046 & 24,29 & 121,9 & 458,8\\
+	\hline
+	\end{tabular}
+	\caption{Run-time in seconds for each surface sampling algorithm, in relation to number of sample points.}
+	\label{tab:samplesurf}
+	\end{table}
+	
+	\begin{lstlisting}[language=matlab]
+% Number of functions for each direction
+Lu = size(Nu,1);
+Lv = size(Nv,1);
+
+% Generate sample points, based on knots
+sampU = linspace(0,1,nu)';
+sampV = linspace(0,1,nv)';
+
+% Generate matrixes to receive coordinate values
+sampX = zeros(nu,nv);
+sampY = zeros(nu,nv);
+sampZ = zeros(nu,nv);
+sampM = zeros(nu,nv);
+
+% Initialize auxiliary variables
+vecU = 0;
+indU = 1;
+vecV = 0;
+indV = 1;
+
+% Evaluate points
+for i=1:nu
+    uIndex = findInterval(Nu,sampU(i),1,Lu,1);
+    for p=max(1,(uIndex-S.d1)):min(Lu,(uIndex+S.d1))
+        for r=1:size(Nu(p).knots,1)
+            if sampU(i)>=Nu(p).knots(r,1) && sampU(i)<=Nu(p).knots(r,2)
+                vecU(indU,1) = p;
+                vecU(indU,2) = r;
+                indU = indU+1;
+            end
+        end
+    end
+    lu = size(vecU,1);
+    
+    for j=1:nv
+        vIndex = findInterval(Nv,sampV(j),1,Lv,1);
+        for q=max(1,(vIndex-S.d2)):min(Lv,(vIndex+S.d2))
+            for s=1:size(Nv(q).knots,1)
+                if sampV(j)>=Nv(q).knots(s,1) && sampV(j)<=Nv(q).knots(s,2)
+                    vecV(indV,1) = q;
+                    vecV(indV,2) = s;
+                    indV = indV+1;
+                end
+            end
+        end 
+        lv = size(vecV,1);
+        
+        %% Actual evaluation
+        
+        for p=1:lu
+            funcU = polyval(Nu(vecU(p,1)).coefs(vecU(p,2),:),sampU(i));
+            for q=1:lv
+                funcV = polyval(Nv(vecV(q,1)).coefs(vecV(q,2),:),sampV(j));
+                
+                sampX(i,j) = sampX(i,j) + funcU*funcV*S.x(vecU(p,1),vecV(q,1));
+                sampY(i,j) = sampY(i,j) + funcU*funcV*S.y(vecU(p,1),vecV(q,1));
+                sampZ(i,j) = sampZ(i,j) + funcU*funcV*S.z(vecU(p,1),vecV(q,1));
+            end
+        end
+        
+        sampM(i,j) = norm([sampX(i,j),sampY(i,j),sampZ(i,j)]);
+        
+        vecV = 0;
+        indV = 1;
+        
+    end
+    
+    vecU = 0;
+    indU = 1;
+    
+end
+
+samp = struct('x',sampX,'y',sampY,'z',sampZ,'M',sampM);
+	\end{lstlisting}
+	
+	On two occasions, there is the necessity to sample the same point grid for three different sets of basis N-functions. In this case, a simple solution would be to repeat the function \textit{sampleSurf.m} three times, one for each set of N-functions. However, that would mean having to find the functions and corresponding intervals three times for each point. The opportunity for optimization was perceived and the sampling function was adapted to be able to receive a number of N-function sets, instead of only one. Then all the evaluations would be made for each point, thus eliminating the need for repeated searches.
+	
+	This new function was called \textit{sampleSurfVec.m}, as the sets of N-functions are input as a vector. Tests where run for different sample sizes. Times where reduced in average by a factor of 1,5. The comparison of run-time with relation to $n_1=n_2=n$ can be seen on the Table~\ref{tab:samplesurfvec}. The code can be seen below.\newline
+	
+	\begin{table}[H]
+	\centering
+	\captionsetup{justification=centering}
+	\begin{tabular}{l c c c c c c}
+	\hline
+	n & 10 & 50 & 100 & 250 & 500 & 1032\\\hline
+	3 times \textit{sampleSurf.m} & 0,484 & 3,544 & 12,14 & 72,88 & 365,8 & 1376,3\\
+	\textit{sampleSurfVec.m} & 0,204 & 2,385 & 8,964 & 54,31 & 276,0 & 950,3\\
+	\hline
+	\end{tabular}
+	\caption{Run-time in seconds for each surface sampling algorithm, in relation to number of sample points.}
+	\label{tab:samplesurfvec}
+	\end{table}
+	\newpage
+	
+	\begin{lstlisting}[language=matlab]
+% Number of function sets
+K = size(Nu,2);
+
+% Number of functions for each direction
+Lu = size(Nu,1);
+Lv = size(Nv,1);
+
+% Generate sample points, based on knots
+sampU = linspace(0,1,nu)';
+sampV = linspace(0,1,nv)';
+
+% Generate matrixes to receive coordinate values
+sampX = zeros(nu,nv,K);
+sampY = zeros(nu,nv,K);
+sampZ = zeros(nu,nv,K);
+sampM = zeros(nu,nv,K);
+
+% Initialize auxiliary variables
+vecU = 0;
+indU = 1;
+vecV = 0;
+indV = 1;
+funcU = zeros(K,1);
+funcV = zeros(K,1);
+
+% Evaluate points
+for i=1:nu
+    uIndex = findInterval(Nu(:,1),sampU(i),1,Lu,1);
+    for p=max(1,(uIndex-S.d1)):min(Lu,(uIndex+S.d1))
+        for r=1:size(Nu(p,1).knots,1)
+            if sampU(i)>=Nu(p,1).knots(r,1) && sampU(i)<=Nu(p,1).knots(r,2)
+                vecU(indU,1) = p;
+                vecU(indU,2) = r;
+                indU = indU+1;
+            end
+        end
+    end
+    lu = size(vecU,1);
+    
+    for j=1:nv
+        vIndex = findInterval(Nv(:,1),sampV(j),1,Lv,1);
+        for q=max(1,(vIndex-S.d2)):min(Lv,(vIndex+S.d2))
+            for s=1:size(Nv(q,1).knots,1)
+                if sampV(j)>=Nv(q,1).knots(s,1) && sampV(j)<=Nv(q,1).knots(s,2)
+                    vecV(indV,1) = q;
+                    vecV(indV,2) = s;
+                    indV = indV+1;
+                end
+            end
+        end 
+        lv = size(vecV,1);
+        
+        %% Actual evaluation
+        
+        for p=1:lu
+            for k=1:K
+                funcU(k) = polyval(Nu(vecU(p,1),k).coefs(vecU(p,2),:),sampU(i));
+            end
+            for q=1:lv
+                for k=1:K
+                    funcV(k) = polyval(Nv(vecV(q,1),k).coefs(vecV(q,2),:),sampV(j));
+        
+                    sampX(i,j,k) = sampX(i,j,k) ...
+                                     + funcU(k)*funcV(k)*S.x(vecU(p,1),vecV(q,1));
+                    sampY(i,j,k) = sampY(i,j,k) ...
+                                     + funcU(k)*funcV(k)*S.y(vecU(p,1),vecV(q,1));
+                    sampZ(i,j,k) = sampZ(i,j,k) ...
+                                     + funcU(k)*funcV(k)*S.z(vecU(p,1),vecV(q,1));
+                end
+            end
+        end
+        
+        for k=1:K
+            sampM(i,j,k) = norm([sampX(i,j,k),sampY(i,j,k),sampZ(i,j,k)]);
+        end
+        
+        vecV = 0;
+        indV = 1;
+        
+    end
+    
+    vecU = 0;
+    indU = 1;
+    
+end
+
+samp = repmat(struct('x',[],'y',[],'z',[],'M',[]),K,1);
+
+for k=1:K
+    samp(k).x = sampX(:,:,k);
+    samp(k).y = sampY(:,:,k);
+    samp(k).z = sampZ(:,:,k);
+    samp(k).M = sampM(:,:,k);
+end
+	\end{lstlisting}
+	
+	\section{Point projection}
+	
+	As mentioned in Subsection~\ref{subsec:dataflow}, the point projection operation comes with a challenge, which is determining the $z$ coordinate of a point in the surface given the $x$ and $y$ coordinates. In other words, from a given $(x,y,0)$ point, project it vertically and obtain the intersection point with the surface.
+	
+	This represents a challenge because of the nature of the NURBS representation. It consists on a parametric form, in which each coordinate is written as a polynomial function of two parameters, $u$ and $v$. Therefore, it is not possible to analytically manipulate the expressions in order to obtain a form $z = z(x,y)$. The solution is to obtain the $z$ coordinate by consecutive iterations, starting from an initial guess and using numerical operations to obtain closer and closer attempts up to within a desired tolerance.
+	
+	An important step towards quick convergence is to make a good first guess, and the typical nature of IGES files generated by LODTa facilitates this job. In general, control points are disposed in a rectangular grid with uniform spacing between them, which causes a linear relation between them and the knots, which are also uniformly spaced. This applies to most of the surface, with the exception of the regions near the borders. Therefore, a great first guess is obtained by linearly interpolating the control points and the knot vector, obtaining a $(u_0,v_0)$ pair which is used as initial attempt. Then the \textit{samplePt.m} function is used to test if the sampled $(x_samp,y_samp)$ are close enough to $(x_0,y_0)$, that is, if both $|x-x_0|$ and $|y-y_0|$ are smaller than a predefined tolerance.
+	
+	If one of the conditions is not met, a new $(u_i,v_i)$ pair is calculated by taking a controlled step towards the solution. This step is initially defined as the distance between two knots. With every new iteration, the step is decreased in half. Tests have shown that most points are found with only one iteration, that is, the first guess is right more than $98\%$ of the times even foro a tolerance of $10^{-6} mm$. Table~\ref{tab:projpt_numit} shows how many iterations are needed for different tolerance values. Both the \textit{projPt.m} function and its subfunction \textit{findPt.m} can be found in Appendix~\ref{ch:code}.
+	
+	\begin{table}
+	\centering
+	\captionsetup{justification=centering}
+	\begin{tabular}{c c c c c}
+	\hline
+	\multirow{2}{*}{Tolerance} & \multicolumn{4}{c}{Number of iterations}\\
+	 & 1 & 2-5 & 6-10 & 11-20\\\hline
+	$10^{-1}$ & 7421 & 0 & 0 & 0\\
+	$10^{-2}$ & 7397 & 24 & 0 & 0\\
+	$10^{-3}$ & 7389 & 8 & 24 & 0\\
+	$10^{-4}$ & 7381 & 0 & 24 & 16\\
+	$10^{-5}$ & 7373 & 0 & 0 & 48\\
+	$10^{-6}$ & 7331 & 0 & 0 & 90\\
+	\hline
+	\end{tabular}
+	\caption{Number of points demanding each number of iterations for different tolerances. Grid size: $181 \times 41$.}
+	\label{tab:projpt_numit}
+	\end{table}

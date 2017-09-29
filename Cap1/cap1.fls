@@ -1,0 +1,8 @@
+PWD /Users/Nunes/Desktop/TG/LaTeX/Cap1
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/Nunes/Desktop/TG/LaTeX/Cap1/cap1.tex
+OUTPUT /Users/Nunes/Desktop/TG/LaTeX/Cap1/cap1.log
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

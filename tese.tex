@@ -1,0 +1,282 @@
+%%% Exemplo de utilização da classe ITA
+%%%
+%%%   por        Fábio Fagundes Silveira   -  ffs [at] ita [dot] br
+%%%              Benedito C. O. Maciel     -  bcmaciel [at] ita [dot] br
+%%%              Giovani Volnei Meinertz   -  giovani [at] ita [dot] br
+%%%    	         Hudson Alberto Bode       -  bode [at] ita [dot]br
+%%%    	         P. I. Braga de Queiroz    -  pi [at] ita [dot] br
+%%%    	         Jorge A. B. Gripp         -  gripp [at] ita [dot] br
+%%%    	         Juliano Monte-Mor         -  jamontemor [at] yahoo [dot] com [dot] br
+%%%    	         Tarcisio A. B. Gripp      -  tarcisio.gripp [at] gmail [dot] com
+%%%    	         
+%%%
+%%%  IMPORTANTE: O texto contido neste exemplo nao significa absolutamente nada.  :-)
+%%%              O intuito aqui eh demonstrar os comandos criados na classe e suas
+%%%              respectivas utilizacoes.
+%%%
+%%%  Tese.tex  2015-04-08
+%%%  $HeadURL: http://www.apgita.org.br/apgita/teses-e-latex.php $
+%%%
+%%% ITALUS
+%%% Instituto Tecnológico de Aeronáutica --- ITA, Sao Jose dos Campos, Brasil
+%%%                   http://groups.yahoo.com/group/italus/
+%%% Discussion list: italus {at} yahoogroups.com
+%%%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Parametros da classe ITA para inserir em \documentclass[?]{?}
+%   tg       = Trabalho de Graduacao
+%   tgfem    = Para Engenheiras
+%   msc      = Dissertacao de Mestrado
+%   mscfem   = Para Mestras
+%   dsc      = Tese de Doutorado
+%   dscfem   = Para Doutoras
+%   quali    = Exame de Qualificacao
+%   qualifem = Exame de Qualificacao para Doutoras
+%   dv       = 'Draft Version'     --> imprime 'Versao Preliminar + data no rodape
+%   eng      = para teses em inglês
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+%se fosse em inglês: \documentclass[dsc, eng]{ita}
+%para ``draft version'': \documentclass[dsc, dv]{ita} ou \documentclass[dsc, eng, dv]{ita}
+
+\documentclass[tgfem, eng]{ita}    % ITA.cls based on standard book.cls 
+% Quando alterar a classe, por exemplo de [msc] para [msc, eng]) rode mais uma vez o botão BUILD OUTPUT caso haja erro
+\usepackage{ae}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{amsmath}
+\usepackage{amssymb} 
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{xfrac}
+\usepackage{pgfplots}
+\usepackage{listings}
+\usepackage{courier}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{alltt}
+\usepackage{mdframed}
+\usepackage{tabularx}
+\usepackage{nameref}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Espaçamento padrão de todo o documento
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\onehalfspacing
+
+%singlespacing Para um espaçamento simples
+%onehalfspacing Para um espaçamento de 1,5
+%doublespacing Para um espaçamento duplo
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Compensate for fbox separation
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\newcommand\Hi[2]{%
+  \hspace*{-\fboxsep}%
+  \colorbox{#1}{#2}%
+  \hspace*{-\fboxsep}%
+}
+\fboxsep=1pt
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Configuracoes para trechos de código
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{
+	backgroundcolor=\color{lightgray!5!},
+	basicstyle=\fontsize{9pt}{8pt}\fontfamily{pcr}\selectfont,
+	frame=single,
+	keepspaces=true,
+	language=Matlab,%
+  %basicstyle=\color{red},
+  breaklines=true,%
+  morekeywords={matlab2tikz},
+  keywordstyle=\color{blue},%
+  morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+  identifierstyle=\color{black},%
+  stringstyle=\color{mylilas},
+  commentstyle=\color{mygreen},%
+  showstringspaces=false,%without this there will be a symbol in the places where there is a space
+  numbers=left,%
+  numberstyle={\tiny \color{black}},% size of the numbers
+  numbersep=9pt, % this defines how far the numbers are from the text
+  %emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+  %emph=[2]{word1,word2}, emphstyle=[2]{style},
+}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% Identificacoes (se o trabalho for em inglês, insira os dados em inglês)
+% Para entradas abreviadas de Professora (Profa.) em português escreva: Prof$^\textnormal{a}$.
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\course{Mechanical Engineering} % Programa de PG ou Curso de Graduação
+%\area{Sistemas Aeroespaciais e Mecatrônica} % Área de concentração na PG (Não utilizado no caso de TG)
+\dept{Department of Mechanical Engineering} % Divisão Acadêmica no ITA
+
+% Autor do trabalho: Nome Sobrenome
+\authorgender{fem}                     %sexo: masc ou fem
+\author{Adriana}{Nunes Chaves Lima}
+\itaauthoraddress{Av. Dr. Eduardo Cury, 350, apt. 257}{12.242-001}{São José dos Campos--SP}
+
+% Titulo da Tese/Dissertação
+\title{Analysis method of temperatures and heat flows for orthogonal
+cutting 1045 steel by thermal imaging}
+
+% Orientador
+\advisorgender{masc}                    % masc ou fem
+\advisor{Prof.~Dr.}{Anderson Vicente Borille}{ITA}
+
+% Coorientador (Caso não haja coorientador, colocar ambas as variáveis \coadvisorgender e \coadvisor comentadas, com um % na frente)
+\coadvisorgender{masc}									% masc ou fem
+\coadvisor{Dipl. Wirt. Ing.}{Thorsten Augspurger}{WZL}
+
+% Pró-reitor da Pós-graduação
+%\bossgender{masc}												% masc ou fem
+%\boss{Prof.~Dr.}{John von Neumann}
+
+%Coordenador do curso no caso de TG
+\bosscoursegender{masc}									% masc ou fem
+\bosscourse{Prof.~Dr.}{Jesu{\'i}no Takashi Tomita}
+
+% Palavras-Chaves informadas pela Biblioteca -> utilizada na CIP
+\kwcip{Usinagem}
+\kwcip{Corte Ortogonal}
+\kwcip{Programas}
+\kwcip{Análise Térmica}
+\kwcip{Estado Trasiente}
+
+% membros da banca examinadora
+
+\examiner{Prof.~Dr.}{Anderson Vicente Borille}{Presidente}{ITA}
+\examiner{M.~Sc.}{Muharrem Ceyhun S{\"o}zbir}{}{Fraunhofer-IPT}
+\examiner{M.~Sc.}{Daniel De Simone}{}{Innolite}
+
+% Data da defesa (mês em maiúsculo, se trabalho em inglês, e minúsculo se trabalho em português) 
+\date{22}{November}{2017}
+
+% Número CDU - (somente para TG)
+\cdu{621.914}
+
+% Glossario
+\makeglossary
+\frontmatter
+
+\begin{document}
+% Folha de Rosto e Capa para o caso do TG
+\maketitle
+
+% Dedicatoria: Nao esqueca essa secao  ... :-)
+\begin{itadedication}
+I dedicate this work to my family, which have always supported me in my decisions and are the most happy ones with this academic achievement.
+\end{itadedication}
+
+% Agradecimentos
+\begin{itathanks}
+\input{Cap0/agradecimentos}
+\end{itathanks}
+
+% Epígrafe
+\thispagestyle{empty}
+\ifhyperref\pdfbookmark[0]{\nameepigraphe}{epigrafe}\fi
+\begin{flushright}
+\begin{spacing}{1}
+\mbox{}\vfill
+{\sffamily\itshape
+``You have to expect things of yourself\\
+before you can do them.''\\}
+--- \textsc{Michael Jordan}
+\end{spacing}
+\end{flushright}
+
+% Resumo
+\begin{abstract}
+\input{Cap0/resumo} % done
+\end{abstract}
+
+% Abstract
+\begin{englishabstract}
+\input{Cap0/abstract} % done
+\end{englishabstract}
+
+% Lista de figuras
+\listoffigures %opcional
+
+% Lista de tabelas
+\listoftables %opcional
+
+% Lista de abreviaturas
+\listofabbreviations
+\input{Cap0/listaabreviaturas} % done
+
+% Lista de simbolos
+\listofsymbols
+\input{Cap0/listasimbolos} % done
+
+% Sumario
+\tableofcontents
+
+\mainmatter
+% Os capitulos comecam aqui
+
+ \chapter{Introduction}
+ \label{ch:intro} % done
+ \input{Cap1/cap1}
+
+ \chapter{State of the Art}
+ \label{ch:state} % done
+ \input{Cap2/cap2}
+
+ \chapter{Experimental Setup}
+ \label{ch:setup} % done
+ \input{Cap3/cap3}
+
+ \chapter{Code Implementation}
+ \label{ch:implementation} % done
+ \input{Cap4/cap4}
+
+ \chapter{Results}
+ \label{ch:results} % done
+ \input{Cap5/cap5}
+
+ \chapter{Conclusion}
+ \label{ch:conclusions} % done
+ \input{Cap6/cap6}
+
+% REFERENCIAS BIBLIOGRAFICAS
+\renewcommand\bibname{\itareferencesnamebabel} %renomear título do capítulo referências
+\bibliography{Referencias/referencias}
+
+% Apendices
+\appendix
+\chapter{Source Code} %opcional
+\label{ch:code}
+\input{ApeA/apendiceA}
+
+% Glossario
+\itaglossary
+\printglossary
+
+% Folha de Registro do Documento
+% Valores dos campos do formulario
+\FRDitadata{21 de novembro de 2017}
+\FRDitadocnro{DCTA/ITA/TC-031/2017} %(o número de registro você solicita a biblioteca)
+\FRDitaorgaointerno{Instituto Tecnológico de Aeronáutica -- ITA/IEM}
+%Exemplo no caso de pós-graduação: Instituto Tecnol{\'o}gico de Aeron{\'a}utica -- ITA
+\FRDitapalavrasautor{Manufacture; Image Processing; Matlab; Thermal Analysis; Orthogonal Cutting; Software.}
+\FRDitapalavrasresult{Fabrica\c{c}{\~a}o; Processamento de Imagens; Programas; Análise Térmica; Engenharia mec{\^a}nica.}
+%Exemplo no caso de graduação (TG):
+\FRDitapalavraapresentacao{ITA, São Jos{\'e} dos Campos. Curso de Gradua\c{c}{\~a}o em Engenharia Mec{\^a}nica. Orientador: Anderson Vicente Borille; coorientador: Thorsten Augspurger. Publicado em 2017.}
+%Exemplo no caso de pós-graduação (msc, dsc):
+%\FRDitapalavraapresentacao{ITA, São José dos Campos. Curso de Mestrado. Programa de Pós-Graduação em Engenharia Aeronáutica e Mecânica. Área de Sistemas Aeroespaciais e Mecatrônica. Orientador: Prof.~Dr. Adalberto Santos Dupont. Coorientadora: Prof$^\textnormal{a}$.~Dr$^\textnormal{a}$. Doralice Serra. Defesa em 05/03/2015. Publicada em 25/03/2015.}
+\FRDitaresumo{\input{Cap0/abstract}}
+%  Primeiro Parametro: Nacional ou Internacional -- N/I
+%  Segundo parametro: Ostensivo, Reservado, Confidencial ou Secreto -- O/R/C/S
+\FRDitaOpcoes{N}{O}
+% Cria o formulario
+\itaFRD
+
+\end{document}
+% Fim do Documento. O massacre acabou!!! :-)
