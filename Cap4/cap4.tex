@@ -20,6 +20,7 @@
 	
 \section{Auxiliar functions}
 	\subsection{Contour plot}
+	\label{ch:seccontour}
 	This is an important tool for this paper, contour plot is able to provide same level curves. Since the variable used on the process is a temperature matrix, this tool will calculate continuous lines, whose each pixel has a very close temperature measurements. Doing it with a determined and small tolerance, the lines calculated are isotherms of the image. Then, with these lines it is also possible to get its coordinates, which it will be essential to calculate heat carried away from volume control by means of tool.
 
 	\begin{figure}[H]
@@ -31,7 +32,7 @@
 	\end{figure}
 
 	\subsection{Hough lines transformation}
-	\label{ch:hough}
+	\label{ch:sechough}
 	Hough transform is a extensively method used in computer vision. It is a extraction feature for complex geometries, using normal parametrization for straight lines \cite{duda1972use}. Concerning about the images, the rake and clearance face can be mapped by means of hough lines transformation in MATLAB. It is necessary to provide a probable angle range in what the angular coefficient of seeked lines are defined. More precise is this angle range, more reliable and faster will be the output.
 
 	The test bench, where the experiments were held, allows a fixed placement of tool.
@@ -54,7 +55,7 @@
 	FAZER tabela COM INPUT/OUTPUT
 	\subsection{Finding tool edges}
 
-	As mentioned in the subsection \nameref{ch:hough}, the method to find tool edges has to provide an accurate range of angles that the rake and clearence angles are inserted. The process is simple and it is demonstrated as follow:
+	As mentioned in the subsection \nameref{ch:sechough}, the method to find tool edges has to provide an accurate range of angles that the rake and clearence angles are inserted. The process is simple and it is demonstrated as follow:
 
 	\lstinputlisting[firstline=223,lastline=257]{ApeA/TemperatureAnalyze.m}
 
@@ -75,9 +76,18 @@
 
 	\subsection{Maximum temperatures}
 
-	As the code were able to segment the tool shape from the entire matrix, it gets easier to extract the other region of interest that present measurables range of temperatures, the chip. 
+	As the code were able to segment the tool shape from the entire matrix, it gets easier to extract the other region of interest that present measurables range of temperatures, the chip. Getting the maximum temperature of each zone allows not only to know if the measured temperatures are inside the limit of measurement but also to compare the behavior of this maximum temperature of different cutting velocities and a$_{p}$.
 
 	\subsection{Temperature fields}
+
+	In this step, it will be used the other auxiliar function mentioned on the subsection \nameref{ch:seccontour}. This is an important function to determine same level curves, as the isotherms inside the tool shape. The contour levels are determined in a step of 50 $^{o}$C.
+
+	
+	\lstinputlisting[firstline=383,lastline=383]{ApeA/TemperatureAnalyze.m}
+
+	The output of contour function is a matrix C with 2 rows that represents the level of temperature found followed by its coordinates, which is very valuable when comes to calculate heat flows.
+
+	COLOCAR AQUI FOTO DA MATRIZ C
 
 	\subsection{Heat flows - Chip and Tool}
 

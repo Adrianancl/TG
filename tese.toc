@@ -15,15 +15,15 @@
 \contentsline {subsection}{\numberline {4.3.1}Overview}{24}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{24}{subsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{25}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{25}{subsubsection.4.3.2.2}
-\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{25}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{25}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{25}{subsection.4.3.5}
-\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{25}{subsubsection.4.3.5.1}
-\contentsline {chapter}{\numberline {5}Results}{26}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{27}{chapter.6}
-\contentsline {chapter}{Bibliography}{28}{chapter.7}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{26}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{26}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{26}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{26}{subsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{26}{subsubsection.4.3.5.1}
+\contentsline {chapter}{\numberline {5}Results}{27}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{28}{chapter.6}
+\contentsline {chapter}{Bibliography}{29}{chapter.7}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Source Code}{29}{appendix.A}
-\contentsline {section}{\numberline {A.1}Temperature Analysis}{29}{section.A.1}
-\contentsline {chapter}{Glossary}{40}{appendix.B}
+\contentsline {chapter}{\numberline {A}Source Code}{30}{appendix.A}
+\contentsline {section}{\numberline {A.1}Temperature Analysis}{30}{section.A.1}
+\contentsline {chapter}{Glossary}{41}{appendix.B}

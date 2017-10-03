@@ -572,6 +572,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmu10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT ApeA/TemperatureAnalyze.m
+INPUT ApeA/TemperatureAnalyze.m
+INPUT ApeA/TemperatureAnalyze.m
 INPUT Cap5/cap5.tex
 INPUT Cap5/cap5.tex
 INPUT Cap6/cap6.tex
