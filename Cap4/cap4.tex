@@ -31,6 +31,7 @@
 	\end{figure}
 
 	\subsection{Hough lines transformation}
+	\label{ch:hough}
 	Hough transform is a extensively method used in computer vision. It is a extraction feature for complex geometries, using normal parametrization for straight lines \cite{duda1972use}. Concerning about the images, the rake and clearance face can be mapped by means of hough lines transformation in MATLAB. It is necessary to provide a probable angle range in what the angular coefficient of seeked lines are defined. More precise is this angle range, more reliable and faster will be the output.
 
 	The test bench, where the experiments were held, allows a fixed placement of tool.
@@ -53,13 +54,28 @@
 	FAZER tabela COM INPUT/OUTPUT
 	\subsection{Finding tool edges}
 
-		fazendo teste para ser detectado no github.fhdjskfhjdkfhjdskgfHJDGhfj
+	As mentioned in the subsection \nameref{ch:hough}, the method to find tool edges has to provide an accurate range of angles that the rake and clearence angles are inserted. The process is simple and it is demonstrated as follow:
+
+	\lstinputlisting[firstline=223,lastline=257]{ApeA/TemperatureAnalyze.m}
+
+	Since the rake angle is $6^{o}$ and the clearance is $3^{o}$ ranges of [81:85] and [2:5] were given to each respectively, as it is seen on lines 4 and 20. Concerning about the rake angle, the range of angles is given by the complementar(?) angles due to its reference in hough method. In this way, it taken the first 10 highlighted points in the accumulation matrix of hough process, which means the most reasonable points that may represent the edge lines.
+
+	The fixed position of tool allows also the predetermination of the $\rho$ parameter, which is distance of the detected lines from the reference. This is also seen on lines 14 and 30 as boundary conditions to determine the right edge lines. The outputs of this function are the endings coordinates of the detected line and also the angle os the corresponding angular coefficient. 
+
 
 		\subsubsection{Rake and clearance face}
 
+		With the data provided by the output of hough function, it is possible to extend the lines to match the entire rake and clearance edge. This is an important step of the analysis method because it allows to build an object (binary image) that is a mask to remove only the region of interest, on this case the tool shape. Consequently, it will be possible analyze the temperature fields and thermal behavior in the tool without any interference of the temperatures in the vicinity.
+
+		FAZER FIGURA DAS LINHAS ENCONTRADAS E EXTRAPOLAR
+
 		\subsubsection{Tool tip coordinates}
 
+		As the rake and clearance edges are determined, the tool tip will be calculated by means of the intersection between these lines. It is important to determine these coordinates due to the interest in knowing the temperatures that its area can reach, which is related directly with tool life and therefore the surface finish.
+
 	\subsection{Maximum temperatures}
+
+	As the code were able to segment the tool shape from the entire matrix, it gets easier to extract the other region of interest that present measurables range of temperatures, the chip. 
 
 	\subsection{Temperature fields}
 

@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {4.2.2}Hough lines transformation}{23}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Implementation steps}{24}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Overview}{24}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{25}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{24}{subsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{25}{subsubsection.4.3.2.1}
 \contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{25}{subsubsection.4.3.2.2}
 \contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{25}{subsection.4.3.3}
