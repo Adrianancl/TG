@@ -575,6 +575,13 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT ApeA/TemperatureAnalyze.m
 INPUT ApeA/TemperatureAnalyze.m
 INPUT ApeA/TemperatureAnalyze.m
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
+INPUT Cap4/ToolHeat.png
+INPUT ./Cap4/ToolHeat.png
+INPUT ./Cap4/ToolHeat.png
+INPUT Cap4/energyChip.png
+INPUT ./Cap4/energyChip.png
+INPUT ./Cap4/energyChip.png
 INPUT Cap5/cap5.tex
 INPUT Cap5/cap5.tex
 INPUT Cap6/cap6.tex
@@ -612,7 +619,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
@@ -623,6 +629,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

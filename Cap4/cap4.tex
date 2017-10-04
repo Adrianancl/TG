@@ -4,7 +4,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[width=0.9\linewidth]{Cap4/TempDist.jpg}
+		\includegraphics[scale=0.75]{Cap4/TempDist.jpg}
 		\caption{Scaled image showing temperature distribution}
 		\label{fig:tempdist}
 	\end{figure}
@@ -26,7 +26,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[width=0.6\linewidth]{Cap4/contour.jpg}
+		\includegraphics[scale=0.75]{Cap4/contour.jpg}
 		\caption{Contour plot}
 		\label{fig:contour}
 	\end{figure}
@@ -40,7 +40,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[width=0.4\linewidth]{Cap4/imgset.jpg}
+		\includegraphics[scale=1]{Cap4/imgset.jpg}
 		\caption{Placement of tool}
 		\label{fig:imgset}
 	\end{figure}
@@ -85,15 +85,75 @@
 	
 	\lstinputlisting[firstline=383,lastline=383]{ApeA/TemperatureAnalyze.m}
 
-	The output of contour function is a matrix C with 2 rows that represents the level of temperature found followed by its coordinates, which is very valuable when comes to calculate heat flows.
+	The output of contour function is a matrix C with 2 rows that will provide the levels of temperature and the number of coordinates followed by their absolute values of x and y, which are very valuable when comes to calculate heat flows.
 
-	COLOCAR AQUI FOTO DA MATRIZ C
+		\begin{mdframed}[backgroundcolor=lightgray!25!]
+		\begin{alltt}\fontsize{9pt}{8pt}\fontfamily{pcr}\selectfont
+C = 	[C(1) C(2) C(3) ...C(k)... C(N)]
+C(k) =  [level x(1) x(2)...
+		 numxy y(1) y(2)...]
+		\end{alltt}
+		\end{mdframed}
+	Ver como usar isso direito
+	
+	For each matrix C(k), level shows which temperature it is representing and numxy is the amount of coordinates used to build the level. Tha coordinates are represented in the pair (x,y).
 
 	\subsection{Heat flows - Chip and Tool}
+	\label{heatflows}
+
+	The methods used in this paper to calculate heat flow through the tool and the energy carried away by chip are based on \cite{boothroyd1963temperatures}.
+
+	\begin{figure}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.75]{Cap4/ToolHeat.png}
+		\caption{Heat flow through tool}
+		\label{fig:heattool}
+	\end{figure}
+
+	Besides the temperature matrix, it is necessary to calculate heat flow through tool the heat conductivity, the length of the chosen isothermal, the temperature gradient normal to this isothermal and the width of the tool. The calculation is given by the following equation:
+
+	\begin{equation} 
+	\label{eq_heattool}
+		\dot{Q}_{T} = kL\frac{d\theta}{dz}w
+	\end{equation}
+
+	For the energy carried away by the chip when it flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{c}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{f}$, the chip thickness $t_{c}$ and the chip width $w$.
+
+	\begin{figure}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.75]{Cap4/energyChip.png}
+		\caption{Thermal energy carried away by chip}
+		\label{fig:energychip}
+	\end{figure}
+
+	The equation for this energy is represented below:
+
+	\begin{equation} 
+	\label{eq_energychip}
+		\dot{Q}_{T}^{out} = c_{p}(T_{c}^{out})(T_{c}^{out} - T_{e})v_{f}t_{c}w
+	\end{equation}
+
+	That way, having the location and the temperature of each pixel related to the isotherms and the line of end of contact chip - tool, the math necessary to perform these equations is simple, providing reliable outcomes.
 
 		\subsubsection{Heat partitions}
+		Having the results of the subsection \ref{heatflows}, these values can be combined with the total power ($P$) generated during the cutting process to calculate the energy that goes to the workpiece by means of energy balance (the temperature of the workpiece are lower than 200 $^{o}C$, which does not reach the minimum value of the range of measurement 200 - 900 $^{o}C$).
+		It is estimated that $10\%$ of the deformation energy generated in the primary shear zone ($\dot{Q}_{shear}$) is converted into heat (CITAR FONTE AQUI). Then, the energy balance of the control volume will provide:
 
-	
+		\begin{equation} 
+		\label{eq_energybalance}
+		\dot{Q}_{W} = P - \dot{Q}_{T} - \dot{Q}_{c}^{out} - \dot{Q}_{shear}
+		\end{equation}
+
+		Therefore, knowing all the values concerning about thermal energy dissipated through tool, chip and workpiece it is possible to calculate the heat partition relative to each zone of interest.
+
+		\begin{equation} 
+		\label{eq_heatpartition}
+		p_{i} = \frac{\dot{Q}_{i}}{P}
+		\end{equation}
+
+		Which the index i is related to c (chip), w (workpiece) and T (tool).
 	
 % 	\begin{mdframed}[backgroundcolor=lightgray!25!]
 % 		\begin{alltt}\fontsize{9pt}{8pt}\fontfamily{pcr}\selectfont

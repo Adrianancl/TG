@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1507074936 "cap4.tex" "cap4.pdf" "cap4" 1507074936
+  "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1480098837 985 1ed784d7bfe47179f3550d2303b073f8 ""
+  "/usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf" 1494087824 32646 eadc4ca26cdbe7105ac7c593aa8c4f72 ""
+  "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1500387525 4129592 8b6aa9215b14480e556dd1b5a2dd692b ""
+  "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
+  "cap4.aux" 1507074936 8 a94a2480d3289e625eea47cd1b285758 ""
+  "cap4.tex" 1507074933 7741 147d71221b1f4b8e903702c43d3c3f92 ""
+  (generated)
+  "cap4.pdf"
+  "cap4.log"
