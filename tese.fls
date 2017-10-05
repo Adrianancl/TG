@@ -528,6 +528,9 @@ INPUT tese.toc
 OUTPUT tese.toc
 INPUT Cap1/cap1.tex
 INPUT Cap1/cap1.tex
+INPUT Cap1/circlec.png
+INPUT ./Cap1/circlec.png
+INPUT ./Cap1/circlec.png
 INPUT Cap2/cap2.tex
 INPUT Cap2/cap2.tex
 INPUT Cap2/Infrared/infrared.tex
