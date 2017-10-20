@@ -1,3 +1,6 @@
+	\section{Experimental Setup}
+	\label{sec:exSetup}
+
 	The experiments were carried out on WZL shop floor, located in Aachen in Germany, acquiring thermal images by means of high speed infrared camera FLIR SC7600 (with framerate of 328 fps and a resoloution of 640 x 512 pixels), it was equipped with a macro lens 1:1 and FOV 9.6 x 7.7 mm. The test bench works in a way that the tool stays in a fixed position in relation to the camera, keeping the relative distance between tool and camera constant, then the scale factor provided by this setting was 15 $\mu$m/pixel. It allows the metric conversion for future post processing of images.
 
 	\begin{figure}[H]
@@ -29,4 +32,42 @@
  
 	% #fazer figura da ferramenta com dimensões e peça tbm
 	%fazer figura tool no flir e tool no matlab
+
+	\section{Methods}
+	\label{methods}
 	
+	The methods used in this paper to calculate heat flow through the tool and the energy carried away by chip are based on \cite{boothroyd1963temperatures}.
+
+	\begin{figure}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.75]{Cap4/ToolHeat.png}
+		\caption{Heat flow through tool}
+		\label{fig:heattool}
+	\end{figure}
+
+	Besides the temperature matrix, it is necessary to calculate heat flow through tool the heat conductivity, the length of the chosen isothermal, the temperature gradient normal to this isothermal and the width of the tool. The calculation is given by the following equation:
+
+	\begin{equation} 
+	\label{eq_heattool}
+		\dot{Q}_{T} = kL\frac{d\theta}{dz}w
+	\end{equation}
+
+	For the energy carried away by the chip when it flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{c}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{f}$, the chip thickness $t_{c}$ and the chip width $w$.
+
+	\begin{figure}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.75]{Cap4/energyChip.png}
+		\caption{Thermal energy carried away by chip}
+		\label{fig:energychip}
+	\end{figure}
+
+	The equation for this energy is represented below:
+
+	\begin{equation} 
+	\label{eq_energychip}
+		\dot{Q}_{c}^{out} = c_{p}(T_{c}^{out})(T_{c}^{out} - T_{e})v_{f}t_{c}w
+	\end{equation}
+
+	That way, having the location and the temperature of each pixel related to the isotherms and the line of end of contact chip - tool, the math necessary to perform these equations is simple, providing reliable outcomes.

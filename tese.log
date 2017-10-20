@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.18)  4 OCT 2017 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.20)  20 OCT 2017 14:32
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **tese.tex
 (./tese.tex
@@ -10,8 +10,9 @@ Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 Document Class: ita 2006/03/10 v2.0 Classe de documento com padrões do ITA
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-) (./defaults.def) (./tgfem.def) (/usr/local/texlive/2017/texmf-dist/tex/latex/
-base/book.cls
+)
+(./defaults.def) (./tgfem.def)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
@@ -28,7 +29,8 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
@@ -40,12 +42,16 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count90
 \calc@Cskip=\skip45
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/01/24 v3.3q English support from the babel system
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
 \babel@savecnt=\count91
@@ -54,16 +60,20 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)) (./itaeng.babel) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc
-.sty
+))
+(./itaeng.babel)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2015/03/17 v1.2c Input encoding file
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
@@ -74,22 +84,28 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@erf=\skip52
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
@@ -103,7 +119,8 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \caption@hangindent=\dimen112
 )
 \c@ContinuedFloat=\count92
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip55
 \LTright=\skip56
@@ -120,14 +137,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count96
 \c@LT@chunks=\count97
 \LT@p@ftn=\toks18
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
 \NC@list=\toks19
 \extratabsurround=\skip59
 \backup@length=\skip60
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@col@width=\dimen116
 \TX@old@table=\dimen117
@@ -136,33 +155,44 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@delta=\dimen120
 \TX@cols=\count98
 \TX@ftn=\toks20
-) (./makeglo.sty
+)
+(./makeglo.sty
 Package: makeglo 
 \glossentrylen=\skip61
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language84
 LaTeX Info: Redefining \_ on input line 43.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
@@ -203,24 +233,30 @@ Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen121
 \Hy@linkcounter=\count100
 \Hy@pagecounter=\count101
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count102
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `debug' set `true' on input line 4374.
+
 
 Package hyperref Warning: Option `a4paper' is no longer used.
 
@@ -240,12 +276,14 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
 \c@Hy@tempcnt=\count103
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -276,31 +314,40 @@ File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count108
 \c@bookmark@seq@number=\count109
 \Hy@SectionHShift=\skip62
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/ae/ae.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ae/ae.sty
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ae/t1aer.fd
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-))) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count110
 \Gm@cntv=\count111
@@ -314,10 +361,12 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layouthoffset=\dimen133
 \Gm@layoutvoffset=\dimen134
 \Gm@dimlist=\toks21
-) (./abntcite.sty (./cvs-id.def)
+)
+(./abntcite.sty (./cvs-id.def)
 Package: abntcite 2003/10/13 v1.26 Chamadas de referencias no texto (NBR10520)
-(./abntex-abrev.sty (./cvs-id.def)
+ (./abntex-abrev.sty (./cvs-id.def)
 Package: abntex-abrev 2003/10/13 v1.3 Abreviacoes
+
 (./nbr10522-1988.def (./cvs-id.def)
 File: nbr10522-1988.def 2003/10/13 v1.2 Abreviacoes bibliograficas (NBR10522:19
 88)
@@ -332,6 +381,7 @@ File: nbr10520-2002.def 2003/10/13 v1.2 Definicoes para abntcite (NBR10520:2002
 \ABCIauxlen=\skip64
 \c@ABCIaux=\count113
 \c@ABCImax=\count114
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
@@ -343,24 +393,30 @@ LaTeX Info: Redefining \cite on input line 589.
 \c@mecounter=\count115
 \c@kwcipcounter=\count116
 \nohyphen=\language85
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen135
 \epsfysize=\dimen136
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip66
+
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen137
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen138
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count117
@@ -400,9 +456,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count129
 \sf@farskip=\skip69
@@ -417,22 +475,26 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@lotdepth=\count135
 \sf@top=\skip72
 \sf@bottom=\skip73
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip74
 \multirow@cntb=\count136
 \multirow@dima=\skip75
 \bigstrutjot=\dimen147
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count137
 \float@exts=\toks28
 \float@box=\box32
 \@float@everytoks=\toks29
 \@floatcapt=\box33
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty (/us
-r/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xfrac/xfrac.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2017/05/13 L3 programming layer (loader) 
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/05/13 L3 programming layer (code)
 \c_max_int=\count138
@@ -528,12 +590,13 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen176
 \l__coffin_scaled_total_height_dim=\dimen177
 \l__coffin_scaled_width_dim=\dimen178
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count173
 \l__driver_tmp_box=\box49
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.s
-ty
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -549,6 +612,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
@@ -615,7 +679,8 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2017/05/13 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count174
 \g__xparse_grabber_int=\count175
@@ -651,12 +716,12 @@ Package: xfrac 2017/05/13 L3 Experimental split-level fractions
 . 
 . Defining command \sfrac with sig. 'omom' on line 419.
 .................................................
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/loc
-al/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2016/08/10 v1.14 Data Visualization (1.14)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/
-local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texl
-ive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks30
@@ -669,13 +734,13 @@ sts.tex))
 \pgfutil@abb=\box52
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-)) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.te
-x
+))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/
-local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
@@ -703,6 +768,7 @@ ode.tex
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -727,6 +793,7 @@ code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
@@ -744,9 +811,9 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr
-/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/
-local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen195
 \pgfmath@count=\count186
@@ -772,8 +839,8 @@ code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
 code.tex)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex))) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/m
-ath/pgfmathfloat.code.tex
+erarithmetics.code.tex)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count187
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
@@ -888,13 +955,15 @@ Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr
-/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/
-texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/loca
-l/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/20
-17/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2017/
-texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen278
 \pgffor@skip=\dimen279
@@ -938,7 +1007,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex 
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks42
 \t@pgfplots@tokb=\toks43
@@ -1056,7 +1126,8 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
 ks.code.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
+)))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count273
 \lst@gtempboxa=\box64
 \lst@token=\toks46
@@ -1069,26 +1140,34 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 \lst@newlines=\count277
 \lst@lineno=\count278
 \lst@maxwidth=\dimen304
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count279
 \lst@skipnumbers=\count280
 \lst@framebox=\box65
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/alltt.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/mdframed/mdframed.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count281
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
 Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/zref-base.sty
 Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
 Package zref Info: New property list: main on input line 759.
@@ -1097,7 +1176,8 @@ Package zref Info: New property: page on input line 761.
 )
 \c@abspage=\count282
 Package zref Info: New property: abspage on input line 62.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/needspace/needspace.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip83
@@ -1141,6 +1221,7 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \mdf@subsubtitlebelowskip@length=\skip120
 \mdf@subsubtitleinneraboveskip@length=\skip121
 \mdf@subsubtitleinnerbelowskip@length=\skip122
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
@@ -1197,17 +1278,21 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \c@mdf@env@ii=\count287
 \c@mdf@zref@counter=\count288
 Package zref Info: New property: mdf@pagevalue on input line 895.
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count289
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 \@glossaryfile=\write4
 \openout4 = `tese.glo'.
+
 
 Writing glossary file tese.glo 
 (./tese.aux
@@ -1234,7 +1319,7 @@ LaTeX Font Info:    ... okay on input line 167.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 167.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 167.
@@ -1247,10 +1332,12 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
+
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
@@ -1266,6 +1353,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
@@ -1275,6 +1363,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
@@ -1284,11 +1373,13 @@ Package hyperref Info: Link coloring ON on input line 167.
 LaTeX Info: Redefining \ref on input line 167.
 LaTeX Info: Redefining \pageref on input line 167.
 LaTeX Info: Redefining \nameref on input line 167.
+
 (./tese.out) (./tese.out)
 \@outlinefile=\write5
 \openout5 = `tese.out'.
 
 Package hyperref Info: Anchor `Doc-Start' on input line 167.
+
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1332,16 +1423,18 @@ your preamble.
 
 \c@lstlisting=\count297
 Package hyperref Info: Anchor `cover.0' on input line 169.
-<Cap0/ita_logo.jpg, id=167, 612.3678pt x 234.8775pt>
+<Cap0/ita_logo.jpg, id=179, 612.3678pt x 234.8775pt>
 File: Cap0/ita_logo.jpg Graphic file (type jpg)
-<use Cap0/ita_logo.jpg>
+ <use Cap0/ita_logo.jpg>
 Package pdftex.def Info: Cap0/ita_logo.jpg used on input line 169.
 (pdftex.def)             Requested size: 227.62206pt x 87.3047pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 169.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 169.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1363,7 +1456,7 @@ Package hyperref Info: Anchor `page.i' on input line 169.
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Cap0/
 ita_logo.jpg>]
 Package hyperref Info: Anchor `page.ii' on input line 169.
-[2]
+ [2]
 Package hyperref Info: Anchor `cip.0' on input line 169.
 
 Underfull \hbox (badness 10000) in paragraph at lines 169--169
@@ -1374,7 +1467,7 @@ Package hyperref Info: Anchor `page.iii' on input line 169.
 [3]
 Package hyperref Info: Anchor `aprovacao.0' on input line 169.
 Package hyperref Info: Anchor `page.iv' on input line 169.
-[4]
+ [4]
 Package hyperref Info: Anchor `dedication.0' on input line 172.
 Package hyperref Info: Anchor `page.iv' on input line 174.
 pdfTeX warning (ext4): destination with the same identifier (name{page.iv}) has
@@ -1385,13 +1478,14 @@ l.174 \end{itadedication}
                           [4]
 Package hyperref Info: Anchor `chapter*.1' on input line 178.
 Package hyperref Info: Anchor `acknowledgment.0' on input line 178.
-(./Cap0/agradecimentos.tex)
+ (./Cap0/agradecimentos.tex)
 Package hyperref Info: Anchor `page.v' on input line 179.
-[5
+ [5
 
 ]
 Package hyperref Info: Anchor `epigrafe.0' on input line 183.
 LaTeX Font Info:    Try loading font information for T1+aess on input line 187.
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
@@ -1399,24 +1493,25 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 187.
 Package hyperref Info: Anchor `page.vi' on input line 195.
-[6]
+ [6]
 Package hyperref Info: Anchor `chapter*.2' on input line 195.
 Package hyperref Info: Anchor `resumo.0' on input line 195.
+
 (./Cap0/resumo.tex)
 Package hyperref Info: Anchor `page.vii' on input line 200.
-[7
+ [7
 
 ]
 Package hyperref Info: Anchor `chapter*.3' on input line 200.
 Package hyperref Info: Anchor `abstract.0' on input line 200.
-(./Cap0/abstract.tex)
+ (./Cap0/abstract.tex)
 Package hyperref Info: Anchor `page.viii' on input line 205.
-[8
+ [8
 
 ]
 Package hyperref Info: Anchor `chapter*.4' on input line 205.
 Package hyperref Info: Anchor `listafiguras.0' on input line 205.
-(./tese.lof
+ (./tese.lof
 Package hyperref Info: Reference (link) `figure.caption.9' on input line 3.
 Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 3.
 Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 3.
@@ -1430,8 +1525,8 @@ Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
 put line 7.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
 put line 7.
-Package hyperref Info: Reference (link) `figure.caption.13' on input line 9.
-Package hyperref Info: Reference (link) `figure.caption.14' on input line 10.
+Package hyperref Info: Reference (link) `figure.caption.13' on input line 8.
+Package hyperref Info: Reference (link) `figure.caption.14' on input line 9.
 Package hyperref Info: Reference (link) `figure.caption.15' on input line 11.
 Package hyperref Info: Reference (link) `figure.caption.16' on input line 12.
 Package hyperref Info: Reference (link) `figure.caption.17' on input line 13.
@@ -1440,7 +1535,7 @@ Package hyperref Info: Reference (link) `figure.caption.17' on input line 13.
 \openout6 = `tese.lof'.
 
 Package hyperref Info: Anchor `page.ix' on input line 208.
-[9
+ [9
 
 Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 3.
 Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 3.
@@ -1455,15 +1550,15 @@ al', line 7.
 Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
 al', line 7.
 Package `hyperref' Info: End of reference (link) `figure.caption.11', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.13', line 9.
-Package `hyperref' Info: End of reference (link) `figure.caption.14', line 10.
+Package `hyperref' Info: End of reference (link) `figure.caption.13', line 8.
+Package `hyperref' Info: End of reference (link) `figure.caption.14', line 9.
 Package `hyperref' Info: End of reference (link) `figure.caption.15', line 11.
 Package `hyperref' Info: End of reference (link) `figure.caption.16', line 12.
 Package `hyperref' Info: End of reference (link) `figure.caption.17', line 13.
 ]
 Package hyperref Info: Anchor `chapter*.5' on input line 208.
 Package hyperref Info: Anchor `listatabelas.0' on input line 208.
-(./tese.lot
+ (./tese.lot
 Package hyperref Info: Reference (link) `table.caption.12' on input line 5.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
 put line 5.
@@ -1484,11 +1579,11 @@ Package `hyperref' Info: End of reference (link) `table.caption.12', line 5.
 ]
 Package hyperref Info: Anchor `chapter*.6' on input line 211.
 Package hyperref Info: Anchor `listaabreviaturas.0' on input line 211.
-(./tese.lof)
+ (./tese.lof)
 \tf@lof=\write8
 \openout8 = `tese.lof'.
 
-(./Cap0/listaabreviaturas.tex
+ (./Cap0/listaabreviaturas.tex
 Overfull \hbox (60.60771pt too wide) in alignment at lines 1--10
  [] [] 
  []
@@ -1496,25 +1591,25 @@ Overfull \hbox (60.60771pt too wide) in alignment at lines 1--10
 Package hyperref Info: Anchor `table.0.1' on input line 10.
 )
 Package hyperref Info: Anchor `page.xi' on input line 215.
-[11
+ [11
 
 ]
 Package hyperref Info: Anchor `chapter*.7' on input line 215.
 Package hyperref Info: Anchor `listasimbolos.0' on input line 215.
-(./tese.lof)
+ (./tese.lof)
 \tf@lof=\write9
 \openout9 = `tese.lof'.
 
-(./Cap0/listasimbolos.tex
+ (./Cap0/listasimbolos.tex
 Package hyperref Info: Anchor `table.0.2' on input line 11.
 )
 Package hyperref Info: Anchor `page.xii' on input line 219.
-[12
+ [12
 
 ]
 Package hyperref Info: Anchor `chapter*.8' on input line 219.
 Package hyperref Info: Anchor `contents.0' on input line 219.
-(./tese.toc
+ (./tese.toc
 Underfull \hbox (badness 10000) in paragraph at lines 2--2
  []  
  []
@@ -1522,105 +1617,111 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--2
 Package hyperref Info: Reference (link) `chapter.1' on input line 2.
 Package hyperref Info: Reference (link) `section.1.1' on input line 3.
 Package hyperref Info: Reference (link) `section.1.2' on input line 4.
+Package hyperref Info: Reference (link) `section.1.3' on input line 5.
+Package hyperref Info: Reference (link) `section.1.4' on input line 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--5
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.2' on input line 5.
-Package hyperref Info: Reference (link) `section.2.1' on input line 6.
-Package hyperref Info: Reference (link) `section.2.2' on input line 7.
-Package hyperref Info: Reference (link) `section.2.3' on input line 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.3' on input line 9.
+Package hyperref Info: Reference (link) `chapter.2' on input line 7.
+Package hyperref Info: Reference (link) `section.2.1' on input line 8.
+Package hyperref Info: Reference (link) `section.2.2' on input line 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.4' on input line 10.
-Package hyperref Info: Reference (link) `section.4.1' on input line 11.
-Package hyperref Info: Reference (link) `section.4.2' on input line 12.
-Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 13.
-Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 14.
-Package hyperref Info: Reference (link) `section.4.3' on input line 15.
-Package hyperref Info: Reference (link) `subsection.4.3.1' on input line 16.
-Package hyperref Info: Reference (link) `subsection.4.3.2' on input line 17.
-Package hyperref Info: Reference (link) `subsection.4.3.3' on input line 20.
-Package hyperref Info: Reference (link) `subsection.4.3.4' on input line 21.
-Package hyperref Info: Reference (link) `subsection.4.3.5' on input line 22.
+Package hyperref Info: Reference (link) `chapter.3' on input line 10.
+Package hyperref Info: Reference (link) `section.3.1' on input line 11.
+Package hyperref Info: Reference (link) `section.3.2' on input line 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.5' on input line 24.
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.6' on input line 25.
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
- []  
- []
-
-Package hyperref Info: Anchor `page.xiii' on input line 26.
+Package hyperref Info: Reference (link) `chapter.4' on input line 13.
+Package hyperref Info: Reference (link) `section.4.1' on input line 14.
+Package hyperref Info: Reference (link) `section.4.2' on input line 15.
+Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 16.
+Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 17.
+Package hyperref Info: Reference (link) `section.4.3' on input line 18.
+Package hyperref Info: Reference (link) `subsection.4.3.1' on input line 19.
+Package hyperref Info: Reference (link) `subsection.4.3.2' on input line 20.
+Package hyperref Info: Reference (link) `subsection.4.3.3' on input line 23.
+Package hyperref Info: Reference (link) `subsection.4.3.4' on input line 24.
+Package hyperref Info: Reference (link) `subsection.4.3.5' on input line 25.
+Package hyperref Info: Anchor `page.xiii' on input line 27.
 [13
 
 Package `hyperref' Info: End of reference (link) `chapter.1', line 2.
 Package `hyperref' Info: End of reference (link) `section.1.1', line 3.
 Package `hyperref' Info: End of reference (link) `section.1.2', line 4.
-Package `hyperref' Info: End of reference (link) `chapter.2', line 5.
-Package `hyperref' Info: End of reference (link) `section.2.1', line 6.
-Package `hyperref' Info: End of reference (link) `section.2.2', line 7.
-Package `hyperref' Info: End of reference (link) `section.2.3', line 8.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 9.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 10.
-Package `hyperref' Info: End of reference (link) `section.4.1', line 11.
-Package `hyperref' Info: End of reference (link) `section.4.2', line 12.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 13.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 14.
-Package `hyperref' Info: End of reference (link) `section.4.3', line 15.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.1', line 16.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.2', line 17.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 20.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.4', line 21.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.5', line 22.
-Package `hyperref' Info: End of reference (link) `chapter.5', line 24.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 25.
+Package `hyperref' Info: End of reference (link) `section.1.3', line 5.
+Package `hyperref' Info: End of reference (link) `section.1.4', line 6.
+Package `hyperref' Info: End of reference (link) `chapter.2', line 7.
+Package `hyperref' Info: End of reference (link) `section.2.1', line 8.
+Package `hyperref' Info: End of reference (link) `section.2.2', line 9.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 10.
+Package `hyperref' Info: End of reference (link) `section.3.1', line 11.
+Package `hyperref' Info: End of reference (link) `section.3.2', line 12.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 13.
+Package `hyperref' Info: End of reference (link) `section.4.1', line 14.
+Package `hyperref' Info: End of reference (link) `section.4.2', line 15.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 16.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 17.
+Package `hyperref' Info: End of reference (link) `section.4.3', line 18.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.1', line 19.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.2', line 20.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 23.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.4', line 24.
 ]
-Package hyperref Info: Reference (link) `chapter.7' on input line 26.
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+ []  
+ []
+
+Package hyperref Info: Reference (link) `chapter.5' on input line 27.
 
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
  []  
  []
 
-Package hyperref Info: Reference (link) `appendix.A' on input line 28.
-Package hyperref Info: Reference (link) `section.A.1' on input line 29.
+Package hyperref Info: Reference (link) `chapter.6' on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
  []  
  []
 
-Package hyperref Info: Reference (link) `appendix.B' on input line 30.
+Package hyperref Info: Reference (link) `chapter.7' on input line 29.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+ []  
+ []
+
+Package hyperref Info: Reference (link) `appendix.A' on input line 31.
+Package hyperref Info: Reference (link) `section.A.1' on input line 32.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+ []  
+ []
+
+Package hyperref Info: Reference (link) `appendix.B' on input line 33.
 )
 \tf@toc=\write10
 \openout10 = `tese.toc'.
 
 Package hyperref Info: Anchor `page.xiv' on input line 221.
-[14
-Package `hyperref' Info: End of reference (link) `chapter.7', line 26.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 28.
-Package `hyperref' Info: End of reference (link) `section.A.1', line 29.
-Package `hyperref' Info: End of reference (link) `appendix.B', line 30.
+ [14
+Package `hyperref' Info: End of reference (link) `subsection.4.3.5', line 25.
+Package `hyperref' Info: End of reference (link) `chapter.5', line 27.
+Package `hyperref' Info: End of reference (link) `chapter.6', line 28.
+Package `hyperref' Info: End of reference (link) `chapter.7', line 29.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 31.
+Package `hyperref' Info: End of reference (link) `section.A.1', line 32.
+Package `hyperref' Info: End of reference (link) `appendix.B', line 33.
 ]
 Package hyperref Info: Anchor `chapter.1' on input line 224.
+
 Chapter 1.
 pdftex: bookmark at 224: {1} {\numberline{1}Introduction} {chapter.1}{0}{toc}
 (./Cap1/cap1.tex
@@ -1635,30 +1736,34 @@ ne 3.
 Package hyperref Info: Reference (cite) `cite.komanduri2001thermal' on input li
 ne 3.
 Package hyperref Info: Anchor `section.1.1' on input line 5.
-pdftex: bookmark at 5: {1.1} {\numberline{1.1}Mechanics of orthogonal cutting} 
-{section.1.1}{1}{toc}
-Package hyperref Info: Reference (link) `figure.caption.9' on input line 7.
-Package hyperref Info: Anchor `figure.caption.9' on input line 9.
-<Cap1/circlec.png, id=312, 628.3475pt x 477.785pt>
+
+pdftex: bookmark at 5: {1.1} {\numberline{1.1}Principles of metal cutting} {sec
+tion.1.1}{1}{toc}
+Package hyperref Info: Anchor `section.1.2' on input line 8.
+pdftex: bookmark at 8: {1.2} {\numberline{1.2}Mechanics of orthogonal cutting} 
+{section.1.2}{1}{toc}
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 10.
+Package hyperref Info: Anchor `figure.caption.9' on input line 12.
+<Cap1/circlec.png, id=328, 628.3475pt x 477.785pt>
 File: Cap1/circlec.png Graphic file (type png)
-<use Cap1/circlec.png>
-Package pdftex.def Info: Cap1/circlec.png used on input line 12.
+ <use Cap1/circlec.png>
+Package pdftex.def Info: Cap1/circlec.png used on input line 15.
 (pdftex.def)             Requested size: 314.17297pt x 238.8919pt.
-pdftex: bookmark at 13: {1.1} {\numberline{1.1}{\ignorespaces Cutting forces \c
+
+pdftex: bookmark at 16: {1.1} {\numberline{1.1}{\ignorespaces Cutting forces \c
 ite {shaw2005metal}\relax }} {figure.caption.9}{0}{lof}
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 13.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 13.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 13.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 13.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package hyperref Info: Reference (link) `figure.caption.9' on input line 17.
-Package hyperref Info: Anchor `equation.1.1.1' on input line 19.
-Package hyperref Info: Anchor `equation.1.1.2' on input line 23.
-Package hyperref Info: Anchor `equation.1.1.3' on input line 30.
-Package hyperref Info: Anchor `equation.1.1.4' on input line 34.
-Package hyperref Info: Anchor `page.15' on input line 37.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 20.
+Package hyperref Info: Anchor `equation.1.2.1' on input line 22.
+Package hyperref Info: Anchor `equation.1.2.2' on input line 26.
+Package hyperref Info: Anchor `equation.1.2.3' on input line 33.
+Package hyperref Info: Anchor `page.15' on input line 36.
 [15
 
 
@@ -1672,59 +1777,72 @@ Package `hyperref' Info: End of reference (cite) `cite.komanduri2001thermal', l
 ine 3.
 Package `hyperref' Info: End of reference (cite) `cite.komanduri2001thermal', l
 ine 3.
-Package `hyperref' Info: End of reference (link) `figure.caption.9', line 7.
-Package `hyperref' Info: End of reference (link) `figure.caption.9', line 17.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 10.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 20.
 ]
-Package hyperref Info: Anchor `equation.1.1.5' on input line 41.
-Package hyperref Info: Anchor `equation.1.1.6' on input line 48.
-Package hyperref Info: Anchor `equation.1.1.7' on input line 53.
-Package hyperref Info: Anchor `equation.1.1.8' on input line 58.
-Package hyperref Info: Anchor `page.16' on input line 66.
-[16
-Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 13.
+Package hyperref Info: Anchor `equation.1.2.4' on input line 37.
+Package hyperref Info: Anchor `equation.1.2.5' on input line 44.
+Package hyperref Info: Anchor `equation.1.2.6' on input line 51.
+Package hyperref Info: Anchor `equation.1.2.7' on input line 56.
+Package hyperref Info: Anchor `equation.1.2.8' on input line 61.
+Package hyperref Info: Anchor `page.16' on input line 68.
+ [16
+Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 16.
 
-Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 13.
+Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 16.
 
  <./Cap1/circlec.png>]
-Package hyperref Info: Anchor `equation.1.1.9' on input line 67.
-Package hyperref Info: Anchor `equation.1.1.10' on input line 74.
-Package hyperref Info: Anchor `equation.1.1.11' on input line 81.
-Package hyperref Info: Anchor `section.1.2' on input line 86.
-pdftex: bookmark at 86: {1.2} {\numberline{1.2}Objective and Structure} {sectio
-n.1.2}{1}{toc}
-Package hyperref Info: Reference (link) `chapter.1' on input line 90.
-Package hyperref Info: Reference (link) `chapter.2' on input line 92.
-Package hyperref Info: Reference (link) `chapter.3' on input line 94.
-Package hyperref Info: Reference (link) `chapter.4' on input line 96.
-Package hyperref Info: Reference (link) `chapter.5' on input line 98.
-Package hyperref Info: Reference (link) `chapter.6' on input line 100.
-Package hyperref Info: Reference (link) `appendix.A' on input line 102.
-)
-Package hyperref Info: Anchor `page.17' on input line 228.
+Package hyperref Info: Anchor `equation.1.2.9' on input line 70.
+Package hyperref Info: Anchor `equation.1.2.10' on input line 77.
+Package hyperref Info: Anchor `equation.1.2.11' on input line 84.
+Package hyperref Info: Anchor `section.1.3' on input line 89.
+
+pdftex: bookmark at 89: {1.3} {\numberline{1.3}Objective} {section.1.3}{1}{toc}
+
+Package hyperref Info: Anchor `section.1.4' on input line 93.
+pdftex: bookmark at 93: {1.4} {\numberline{1.4}Structure} {section.1.4}{1}{toc}
+
+Package hyperref Info: Reference (link) `chapter.1' on input line 95.
+Package hyperref Info: Reference (link) `chapter.2' on input line 97.
+Package hyperref Info: Reference (link) `chapter.3' on input line 99.
+Package hyperref Info: Reference (link) `chapter.4' on input line 101.
+Package hyperref Info: Reference (link) `chapter.5' on input line 103.
+Package hyperref Info: Anchor `page.17' on input line 105.
 [17
-Package `hyperref' Info: End of reference (link) `chapter.1', line 90.
-Package `hyperref' Info: End of reference (link) `chapter.2', line 92.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 94.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 96.
-Package `hyperref' Info: End of reference (link) `chapter.5', line 98.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 100.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 102.
+Package `hyperref' Info: End of reference (link) `chapter.1', line 95.
+Package `hyperref' Info: End of reference (link) `chapter.2', line 97.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 99.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 101.
+Package `hyperref' Info: End of reference (link) `chapter.5', line 103.
+]
+Package hyperref Info: Reference (link) `chapter.6' on input line 105.
+Package hyperref Info: Reference (link) `appendix.A' on input line 107.
+)
+Package hyperref Info: Anchor `page.18' on input line 228.
+ [18
+Package `hyperref' Info: End of reference (link) `chapter.6', line 105.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 107.
 ]
 Package hyperref Info: Anchor `chapter.2' on input line 228.
+
 Chapter 2.
 pdftex: bookmark at 228: {2} {\numberline{2}State of the Art} {chapter.2}{0}{to
 c}
 (./Cap2/cap2.tex
 Package hyperref Info: Anchor `section.2.1' on input line 1.
+
 pdftex: bookmark at 1: {2.1} {\numberline{2.1}Infrared Termography} {section.2.
 1}{1}{toc}
 (./Cap2/Infrared/infrared.tex
 Package hyperref Info: Anchor `figure.caption.10' on input line 3.
-<Cap2/InfraRed/exinfrared.png, id=355, 390.45876pt x 255.95625pt>
+
+<Cap2/InfraRed/exinfrared.png, id=375, 390.45876pt x 255.95625pt>
 File: Cap2/InfraRed/exinfrared.png Graphic file (type png)
+
 <use Cap2/InfraRed/exinfrared.png>
 Package pdftex.def Info: Cap2/InfraRed/exinfrared.png used on input line 6.
 (pdftex.def)             Requested size: 409.71692pt x 268.59404pt.
+
 pdftex: bookmark at 7: {2.1} {\numberline{2.1}{\ignorespaces Infrared photograp
 hy of a cutting process \cite {abukhshim2006heat}\relax }} {figure.caption.10}{
 0}{lof}
@@ -1738,8 +1856,8 @@ Package hyperref Info: Reference (cite) `cite.abukhshim2006heat' on input line
 7.
 Package hyperref Info: Reference (cite) `cite.maldague2000' on input line 11.
 Package hyperref Info: Reference (cite) `cite.maldague2000' on input line 11.
-Package hyperref Info: Anchor `page.18' on input line 13.
-[18
+Package hyperref Info: Anchor `page.19' on input line 13.
+[19
 
 Package `hyperref' Info: End of reference (cite) `cite.abukhshim2006heat', line
  7.
@@ -1750,149 +1868,194 @@ Package `hyperref' Info: End of reference (cite) `cite.maldague2000', line 11.
 LaTeX Font Info:    Try loading font information for TS1+aer on input line 14.
 LaTeX Font Info:    No file TS1aer.fd. on input line 14.
 
+
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 14.
 
 )
 Package hyperref Info: Anchor `section.2.2' on input line 5.
-pdftex: bookmark at 5: {2.2} {\numberline{2.2}Temperature Modelling} {section.2
-.2}{1}{toc}
-(./Cap2/TempModel/tempmodel.tex)
-Package hyperref Info: Anchor `section.2.3' on input line 8.
-pdftex: bookmark at 8: {2.3} {\numberline{2.3}Image Processing} {section.2.3}{1
+
+pdftex: bookmark at 5: {2.2} {\numberline{2.2}Image Processing} {section.2.2}{1
 }{toc}
-(./Cap2/ImgPro/imgpro.tex
-Package hyperref Info: Reference (cite) `cite.maldague2000' on input line 2.
-Package hyperref Info: Reference (cite) `cite.maldague2000' on input line 2.
-Package hyperref Info: Anchor `page.19' on input line 13.
-[19
-Package `hyperref' Info: End of reference (cite) `cite.maldague2000', line 11.
-Package `hyperref' Info: End of reference (cite) `cite.maldague2000', line 2.
-Package `hyperref' Info: End of reference (cite) `cite.maldague2000', line 2.
-]))
+(./Cap2/ImgPro/imgpro.tex))
 Package hyperref Info: Anchor `page.20' on input line 232.
-[20]
+ [20
+Package `hyperref' Info: End of reference (cite) `cite.maldague2000', line 11.
+]
 Package hyperref Info: Anchor `chapter.3' on input line 232.
+
 Chapter 3.
-pdftex: bookmark at 232: {3} {\numberline{3}Experimental Setup} {chapter.3}{0}{
-toc}
+pdftex: bookmark at 232: {3} {\numberline{3}Materials and Methods} {chapter.3}{
+0}{toc}
 (./Cap3/cap3.tex
-Package hyperref Info: Anchor `figure.caption.11' on input line 3.
-<Cap3/exsetup.png, id=380, 557.08125pt x 397.485pt>
+Package hyperref Info: Anchor `section.3.1' on input line 1.
+
+pdftex: bookmark at 1: {3.1} {\numberline{3.1}Experimental Setup} {section.3.1}
+{1}{toc}
+Package hyperref Info: Anchor `figure.caption.11' on input line 6.
+<Cap3/exsetup.png, id=393, 557.08125pt x 397.485pt>
 File: Cap3/exsetup.png Graphic file (type png)
-<use Cap3/exsetup.png>
-Package pdftex.def Info: Cap3/exsetup.png used on input line 6.
+ <use Cap3/exsetup.png>
+Package pdftex.def Info: Cap3/exsetup.png used on input line 9.
 (pdftex.def)             Requested size: 278.53995pt x 198.742pt.
-pdftex: bookmark at 7: {3.1} {\numberline{3.1}{\ignorespaces Experimental setup
- \cite {augspurger2016experimental}\relax }} {figure.caption.11}{0}{lof}
+
+pdftex: bookmark at 10: {3.1} {\numberline{3.1}{\ignorespaces Experimental setu
+p \cite {augspurger2016experimental}\relax }} {figure.caption.11}{0}{lof}
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 7.
+put line 10.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 7.
+put line 10.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 7.
+put line 10.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 7.
-Package hyperref Info: Anchor `page.21' on input line 13.
+put line 10.
+Package hyperref Info: Anchor `page.21' on input line 15.
 [21
 
 Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
-al', line 7.
+al', line 10.
 Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
-al', line 7.
+al', line 10.
  <./Cap3/exsetup.png>]
-Package hyperref Info: Reference (link) `table.caption.12' on input line 20.
-Package hyperref Info: Anchor `table.caption.12' on input line 22.
-<Cap3/tabexpset.png, id=391, 748.7172pt x 400.3758pt>
+Package hyperref Info: Reference (link) `table.caption.12' on input line 23.
+Package hyperref Info: Anchor `table.caption.12' on input line 25.
+
+<Cap3/tabexpset.png, id=404, 748.7172pt x 400.3758pt>
 File: Cap3/tabexpset.png Graphic file (type png)
-<use Cap3/tabexpset.png>
-Package pdftex.def Info: Cap3/tabexpset.png used on input line 25.
+ <use Cap3/tabexpset.png>
+Package pdftex.def Info: Cap3/tabexpset.png used on input line 28.
 (pdftex.def)             Requested size: 449.23378pt x 240.22731pt.
-pdftex: bookmark at 26: {3.1} {\numberline{3.1}{\ignorespaces Design of experim
+
+pdftex: bookmark at 29: {3.1} {\numberline{3.1}{\ignorespaces Design of experim
 ents \cite {augspurger2016experimental}\relax }} {table.caption.12}{0}{lot}
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 26.
+put line 29.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 26.
+put line 29.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 26.
+put line 29.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 26.
-)
-Package hyperref Info: Anchor `page.22' on input line 236.
+put line 29.
+Package hyperref Info: Anchor `section.3.2' on input line 36.
+pdftex: bookmark at 36: {3.2} {\numberline{3.2}Methods} {section.3.2}{1}{toc}
+Package hyperref Info: Reference (cite) `cite.boothroyd1963temperatures' on inp
+ut line 39.
+Package hyperref Info: Reference (cite) `cite.boothroyd1963temperatures' on inp
+ut line 39.
+Package hyperref Info: Anchor `figure.caption.13' on input line 41.
+<Cap4/ToolHeat.png, id=411, 277.5168pt x 347.8596pt>
+File: Cap4/ToolHeat.png Graphic file (type png)
+ <use Cap4/ToolHeat.png>
+Package pdftex.def Info: Cap4/ToolHeat.png used on input line 44.
+(pdftex.def)             Requested size: 208.13708pt x 260.89406pt.
+
+pdftex: bookmark at 45: {3.2} {\numberline{3.2}{\ignorespaces Heat flow through
+ tool\relax }} {figure.caption.13}{0}{lof}
+Package hyperref Info: Anchor `page.22' on input line 47.
 [22
-Package `hyperref' Info: End of reference (link) `table.caption.12', line 20.
+Package `hyperref' Info: End of reference (link) `table.caption.12', line 23.
 Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
-al', line 26.
+al', line 29.
 Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
-al', line 26.
+al', line 29.
  <./Cap3/tabexpset.png>]
+Package hyperref Info: Anchor `equation.3.2.1' on input line 51.
+Package hyperref Info: Anchor `figure.caption.14' on input line 58.
+
+<Cap4/energyChip.png, id=417, 378.213pt x 297.2706pt>
+File: Cap4/energyChip.png Graphic file (type png)
+
+<use Cap4/energyChip.png>
+Package pdftex.def Info: Cap4/energyChip.png used on input line 61.
+(pdftex.def)             Requested size: 283.65904pt x 222.9524pt.
+
+pdftex: bookmark at 62: {3.3} {\numberline{3.3}{\ignorespaces Thermal energy ca
+rried away by chip\relax }} {figure.caption.14}{0}{lof}
+Package hyperref Info: Anchor `page.23' on input line 65.
+[23
+Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
+s', line 39.
+Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
+s', line 39.
+ <./Cap4/ToolHeat.png>]
+Package hyperref Info: Anchor `equation.3.2.2' on input line 68.
+)
+Package hyperref Info: Anchor `page.24' on input line 236.
+ [24 <./Cap4/energyChip.png>]
 Package hyperref Info: Anchor `chapter.4' on input line 236.
+
 Chapter 4.
 pdftex: bookmark at 236: {4} {\numberline{4}Code Implementation} {chapter.4}{0}
 {toc}
 (./Cap4/cap4.tex
 Package hyperref Info: Anchor `section.4.1' on input line 1.
+
 pdftex: bookmark at 1: {4.1} {\numberline{4.1}MATLAB environment} {section.4.1}
 {1}{toc}
 Package hyperref Info: Reference (link) `chapter.3' on input line 2.
-Package hyperref Info: Anchor `figure.caption.13' on input line 4.
-<Cap4/TempDist.jpg, id=402, 562.1pt x 421.575pt>
+Package hyperref Info: Anchor `figure.caption.15' on input line 4.
+<Cap4/TempDist.jpg, id=433, 562.1pt x 421.575pt>
 File: Cap4/TempDist.jpg Graphic file (type jpg)
-<use Cap4/TempDist.jpg>
+ <use Cap4/TempDist.jpg>
 Package pdftex.def Info: Cap4/TempDist.jpg used on input line 7.
 (pdftex.def)             Requested size: 421.57397pt x 316.18047pt.
+
 pdftex: bookmark at 8: {4.1} {\numberline{4.1}{\ignorespaces Scaled image showi
-ng temperature distribution\relax }} {figure.caption.13}{0}{lof}
-Package hyperref Info: Reference (link) `figure.caption.13' on input line 12.
-Package hyperref Info: Anchor `page.23' on input line 17.
-[23
+ng temperature distribution\relax }} {figure.caption.15}{0}{lof}
+Package hyperref Info: Reference (link) `figure.caption.15' on input line 12.
+Package hyperref Info: Anchor `page.25' on input line 17.
+[25
 
 Package `hyperref' Info: End of reference (link) `chapter.3', line 2.
-Package `hyperref' Info: End of reference (link) `figure.caption.13', line 12.
+Package `hyperref' Info: End of reference (link) `figure.caption.15', line 12.
  <./Cap4/TempDist.jpg>]
 Package hyperref Info: Anchor `section.4.2' on input line 21.
+
 pdftex: bookmark at 21: {4.2} {\numberline{4.2}Auxiliar functions} {section.4.2
 }{1}{toc}
 Package hyperref Info: Anchor `subsection.4.2.1' on input line 22.
 pdftex: bookmark at 22: {4.2.1} {\numberline{4.2.1}Contour plot} {subsection.4.
 2.1}{2}{toc}
-Package hyperref Info: Anchor `figure.caption.14' on input line 26.
-<Cap4/contour.jpg, id=408, 562.1pt x 421.575pt>
+Package hyperref Info: Anchor `figure.caption.16' on input line 26.
+<Cap4/contour.jpg, id=439, 562.1pt x 421.575pt>
 File: Cap4/contour.jpg Graphic file (type jpg)
-<use Cap4/contour.jpg>
+ <use Cap4/contour.jpg>
 Package pdftex.def Info: Cap4/contour.jpg used on input line 29.
 (pdftex.def)             Requested size: 421.57397pt x 316.18047pt.
+
 pdftex: bookmark at 30: {4.2} {\numberline{4.2}{\ignorespaces Contour plot\rela
-x }} {figure.caption.14}{0}{lof}
+x }} {figure.caption.16}{0}{lof}
 Package hyperref Info: Anchor `subsection.4.2.2' on input line 34.
 pdftex: bookmark at 34: {4.2.2} {\numberline{4.2.2}Hough lines transformation} 
 {subsection.4.2.2}{2}{toc}
 Package hyperref Info: Reference (cite) `cite.duda1972use' on input line 36.
 Package hyperref Info: Reference (cite) `cite.duda1972use' on input line 36.
-Package hyperref Info: Anchor `page.24' on input line 37.
-[24 <./Cap4/contour.jpg>]
-Package hyperref Info: Anchor `figure.caption.15' on input line 40.
-<Cap4/imgset.jpg, id=416, 279.0425pt x 285.065pt>
+Package hyperref Info: Anchor `page.26' on input line 37.
+[26 <./Cap4/contour.jpg>]
+Package hyperref Info: Anchor `figure.caption.17' on input line 40.
+ <Cap4/imgset.jpg, id=447, 279.0425pt x 285.065pt>
 File: Cap4/imgset.jpg Graphic file (type jpg)
+
 <use Cap4/imgset.jpg>
 Package pdftex.def Info: Cap4/imgset.jpg used on input line 43.
 (pdftex.def)             Requested size: 209.28136pt x 213.79822pt.
+
 pdftex: bookmark at 44: {4.3} {\numberline{4.3}{\ignorespaces Placement of tool
-\relax }} {figure.caption.15}{0}{lof}
+\relax }} {figure.caption.17}{0}{lof}
 Package hyperref Info: Anchor `section.4.3' on input line 50.
 pdftex: bookmark at 50: {4.3} {\numberline{4.3}Implementation steps} {section.4
 .3}{1}{toc}
 Package hyperref Info: Anchor `subsection.4.3.1' on input line 51.
 pdftex: bookmark at 51: {4.3.1} {\numberline{4.3.1}Overview} {subsection.4.3.1}
 {2}{toc}
-Package hyperref Info: Anchor `page.25' on input line 54.
-[25
+Package hyperref Info: Anchor `page.27' on input line 54.
+[27
 Package `hyperref' Info: End of reference (cite) `cite.duda1972use', line 36.
 Package `hyperref' Info: End of reference (cite) `cite.duda1972use', line 36.
  <./Cap4/imgset.jpg>]
 Package hyperref Info: Anchor `subsection.4.3.2' on input line 56.
+
 pdftex: bookmark at 56: {4.3.2} {\numberline{4.3.2}Finding tool edges} {subsect
 ion.4.3.2}{2}{toc}
 Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 58.
@@ -1904,7 +2067,8 @@ lol}
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 60.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) (./ApeA/TemperatureAnalyze.m
+)
+(./ApeA/TemperatureAnalyze.m
 Package hyperref Info: Anchor `lstnumber.-1.1' on input line 223.
 Package hyperref Info: Anchor `lstnumber.-1.2' on input line 224.
 Package hyperref Info: Anchor `lstnumber.-1.3' on input line 225.
@@ -1941,11 +2105,12 @@ Package hyperref Info: Anchor `lstnumber.-1.33' on input line 255.
 Package hyperref Info: Anchor `lstnumber.-1.34' on input line 256.
 Package hyperref Info: Anchor `lstnumber.-1.35' on input line 257.
 )
-Package hyperref Info: Anchor `page.26' on input line 65.
-[26
+Package hyperref Info: Anchor `page.28' on input line 65.
+ [28
 Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 58.
 ]
 Package hyperref Info: Anchor `subsubsection.4.3.2.1' on input line 67.
+
 pdftex: bookmark at 67: {4.3.2.1} {\numberline{4.3.2.1}Rake and clearance face}
  {subsubsection.4.3.2.1}{3}{toc}
 Package hyperref Info: Anchor `subsubsection.4.3.2.2' on input line 73.
@@ -1964,76 +2129,54 @@ lol}
 (./ApeA/TemperatureAnalyze.m
 Package hyperref Info: Anchor `lstnumber.-2.1' on input line 383.
 )
-Package hyperref Info: Anchor `page.27' on input line 90.
-[27
+Package hyperref Info: Anchor `page.29' on input line 90.
+ [29
 Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 83.
 ]
 Package hyperref Info: Anchor `subsection.4.3.5' on input line 101.
+
 pdftex: bookmark at 101: {4.3.5} {\numberline{4.3.5}Heat flows - Chip and Tool}
  {subsection.4.3.5}{2}{toc}
-Package hyperref Info: Reference (cite) `cite.boothroyd1963temperatures' on inp
-ut line 104.
-Package hyperref Info: Reference (cite) `cite.boothroyd1963temperatures' on inp
-ut line 104.
-Package hyperref Info: Anchor `figure.caption.16' on input line 106.
-<Cap4/ToolHeat.png, id=478, 277.5168pt x 347.8596pt>
-File: Cap4/ToolHeat.png Graphic file (type png)
-<use Cap4/ToolHeat.png>
-Package pdftex.def Info: Cap4/ToolHeat.png used on input line 109.
-(pdftex.def)             Requested size: 208.13708pt x 260.89406pt.
-pdftex: bookmark at 110: {4.4} {\numberline{4.4}{\ignorespaces Heat flow throug
-h tool\relax }} {figure.caption.16}{0}{lof}
-Package hyperref Info: Anchor `equation.4.3.1' on input line 116.
-Package hyperref Info: Anchor `page.28' on input line 122.
-[28
-Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
-s', line 104.
-Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
-s', line 104.
- <./Cap4/ToolHeat.png>]
-Package hyperref Info: Anchor `figure.caption.17' on input line 123.
-<Cap4/energyChip.png, id=486, 378.213pt x 297.2706pt>
-File: Cap4/energyChip.png Graphic file (type png)
-<use Cap4/energyChip.png>
-Package pdftex.def Info: Cap4/energyChip.png used on input line 126.
-(pdftex.def)             Requested size: 283.65904pt x 222.9524pt.
-pdftex: bookmark at 127: {4.5} {\numberline{4.5}{\ignorespaces Thermal energy c
-arried away by chip\relax }} {figure.caption.17}{0}{lof}
-Package hyperref Info: Anchor `equation.4.3.2' on input line 133.
-Package hyperref Info: Anchor `subsubsection.4.3.5.1' on input line 140.
-pdftex: bookmark at 140: {4.3.5.1} {\numberline{4.3.5.1}Heat partitions} {subsu
+Package hyperref Info: Reference (link) `section.3.2' on input line 103.
+Package hyperref Info: Reference (link) `section.3.1' on input line 103.
+Package hyperref Info: Anchor `subsubsection.4.3.5.1' on input line 106.
+pdftex: bookmark at 106: {4.3.5.1} {\numberline{4.3.5.1}Heat partitions} {subsu
 bsection.4.3.5.1}{3}{toc}
-Package hyperref Info: Reference (link) `subsection.4.3.5' on input line 141.
-Package hyperref Info: Anchor `equation.4.3.3' on input line 144.
-Package hyperref Info: Anchor `page.29' on input line 147.
-[29
-Package `hyperref' Info: End of reference (link) `subsection.4.3.5', line 141.
- <./Cap4/energyChip.png>]
-Package hyperref Info: Anchor `equation.4.3.4' on input line 151.
-)
-Package hyperref Info: Anchor `page.30' on input line 240.
-[30]
+Package hyperref Info: Reference (link) `section.3.2' on input line 107.
+Package hyperref Info: Anchor `equation.4.3.1' on input line 110.
+Package hyperref Info: Anchor `equation.4.3.2' on input line 117.
+Package hyperref Info: Anchor `page.30' on input line 120.
+[30
+Package `hyperref' Info: End of reference (link) `section.3.2', line 103.
+Package `hyperref' Info: End of reference (link) `section.3.1', line 103.
+Package `hyperref' Info: End of reference (link) `section.3.2', line 107.
+])
+Package hyperref Info: Anchor `page.31' on input line 240.
+ [31]
 Package hyperref Info: Anchor `chapter.5' on input line 240.
+
 Chapter 5.
 pdftex: bookmark at 240: {5} {\numberline{5}Results} {chapter.5}{0}{toc}
 (./Cap5/cap5.tex)
-Package hyperref Info: Anchor `page.31' on input line 244.
-[31
+Package hyperref Info: Anchor `page.32' on input line 244.
+ [32
 
 ]
 Package hyperref Info: Anchor `chapter.6' on input line 244.
+
 Chapter 6.
 pdftex: bookmark at 244: {6} {\numberline{6}Conclusion} {chapter.6}{0}{toc}
 (./Cap6/cap6.tex) (./tese.bbl (./tese.brf)
 \tf@brf=\write11
 \openout11 = `tese.brf'.
 
-Package hyperref Info: Anchor `page.32' on input line 3.
-[32
+Package hyperref Info: Anchor `page.33' on input line 3.
+ [33
 
 ]
 Package hyperref Info: Anchor `chapter*.18' on input line 3.
 Package hyperref Info: Anchor `chapter.7' on input line 3.
+
 pdftex: bookmark at 3: {7} {Bibliography} {chapter.7}{0}{toc}
 Package hyperref Info: Anchor `cite.abukhshim2006heat' on input line 15.
 Package hyperref Info: Anchor `cite.augspurger2016experimental' on input line 2
@@ -2046,15 +2189,17 @@ Package hyperref Info: Anchor `cite.komanduri2001thermal' on input line 49.
 Package hyperref Info: Anchor `cite.maldague2000' on input line 56.
 Package hyperref Info: Anchor `cite.shaw2005metal' on input line 61.
 )
-Package hyperref Info: Anchor `page.33' on input line 253.
-[33
+Package hyperref Info: Anchor `page.34' on input line 253.
+ [34
 
 ]
 Package hyperref Info: Anchor `appendix.A' on input line 254.
+
 Appendix A.
 pdftex: bookmark at 254: {A} {\numberline{A}Source Code} {appendix.A}{0}{toc}
 (./ApeA/apendiceA.tex
 Package hyperref Info: Anchor `section.A.1' on input line 1.
+
 pdftex: bookmark at 1: {A.1} {\numberline{A.1}Temperature Analysis} {section.A.
 1}{1}{toc}
 Package hyperref Info: Anchor `lstlisting.A.-3' on input line 3.
@@ -2113,8 +2258,8 @@ Package hyperref Info: Anchor `lstnumber.-3.49' on input line 49.
 Package hyperref Info: Anchor `lstnumber.-3.50' on input line 50.
 Package hyperref Info: Anchor `lstnumber.-3.51' on input line 51.
 Package hyperref Info: Anchor `lstnumber.-3.52' on input line 52.
-Package hyperref Info: Anchor `page.34' on input line 53.
-[34
+Package hyperref Info: Anchor `page.35' on input line 53.
+ [35
 
 
 ]
@@ -2186,8 +2331,8 @@ Package hyperref Info: Anchor `lstnumber.-3.117' on input line 117.
 Package hyperref Info: Anchor `lstnumber.-3.118' on input line 118.
 Package hyperref Info: Anchor `lstnumber.-3.119' on input line 119.
 Package hyperref Info: Anchor `lstnumber.-3.120' on input line 120.
-Package hyperref Info: Anchor `page.35' on input line 121.
-[35]
+Package hyperref Info: Anchor `page.36' on input line 121.
+ [36]
 Package hyperref Info: Anchor `lstnumber.-3.121' on input line 121.
 Package hyperref Info: Anchor `lstnumber.-3.122' on input line 122.
 Package hyperref Info: Anchor `lstnumber.-3.123' on input line 124.
@@ -2256,8 +2401,8 @@ Package hyperref Info: Anchor `lstnumber.-3.185' on input line 186.
 Package hyperref Info: Anchor `lstnumber.-3.186' on input line 186.
 Package hyperref Info: Anchor `lstnumber.-3.187' on input line 187.
 Package hyperref Info: Anchor `lstnumber.-3.188' on input line 188.
-Package hyperref Info: Anchor `page.36' on input line 189.
-[36]
+Package hyperref Info: Anchor `page.37' on input line 189.
+ [37]
 Package hyperref Info: Anchor `lstnumber.-3.189' on input line 189.
 Package hyperref Info: Anchor `lstnumber.-3.190' on input line 191.
 Package hyperref Info: Anchor `lstnumber.-3.191' on input line 191.
@@ -2319,8 +2464,8 @@ Package hyperref Info: Anchor `lstnumber.-3.246' on input line 246.
 Package hyperref Info: Anchor `lstnumber.-3.247' on input line 247.
 Package hyperref Info: Anchor `lstnumber.-3.248' on input line 248.
 Package hyperref Info: Anchor `lstnumber.-3.249' on input line 249.
-Package hyperref Info: Anchor `page.37' on input line 250.
-[37]
+Package hyperref Info: Anchor `page.38' on input line 250.
+ [38]
 Package hyperref Info: Anchor `lstnumber.-3.250' on input line 250.
 Package hyperref Info: Anchor `lstnumber.-3.251' on input line 251.
 Package hyperref Info: Anchor `lstnumber.-3.252' on input line 252.
@@ -2377,8 +2522,8 @@ Package hyperref Info: Anchor `lstnumber.-3.302' on input line 302.
 Package hyperref Info: Anchor `lstnumber.-3.303' on input line 303.
 Package hyperref Info: Anchor `lstnumber.-3.304' on input line 304.
 Package hyperref Info: Anchor `lstnumber.-3.305' on input line 305.
-Package hyperref Info: Anchor `page.38' on input line 306.
-[38]
+Package hyperref Info: Anchor `page.39' on input line 306.
+ [39]
 Package hyperref Info: Anchor `lstnumber.-3.306' on input line 306.
 Package hyperref Info: Anchor `lstnumber.-3.307' on input line 307.
 Package hyperref Info: Anchor `lstnumber.-3.308' on input line 308.
@@ -2444,8 +2589,8 @@ Package hyperref Info: Anchor `lstnumber.-3.367' on input line 367.
 Package hyperref Info: Anchor `lstnumber.-3.368' on input line 368.
 Package hyperref Info: Anchor `lstnumber.-3.369' on input line 369.
 Package hyperref Info: Anchor `lstnumber.-3.370' on input line 370.
-Package hyperref Info: Anchor `page.39' on input line 371.
-[39]
+Package hyperref Info: Anchor `page.40' on input line 371.
+ [40]
 Package hyperref Info: Anchor `lstnumber.-3.371' on input line 371.
 Package hyperref Info: Anchor `lstnumber.-3.372' on input line 372.
 Package hyperref Info: Anchor `lstnumber.-3.373' on input line 373.
@@ -2516,8 +2661,8 @@ Package hyperref Info: Anchor `lstnumber.-3.437' on input line 437.
 Package hyperref Info: Anchor `lstnumber.-3.438' on input line 438.
 Package hyperref Info: Anchor `lstnumber.-3.439' on input line 439.
 Package hyperref Info: Anchor `lstnumber.-3.440' on input line 440.
-Package hyperref Info: Anchor `page.40' on input line 441.
-[40]
+Package hyperref Info: Anchor `page.41' on input line 441.
+ [41]
 Package hyperref Info: Anchor `lstnumber.-3.441' on input line 441.
 Package hyperref Info: Anchor `lstnumber.-3.442' on input line 442.
 Package hyperref Info: Anchor `lstnumber.-3.443' on input line 443.
@@ -2588,8 +2733,8 @@ Package hyperref Info: Anchor `lstnumber.-3.507' on input line 507.
 Package hyperref Info: Anchor `lstnumber.-3.508' on input line 508.
 Package hyperref Info: Anchor `lstnumber.-3.509' on input line 509.
 Package hyperref Info: Anchor `lstnumber.-3.510' on input line 510.
-Package hyperref Info: Anchor `page.41' on input line 511.
-[41]
+Package hyperref Info: Anchor `page.42' on input line 511.
+ [42]
 Package hyperref Info: Anchor `lstnumber.-3.511' on input line 511.
 Package hyperref Info: Anchor `lstnumber.-3.512' on input line 512.
 Package hyperref Info: Anchor `lstnumber.-3.513' on input line 513.
@@ -2659,8 +2804,8 @@ Package hyperref Info: Anchor `lstnumber.-3.576' on input line 576.
 Package hyperref Info: Anchor `lstnumber.-3.577' on input line 577.
 Package hyperref Info: Anchor `lstnumber.-3.578' on input line 578.
 Package hyperref Info: Anchor `lstnumber.-3.579' on input line 579.
-Package hyperref Info: Anchor `page.42' on input line 580.
-[42]
+Package hyperref Info: Anchor `page.43' on input line 580.
+ [43]
 Package hyperref Info: Anchor `lstnumber.-3.580' on input line 580.
 Package hyperref Info: Anchor `lstnumber.-3.581' on input line 581.
 Package hyperref Info: Anchor `lstnumber.-3.582' on input line 582.
@@ -2730,8 +2875,9 @@ Package hyperref Info: Anchor `lstnumber.-3.645' on input line 645.
 Package hyperref Info: Anchor `lstnumber.-3.646' on input line 646.
 Package hyperref Info: Anchor `lstnumber.-3.647' on input line 648.
 Package hyperref Info: Anchor `lstnumber.-3.648' on input line 648.
-Package hyperref Info: Anchor `page.43' on input line 649.
-[43]
+Package hyperref Info: Anchor `page.44' on input line 649.
+
+[44]
 Package hyperref Info: Anchor `lstnumber.-3.649' on input line 649.
 Package hyperref Info: Anchor `lstnumber.-3.650' on input line 650.
 Package hyperref Info: Anchor `lstnumber.-3.651' on input line 651.
@@ -2790,9 +2936,10 @@ Package hyperref Info: Anchor `lstnumber.-3.703' on input line 703.
 Package hyperref Info: Anchor `lstnumber.-3.704' on input line 704.
 Package hyperref Info: Anchor `lstnumber.-3.705' on input line 705.
 )
-Package hyperref Info: Anchor `page.44' on input line 4.
-[44])
+Package hyperref Info: Anchor `page.45' on input line 4.
+ [45])
 Package hyperref Info: Anchor `appendix.B' on input line 259.
+
 pdftex: bookmark at 260: {B} {Glossary} {appendix.B}{0}{toc}
 No file tese.gls
 \bottommargin=\skip150
@@ -2805,21 +2952,22 @@ Overfull \hbox (74.53033pt too wide) in paragraph at lines 279--279
 
 
 AED: lastpage setting LastPage
-Package hyperref Info: Anchor `page.45' on input line 281.
-[45
+Package hyperref Info: Anchor `page.46' on input line 281.
+[46
 
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
-(./tese.aux)
+ (./tese.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: 16327B79B2D3039F877A6874ADCD9344;2399.
+(rerunfilecheck)             Checksum: 5BBF6F0E79BDDD734791DB5A3D4A12CA;2578.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2829,10 +2977,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 42206 strings out of 492995
- 918495 string characters out of 6132704
+ 42211 strings out of 492995
+ 918514 string characters out of 6132703
  1610718 words of memory out of 5000000
- 44069 multiletter control sequences out of 15000+600000
+ 44074 multiletter control sequences out of 15000+600000
  62082 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,96p,10376b,1803s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2856,10 +3004,10 @@ onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/courier/ucrr8a.pfb>
-Output written on tese.pdf (46 pages, 1392679 bytes).
+Output written on tese.pdf (47 pages, 1393654 bytes).
 PDF statistics:
- 1526 PDF objects out of 1728 (max. 8388607)
- 1421 compressed objects within 15 object streams
- 876 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1546 PDF objects out of 1728 (max. 8388607)
+ 1440 compressed objects within 15 object streams
+ 880 named destinations out of 1000 (max. 500000)
+ 407 words of extra memory for PDF output out of 10000 (max. 10000000)
 

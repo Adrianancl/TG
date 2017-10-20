@@ -1,4 +1,4 @@
-PWD /Users/Nunes/TG/Latex
+PWD /Users/adriana/Workspace/TG
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -539,8 +539,6 @@ INPUT Cap2/InfraRed/exinfrared.png
 INPUT ./Cap2/InfraRed/exinfrared.png
 INPUT ./Cap2/InfraRed/exinfrared.png
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT Cap2/TempModel/tempmodel.tex
-INPUT Cap2/TempModel/tempmodel.tex
 INPUT Cap2/ImgPro/imgpro.tex
 INPUT Cap2/ImgPro/imgpro.tex
 INPUT Cap3/cap3.tex
@@ -551,6 +549,12 @@ INPUT ./Cap3/exsetup.png
 INPUT Cap3/tabexpset.png
 INPUT ./Cap3/tabexpset.png
 INPUT ./Cap3/tabexpset.png
+INPUT Cap4/ToolHeat.png
+INPUT ./Cap4/ToolHeat.png
+INPUT ./Cap4/ToolHeat.png
+INPUT Cap4/energyChip.png
+INPUT ./Cap4/energyChip.png
+INPUT ./Cap4/energyChip.png
 INPUT Cap4/cap4.tex
 INPUT Cap4/cap4.tex
 INPUT Cap4/TempDist.jpg
@@ -579,12 +583,6 @@ INPUT ApeA/TemperatureAnalyze.m
 INPUT ApeA/TemperatureAnalyze.m
 INPUT ApeA/TemperatureAnalyze.m
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
-INPUT Cap4/ToolHeat.png
-INPUT ./Cap4/ToolHeat.png
-INPUT ./Cap4/ToolHeat.png
-INPUT Cap4/energyChip.png
-INPUT ./Cap4/energyChip.png
-INPUT ./Cap4/energyChip.png
 INPUT Cap5/cap5.tex
 INPUT Cap5/cap5.tex
 INPUT Cap6/cap6.tex

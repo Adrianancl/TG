@@ -100,45 +100,11 @@ C(k) =  [level x(1) x(2)...
 
 	\subsection{Heat flows - Chip and Tool}
 	\label{heatflows}
-
-	The methods used in this paper to calculate heat flow through the tool and the energy carried away by chip are based on \cite{boothroyd1963temperatures}.
-
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.75]{Cap4/ToolHeat.png}
-		\caption{Heat flow through tool}
-		\label{fig:heattool}
-	\end{figure}
-
-	Besides the temperature matrix, it is necessary to calculate heat flow through tool the heat conductivity, the length of the chosen isothermal, the temperature gradient normal to this isothermal and the width of the tool. The calculation is given by the following equation:
-
-	\begin{equation} 
-	\label{eq_heattool}
-		\dot{Q}_{T} = kL\frac{d\theta}{dz}w
-	\end{equation}
-
-	For the energy carried away by the chip when it flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{c}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{f}$, the chip thickness $t_{c}$ and the chip width $w$.
-
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.75]{Cap4/energyChip.png}
-		\caption{Thermal energy carried away by chip}
-		\label{fig:energychip}
-	\end{figure}
-
-	The equation for this energy is represented below:
-
-	\begin{equation} 
-	\label{eq_energychip}
-		\dot{Q}_{T}^{out} = c_{p}(T_{c}^{out})(T_{c}^{out} - T_{e})v_{f}t_{c}w
-	\end{equation}
-
-	That way, having the location and the temperature of each pixel related to the isotherms and the line of end of contact chip - tool, the math necessary to perform these equations is simple, providing reliable outcomes.
+	As described on section \ref{methods}, the heat flow through tool and the energy carried away by chip are calculated. For heat flow through the tool, it is possible to extract isothermal lines by means of contour command and to calculate the gradient of temperatures, which already is normal to the isothermal lines due to its properties, with grandient command. The width is already known \ref{sec:exSetup}. The length of the chosen isotherm is done by counting the amount of pixels, provided by the coordinates in contour plot, and turned into milimeter with the scale factor afterwards.
+	In the case of the energy carried away by chip, the chosen line is placed on the end of contact chip - tool. The explanation for it is that all the heat source in the friction zone is located before this line, in other words there is no other heat source after this line that could provide more thermal energy to be carried away by chip.		
 
 		\subsubsection{Heat partitions}
-		Having the results of the subsection \ref{heatflows}, these values can be combined with the total power ($P$) generated during the cutting process to calculate the energy that goes to the workpiece by means of energy balance (the temperature of the workpiece are lower than 200 $^{o}C$, which does not reach the minimum value of the range of measurement 200 - 900 $^{o}C$).
+		Having the results of the subsection \ref{methods}, these values can be combined with the total power ($P$) generated during the cutting process to calculate the energy that goes to the workpiece by means of energy balance (the temperature of the workpiece are lower than 200 $^{o}C$, which does not reach the minimum value of the range of measurement 200 - 900 $^{o}C$).
 		It is estimated that $10\%$ of the deformation energy generated in the primary shear zone ($\dot{Q}_{shear}$) is converted into heat (CITAR FONTE AQUI). Then, the energy balance of the control volume will provide:
 
 		\begin{equation} 
