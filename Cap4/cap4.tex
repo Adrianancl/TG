@@ -59,7 +59,7 @@
 
 	\lstinputlisting[firstline=223,lastline=257]{ApeA/TemperatureAnalyze.m}
 
-	Since the rake angle is $6^{o}$ and the clearance is $3^{o}$ ranges of [81:85] and [2:5] were given to each respectively, as it is seen on lines 4 and 20. Concerning about the rake angle, the range of angles is given by the complementar(?) angles due to its reference in hough method. In this way, it taken the first 10 highlighted points in the accumulation matrix of hough process, which means the most reasonable points that may represent the edge lines.
+	Since the rake angle is $6^{o}$ and the clearance is $3^{o}$ ranges of [81:85] and [2:5] were given to each respectively, as it is seen on lines 4 and 20. Concerning about the rake angle, the range of angles is given by the complementary angles due to its reference in hough method. In this way, it taken the first 10 highlighted points in the accumulation matrix of hough process, which means the most reasonable points that may represent the edge lines.
 
 	The fixed position of tool allows also the predetermination of the $\rho$ parameter, which is distance of the detected lines from the reference. This is also seen on lines 14 and 30 as boundary conditions to determine the right edge lines. The outputs of this function are the endings coordinates of the detected line and also the angle os the corresponding angular coefficient. 
 
@@ -89,12 +89,11 @@
 
 		\begin{mdframed}[backgroundcolor=lightgray!25!]
 		\begin{alltt}\fontsize{9pt}{8pt}\fontfamily{pcr}\selectfont
-C = 	[C(1) C(2) C(3) ...C(k)... C(N)]
-C(k) =  [level x(1) x(2)...
-		 numxy y(1) y(2)...]
+		C =     [C(1) C(2) C(3) ...C(k)... C(N)]
+		C(k) =  [level x(1) x(2)...
+		         numxy y(1) y(2)...]
 		\end{alltt}
 		\end{mdframed}
-	Ver como usar isso direito
 	
 	For each matrix C(k), level shows which temperature it is representing and numxy is the amount of coordinates used to build the level. Tha coordinates are represented in the pair (x,y).
 
@@ -109,7 +108,7 @@ C(k) =  [level x(1) x(2)...
 
 		\begin{equation} 
 		\label{eq_energybalance}
-		\dot{Q}_{W} = P - \dot{Q}_{T} - \dot{Q}_{c}^{out} - \dot{Q}_{shear}
+		\dot{Q}_{W} = P - \dot{Q}_{T} - \dot{Q}_{C}^{out} - \dot{Q}_{shear}
 		\end{equation}
 
 		Therefore, knowing all the values concerning about thermal energy dissipated through tool, chip and workpiece it is possible to calculate the heat partition relative to each zone of interest.
@@ -119,7 +118,7 @@ C(k) =  [level x(1) x(2)...
 		p_{i} = \frac{\dot{Q}_{i}}{P}
 		\end{equation}
 
-		Which the index i is related to c (chip), w (workpiece) and T (tool).
+		Which the index i is related to C (chip), W (workpiece) and T (tool).
 	
 % 	\begin{mdframed}[backgroundcolor=lightgray!25!]
 % 		\begin{alltt}\fontsize{9pt}{8pt}\fontfamily{pcr}\selectfont

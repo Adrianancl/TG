@@ -8,8 +8,10 @@
 \contentsline {section}{\numberline {2.1}Infrared Termography}{19}{section.2.1}
 \contentsline {section}{\numberline {2.2}Image Processing}{20}{section.2.2}
 \contentsline {chapter}{\numberline {3}Materials and Methods}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Experimental Setup}{21}{section.3.1}
+\contentsline {section}{\numberline {3.1}Experimental Setup and Materials}{21}{section.3.1}
 \contentsline {section}{\numberline {3.2}Methods}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Thermal enegy - chip and tool}{23}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Volume control}{24}{subsection.3.2.2}
 \contentsline {chapter}{\numberline {4}Code Implementation}{25}{chapter.4}
 \contentsline {section}{\numberline {4.1}MATLAB environment}{25}{section.4.1}
 \contentsline {section}{\numberline {4.2}Auxiliar functions}{26}{section.4.2}
