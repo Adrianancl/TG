@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.20)  20 OCT 2017 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.20)  21 OCT 2017 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1423,7 +1423,7 @@ your preamble.
 
 \c@lstlisting=\count297
 Package hyperref Info: Anchor `cover.0' on input line 169.
-<Cap0/ita_logo.jpg, id=187, 612.3678pt x 234.8775pt>
+<Cap0/ita_logo.jpg, id=191, 612.3678pt x 234.8775pt>
 File: Cap0/ita_logo.jpg Graphic file (type jpg)
  <use Cap0/ita_logo.jpg>
 Package pdftex.def Info: Cap0/ita_logo.jpg used on input line 169.
@@ -1637,20 +1637,20 @@ Package hyperref Info: Reference (link) `section.3.1' on input line 11.
 Package hyperref Info: Reference (link) `section.3.2' on input line 12.
 Package hyperref Info: Reference (link) `subsection.3.2.1' on input line 13.
 Package hyperref Info: Reference (link) `subsection.3.2.2' on input line 14.
+Package hyperref Info: Reference (link) `subsection.3.2.3' on input line 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.4' on input line 15.
-Package hyperref Info: Reference (link) `section.4.1' on input line 16.
-Package hyperref Info: Reference (link) `section.4.2' on input line 17.
-Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 18.
-Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 19.
-Package hyperref Info: Reference (link) `section.4.3' on input line 20.
-Package hyperref Info: Reference (link) `subsection.4.3.1' on input line 21.
-Package hyperref Info: Reference (link) `subsection.4.3.2' on input line 22.
-Package hyperref Info: Reference (link) `subsection.4.3.3' on input line 25.
+Package hyperref Info: Reference (link) `chapter.4' on input line 16.
+Package hyperref Info: Reference (link) `section.4.1' on input line 17.
+Package hyperref Info: Reference (link) `section.4.2' on input line 18.
+Package hyperref Info: Reference (link) `subsection.4.2.1' on input line 19.
+Package hyperref Info: Reference (link) `subsection.4.2.2' on input line 20.
+Package hyperref Info: Reference (link) `section.4.3' on input line 21.
+Package hyperref Info: Reference (link) `subsection.4.3.1' on input line 22.
+Package hyperref Info: Reference (link) `subsection.4.3.2' on input line 23.
 Package hyperref Info: Anchor `page.xiii' on input line 26.
 [13
 
@@ -1667,63 +1667,65 @@ Package `hyperref' Info: End of reference (link) `section.3.1', line 11.
 Package `hyperref' Info: End of reference (link) `section.3.2', line 12.
 Package `hyperref' Info: End of reference (link) `subsection.3.2.1', line 13.
 Package `hyperref' Info: End of reference (link) `subsection.3.2.2', line 14.
-Package `hyperref' Info: End of reference (link) `chapter.4', line 15.
-Package `hyperref' Info: End of reference (link) `section.4.1', line 16.
-Package `hyperref' Info: End of reference (link) `section.4.2', line 17.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 18.
-Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 19.
-Package `hyperref' Info: End of reference (link) `section.4.3', line 20.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.1', line 21.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.2', line 22.
+Package `hyperref' Info: End of reference (link) `subsection.3.2.3', line 15.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 16.
+Package `hyperref' Info: End of reference (link) `section.4.1', line 17.
+Package `hyperref' Info: End of reference (link) `section.4.2', line 18.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.1', line 19.
+Package `hyperref' Info: End of reference (link) `subsection.4.2.2', line 20.
+Package `hyperref' Info: End of reference (link) `section.4.3', line 21.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.1', line 22.
 ]
-Package hyperref Info: Reference (link) `subsection.4.3.4' on input line 26.
-Package hyperref Info: Reference (link) `subsection.4.3.5' on input line 27.
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
- []  
- []
-
-Package hyperref Info: Reference (link) `chapter.5' on input line 29.
+Package hyperref Info: Reference (link) `subsection.4.3.3' on input line 26.
+Package hyperref Info: Reference (link) `subsection.4.3.4' on input line 27.
+Package hyperref Info: Reference (link) `subsection.4.3.5' on input line 28.
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--30
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.6' on input line 30.
+Package hyperref Info: Reference (link) `chapter.5' on input line 30.
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
  []  
  []
 
-Package hyperref Info: Reference (link) `chapter.7' on input line 31.
+Package hyperref Info: Reference (link) `chapter.6' on input line 31.
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
  []  
  []
 
-Package hyperref Info: Reference (link) `appendix.A' on input line 33.
-Package hyperref Info: Reference (link) `section.A.1' on input line 34.
+Package hyperref Info: Reference (link) `chapter.7' on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
  []  
  []
 
-Package hyperref Info: Reference (link) `appendix.B' on input line 35.
+Package hyperref Info: Reference (link) `appendix.A' on input line 34.
+Package hyperref Info: Reference (link) `section.A.1' on input line 35.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+ []  
+ []
+
+Package hyperref Info: Reference (link) `appendix.B' on input line 36.
 )
 \tf@toc=\write10
 \openout10 = `tese.toc'.
 
 Package hyperref Info: Anchor `page.xiv' on input line 221.
  [14
-Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 25.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.4', line 26.
-Package `hyperref' Info: End of reference (link) `subsection.4.3.5', line 27.
-Package `hyperref' Info: End of reference (link) `chapter.5', line 29.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 30.
-Package `hyperref' Info: End of reference (link) `chapter.7', line 31.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 33.
-Package `hyperref' Info: End of reference (link) `section.A.1', line 34.
-Package `hyperref' Info: End of reference (link) `appendix.B', line 35.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.2', line 23.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.3', line 26.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.4', line 27.
+Package `hyperref' Info: End of reference (link) `subsection.4.3.5', line 28.
+Package `hyperref' Info: End of reference (link) `chapter.5', line 30.
+Package `hyperref' Info: End of reference (link) `chapter.6', line 31.
+Package `hyperref' Info: End of reference (link) `chapter.7', line 32.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 34.
+Package `hyperref' Info: End of reference (link) `section.A.1', line 35.
+Package `hyperref' Info: End of reference (link) `appendix.B', line 36.
 ]
 Package hyperref Info: Anchor `chapter.1' on input line 224.
 
@@ -1742,34 +1744,28 @@ Package hyperref Info: Reference (cite) `cite.komanduri2001thermal' on input li
 ne 3.
 Package hyperref Info: Anchor `section.1.1' on input line 5.
 
-pdftex: bookmark at 5: {1.1} {\numberline{1.1}Principles of metal cutting} {sec
-tion.1.1}{1}{toc}
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 6.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 6.
-Package hyperref Info: Anchor `section.1.2' on input line 8.
-pdftex: bookmark at 8: {1.2} {\numberline{1.2}Mechanics of orthogonal cutting} 
-{section.1.2}{1}{toc}
-Package hyperref Info: Reference (link) `figure.caption.9' on input line 10.
-Package hyperref Info: Anchor `figure.caption.9' on input line 12.
-<Cap1/circlec.png, id=340, 628.3475pt x 477.785pt>
+pdftex: bookmark at 5: {1.1} {\numberline{1.1}Overview of metal cutting} {secti
+on.1.1}{1}{toc}
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 7.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 7.
+Package hyperref Info: Anchor `section.1.2' on input line 12.
+pdftex: bookmark at 12: {1.2} {\numberline{1.2}Mechanics of orthogonal cutting}
+ {section.1.2}{1}{toc}
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 14.
+Package hyperref Info: Anchor `figure.caption.9' on input line 16.
+<Cap1/circlec.png, id=345, 628.3475pt x 477.785pt>
 File: Cap1/circlec.png Graphic file (type png)
  <use Cap1/circlec.png>
-Package pdftex.def Info: Cap1/circlec.png used on input line 15.
+Package pdftex.def Info: Cap1/circlec.png used on input line 19.
 (pdftex.def)             Requested size: 314.17297pt x 238.8919pt.
 
-pdftex: bookmark at 16: {1.1} {\numberline{1.1}{\ignorespaces Cutting forces \c
+pdftex: bookmark at 20: {1.1} {\numberline{1.1}{\ignorespaces Cutting forces \c
 ite {shaw2005metal}\relax }} {figure.caption.9}{0}{lof}
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
-Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 16.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-Package hyperref Info: Reference (link) `figure.caption.9' on input line 20.
-Package hyperref Info: Anchor `equation.1.2.1' on input line 22.
-Package hyperref Info: Anchor `equation.1.2.2' on input line 26.
-Package hyperref Info: Anchor `page.15' on input line 29.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 20.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 20.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 20.
+Package hyperref Info: Reference (cite) `cite.shaw2005metal' on input line 20.
+Package hyperref Info: Anchor `page.15' on input line 22.
 [15
 
 
@@ -1783,54 +1779,56 @@ Package `hyperref' Info: End of reference (cite) `cite.komanduri2001thermal', l
 ine 3.
 Package `hyperref' Info: End of reference (cite) `cite.komanduri2001thermal', l
 ine 3.
-Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 6.
-Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 6.
-Package `hyperref' Info: End of reference (link) `figure.caption.9', line 10.
-Package `hyperref' Info: End of reference (link) `figure.caption.9', line 20.
+Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 7.
+Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 7.
 ]
-Package hyperref Info: Anchor `equation.1.2.3' on input line 33.
-Package hyperref Info: Anchor `equation.1.2.4' on input line 37.
-Package hyperref Info: Anchor `equation.1.2.5' on input line 44.
-Package hyperref Info: Anchor `equation.1.2.6' on input line 51.
-Package hyperref Info: Anchor `equation.1.2.7' on input line 56.
-Package hyperref Info: Anchor `equation.1.2.8' on input line 61.
-Package hyperref Info: Anchor `page.16' on input line 64.
+Package hyperref Info: Reference (link) `figure.caption.9' on input line 24.
+Package hyperref Info: Anchor `equation.1.2.1' on input line 26.
+Package hyperref Info: Anchor `equation.1.2.2' on input line 30.
+Package hyperref Info: Anchor `equation.1.2.3' on input line 37.
+Package hyperref Info: Anchor `equation.1.2.4' on input line 41.
+Package hyperref Info: Anchor `equation.1.2.5' on input line 48.
+Package hyperref Info: Anchor `equation.1.2.6' on input line 55.
+Package hyperref Info: Anchor `page.16' on input line 58.
  [16
-Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 16.
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 14.
+Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 20.
 
-Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 16.
+Package `hyperref' Info: End of reference (cite) `cite.shaw2005metal', line 20.
 
+Package `hyperref' Info: End of reference (link) `figure.caption.9', line 24.
  <./Cap1/circlec.png>]
-Package hyperref Info: Anchor `equation.1.2.9' on input line 70.
-Package hyperref Info: Anchor `equation.1.2.10' on input line 77.
-Package hyperref Info: Anchor `equation.1.2.11' on input line 84.
-Package hyperref Info: Anchor `section.1.3' on input line 89.
+Package hyperref Info: Anchor `equation.1.2.7' on input line 60.
+Package hyperref Info: Anchor `equation.1.2.8' on input line 65.
+Package hyperref Info: Anchor `equation.1.2.9' on input line 74.
+Package hyperref Info: Anchor `equation.1.2.10' on input line 81.
+Package hyperref Info: Anchor `equation.1.2.11' on input line 88.
+Package hyperref Info: Anchor `section.1.3' on input line 93.
 
-pdftex: bookmark at 89: {1.3} {\numberline{1.3}Objective} {section.1.3}{1}{toc}
+pdftex: bookmark at 93: {1.3} {\numberline{1.3}Objective} {section.1.3}{1}{toc}
 
-Package hyperref Info: Anchor `section.1.4' on input line 93.
-pdftex: bookmark at 93: {1.4} {\numberline{1.4}Structure} {section.1.4}{1}{toc}
+Package hyperref Info: Anchor `section.1.4' on input line 97.
+pdftex: bookmark at 97: {1.4} {\numberline{1.4}Structure} {section.1.4}{1}{toc}
 
-Package hyperref Info: Reference (link) `chapter.1' on input line 95.
-Package hyperref Info: Reference (link) `chapter.2' on input line 97.
-Package hyperref Info: Reference (link) `chapter.3' on input line 99.
-Package hyperref Info: Reference (link) `chapter.4' on input line 101.
-Package hyperref Info: Anchor `page.17' on input line 102.
-[17
-Package `hyperref' Info: End of reference (link) `chapter.1', line 95.
-Package `hyperref' Info: End of reference (link) `chapter.2', line 97.
-Package `hyperref' Info: End of reference (link) `chapter.3', line 99.
-]
-Package hyperref Info: Reference (link) `chapter.5' on input line 103.
-Package hyperref Info: Reference (link) `chapter.6' on input line 105.
-Package hyperref Info: Reference (link) `appendix.A' on input line 107.
+Package hyperref Info: Reference (link) `chapter.1' on input line 99.
+Package hyperref Info: Anchor `page.17' on input line 101.
+[17]
+Package hyperref Info: Reference (link) `chapter.2' on input line 101.
+Package hyperref Info: Reference (link) `chapter.3' on input line 103.
+Package hyperref Info: Reference (link) `chapter.4' on input line 105.
+Package hyperref Info: Reference (link) `chapter.5' on input line 107.
+Package hyperref Info: Reference (link) `chapter.6' on input line 109.
+Package hyperref Info: Reference (link) `appendix.A' on input line 111.
 )
 Package hyperref Info: Anchor `page.18' on input line 228.
  [18
-Package `hyperref' Info: End of reference (link) `chapter.4', line 101.
-Package `hyperref' Info: End of reference (link) `chapter.5', line 103.
-Package `hyperref' Info: End of reference (link) `chapter.6', line 105.
-Package `hyperref' Info: End of reference (link) `appendix.A', line 107.
+Package `hyperref' Info: End of reference (link) `chapter.1', line 99.
+Package `hyperref' Info: End of reference (link) `chapter.2', line 101.
+Package `hyperref' Info: End of reference (link) `chapter.3', line 103.
+Package `hyperref' Info: End of reference (link) `chapter.4', line 105.
+Package `hyperref' Info: End of reference (link) `chapter.5', line 107.
+Package `hyperref' Info: End of reference (link) `chapter.6', line 109.
+Package `hyperref' Info: End of reference (link) `appendix.A', line 111.
 ]
 Package hyperref Info: Anchor `chapter.2' on input line 228.
 
@@ -1845,7 +1843,7 @@ pdftex: bookmark at 1: {2.1} {\numberline{2.1}Infrared Termography} {section.2.
 (./Cap2/Infrared/infrared.tex
 Package hyperref Info: Anchor `figure.caption.10' on input line 3.
 
-<Cap2/InfraRed/exinfrared.png, id=388, 390.45876pt x 255.95625pt>
+<Cap2/InfraRed/exinfrared.png, id=393, 390.45876pt x 255.95625pt>
 File: Cap2/InfraRed/exinfrared.png Graphic file (type png)
 
 <use Cap2/InfraRed/exinfrared.png>
@@ -1903,7 +1901,7 @@ Package hyperref Info: Anchor `section.3.1' on input line 1.
 pdftex: bookmark at 1: {3.1} {\numberline{3.1}Experimental Setup and Materials}
  {section.3.1}{1}{toc}
 Package hyperref Info: Anchor `figure.caption.11' on input line 6.
-<Cap3/exsetup.png, id=406, 557.08125pt x 397.485pt>
+<Cap3/exsetup.png, id=411, 557.08125pt x 397.485pt>
 File: Cap3/exsetup.png Graphic file (type png)
  <use Cap3/exsetup.png>
 Package pdftex.def Info: Cap3/exsetup.png used on input line 9.
@@ -1927,75 +1925,83 @@ al', line 10.
 Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
 al', line 10.
  <./Cap3/exsetup.png>]
-Package hyperref Info: Reference (link) `table.caption.12' on input line 23.
-Package hyperref Info: Anchor `table.caption.12' on input line 25.
+Package hyperref Info: Reference (link) `equation.3.2.1' on input line 18.
+Package hyperref Info: Reference (link) `table.caption.12' on input line 20.
+Package hyperref Info: Anchor `table.caption.12' on input line 23.
 
-<Cap3/tabexpset.png, id=417, 748.7172pt x 400.3758pt>
+<Cap3/tabexpset.png, id=423, 748.7172pt x 400.3758pt>
 File: Cap3/tabexpset.png Graphic file (type png)
  <use Cap3/tabexpset.png>
-Package pdftex.def Info: Cap3/tabexpset.png used on input line 28.
+Package pdftex.def Info: Cap3/tabexpset.png used on input line 26.
 (pdftex.def)             Requested size: 449.23378pt x 240.22731pt.
 
-pdftex: bookmark at 29: {3.1} {\numberline{3.1}{\ignorespaces Design of experim
+pdftex: bookmark at 27: {3.1} {\numberline{3.1}{\ignorespaces Design of experim
 ents \cite {augspurger2016experimental}\relax }} {table.caption.12}{0}{lot}
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 29.
+put line 27.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 29.
+put line 27.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 29.
+put line 27.
 Package hyperref Info: Reference (cite) `cite.augspurger2016experimental' on in
-put line 29.
-Package hyperref Info: Anchor `section.3.2' on input line 36.
-pdftex: bookmark at 36: {3.2} {\numberline{3.2}Methods} {section.3.2}{1}{toc}
-Package hyperref Info: Anchor `subsection.3.2.1' on input line 39.
-pdftex: bookmark at 39: {3.2.1} {\numberline{3.2.1}Thermal enegy - chip and too
-l} {subsection.3.2.1}{2}{toc}
+put line 27.
+Package hyperref Info: Anchor `section.3.2' on input line 34.
+pdftex: bookmark at 34: {3.2} {\numberline{3.2}Methods} {section.3.2}{1}{toc}
+Package hyperref Info: Anchor `subsection.3.2.1' on input line 37.
+pdftex: bookmark at 37: {3.2.1} {\numberline{3.2.1}Power calculation} {subsecti
+on.3.2.1}{2}{toc}
+Package hyperref Info: Reference (link) `equation.3.2.1' on input line 38.
+Package hyperref Info: Anchor `equation.3.2.1' on input line 40.
+Package hyperref Info: Anchor `page.22' on input line 43.
+[22
+Package `hyperref' Info: End of reference (link) `equation.3.2.1', line 18.
+Package `hyperref' Info: End of reference (link) `table.caption.12', line 20.
+Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
+al', line 27.
+Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
+al', line 27.
+ <./Cap3/tabexpset.png>]
+Package hyperref Info: Anchor `subsection.3.2.2' on input line 45.
+
+pdftex: bookmark at 45: {3.2.2} {\numberline{3.2.2}Thermal enegy - chip and too
+l} {subsection.3.2.2}{2}{toc}
 Package hyperref Info: Reference (cite) `cite.boothroyd1963temperatures' on inp
-ut line 40.
+ut line 46.
 Package hyperref Info: Reference (cite) `cite.boothroyd1963temperatures' on inp
-ut line 40.
-Package hyperref Info: Anchor `figure.caption.13' on input line 42.
-<Cap4/ToolHeat.png, id=424, 277.5168pt x 347.8596pt>
+ut line 46.
+Package hyperref Info: Anchor `figure.caption.13' on input line 48.
+<Cap4/ToolHeat.png, id=437, 277.5168pt x 347.8596pt>
 File: Cap4/ToolHeat.png Graphic file (type png)
  <use Cap4/ToolHeat.png>
-Package pdftex.def Info: Cap4/ToolHeat.png used on input line 45.
+Package pdftex.def Info: Cap4/ToolHeat.png used on input line 51.
 (pdftex.def)             Requested size: 208.13708pt x 260.89406pt.
 
-pdftex: bookmark at 46: {3.2} {\numberline{3.2}{\ignorespaces Heat flow through
+pdftex: bookmark at 52: {3.2} {\numberline{3.2}{\ignorespaces Heat flow through
  tool\relax }} {figure.caption.13}{0}{lof}
-Package hyperref Info: Anchor `page.22' on input line 48.
-[22
-Package `hyperref' Info: End of reference (link) `table.caption.12', line 23.
-Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
-al', line 29.
-Package `hyperref' Info: End of reference (cite) `cite.augspurger2016experiment
-al', line 29.
- <./Cap3/tabexpset.png>]
-Package hyperref Info: Anchor `equation.3.2.1' on input line 52.
-Package hyperref Info: Anchor `figure.caption.14' on input line 59.
+Package hyperref Info: Anchor `equation.3.2.2' on input line 58.
+Package hyperref Info: Anchor `page.23' on input line 64.
+[23
+Package `hyperref' Info: End of reference (link) `equation.3.2.1', line 38.
+Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
+s', line 46.
+Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
+s', line 46.
+ <./Cap4/ToolHeat.png>]
+Package hyperref Info: Anchor `figure.caption.14' on input line 65.
 
-<Cap4/energyChip.png, id=430, 378.213pt x 297.2706pt>
+<Cap4/energyChip.png, id=446, 378.213pt x 297.2706pt>
 File: Cap4/energyChip.png Graphic file (type png)
 
 <use Cap4/energyChip.png>
-Package pdftex.def Info: Cap4/energyChip.png used on input line 62.
+Package pdftex.def Info: Cap4/energyChip.png used on input line 68.
 (pdftex.def)             Requested size: 283.65904pt x 222.9524pt.
 
-pdftex: bookmark at 63: {3.3} {\numberline{3.3}{\ignorespaces Thermal energy ca
+pdftex: bookmark at 69: {3.3} {\numberline{3.3}{\ignorespaces Thermal energy ca
 rried away by chip\relax }} {figure.caption.14}{0}{lof}
-Package hyperref Info: Anchor `page.23' on input line 66.
-[23
-Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
-s', line 40.
-Package `hyperref' Info: End of reference (cite) `cite.boothroyd1963temperature
-s', line 40.
- <./Cap4/ToolHeat.png>]
-Package hyperref Info: Anchor `equation.3.2.2' on input line 69.
-Package hyperref Info: Anchor `subsection.3.2.2' on input line 76.
-
-pdftex: bookmark at 76: {3.2.2} {\numberline{3.2.2}Volume control} {subsection.
-3.2.2}{2}{toc}
+Package hyperref Info: Anchor `equation.3.2.3' on input line 75.
+Package hyperref Info: Anchor `subsection.3.2.3' on input line 82.
+pdftex: bookmark at 82: {3.2.3} {\numberline{3.2.3}Volume control} {subsection.
+3.2.3}{2}{toc}
 )
 Package hyperref Info: Anchor `page.24' on input line 236.
  [24 <./Cap4/energyChip.png>]
@@ -2011,7 +2017,7 @@ pdftex: bookmark at 1: {4.1} {\numberline{4.1}MATLAB environment} {section.4.1}
 {1}{toc}
 Package hyperref Info: Reference (link) `chapter.3' on input line 2.
 Package hyperref Info: Anchor `figure.caption.15' on input line 4.
-<Cap4/TempDist.jpg, id=447, 562.1pt x 421.575pt>
+<Cap4/TempDist.jpg, id=455, 562.1pt x 421.575pt>
 File: Cap4/TempDist.jpg Graphic file (type jpg)
  <use Cap4/TempDist.jpg>
 Package pdftex.def Info: Cap4/TempDist.jpg used on input line 7.
@@ -2034,7 +2040,7 @@ Package hyperref Info: Anchor `subsection.4.2.1' on input line 22.
 pdftex: bookmark at 22: {4.2.1} {\numberline{4.2.1}Contour plot} {subsection.4.
 2.1}{2}{toc}
 Package hyperref Info: Anchor `figure.caption.16' on input line 26.
-<Cap4/contour.jpg, id=453, 562.1pt x 421.575pt>
+<Cap4/contour.jpg, id=461, 562.1pt x 421.575pt>
 File: Cap4/contour.jpg Graphic file (type jpg)
  <use Cap4/contour.jpg>
 Package pdftex.def Info: Cap4/contour.jpg used on input line 29.
@@ -2050,7 +2056,7 @@ Package hyperref Info: Reference (cite) `cite.duda1972use' on input line 36.
 Package hyperref Info: Anchor `page.26' on input line 37.
 [26 <./Cap4/contour.jpg>]
 Package hyperref Info: Anchor `figure.caption.17' on input line 40.
- <Cap4/imgset.jpg, id=460, 279.0425pt x 285.065pt>
+ <Cap4/imgset.jpg, id=468, 279.0425pt x 285.065pt>
 File: Cap4/imgset.jpg Graphic file (type jpg)
 
 <use Cap4/imgset.jpg>
@@ -2980,7 +2986,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
 Package rerunfilecheck Info: File `tese.out' has not changed.
-(rerunfilecheck)             Checksum: D42DB57E5A7FFF28AA2F4D470C8E50EB;2753.
+(rerunfilecheck)             Checksum: B57DFB4076FA669524F61A411EEB54C9;2827.
 Package rerunfilecheck Info: File `tese.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2993,10 +2999,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 42215 strings out of 492995
- 918582 string characters out of 6132703
+ 42220 strings out of 492995
+ 918649 string characters out of 6132703
  1610718 words of memory out of 5000000
- 44076 multiletter control sequences out of 15000+600000
+ 44079 multiletter control sequences out of 15000+600000
  62082 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,96p,10376b,1805s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3020,10 +3026,10 @@ onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/font
 s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/courier/ucrr8a.pfb>
-Output written on tese.pdf (47 pages, 1397932 bytes).
+Output written on tese.pdf (47 pages, 1399987 bytes).
 PDF statistics:
- 1559 PDF objects out of 1728 (max. 8388607)
- 1453 compressed objects within 15 object streams
- 882 named destinations out of 1000 (max. 500000)
- 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1568 PDF objects out of 1728 (max. 8388607)
+ 1462 compressed objects within 15 object streams
+ 884 named destinations out of 1000 (max. 500000)
+ 431 words of extra memory for PDF output out of 10000 (max. 10000000)
 

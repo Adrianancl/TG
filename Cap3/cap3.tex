@@ -13,16 +13,14 @@
 
 	An important factor for a reliable temperature measurement is the correct choice of the components emissivity. To make it easier, the tool was coated with a black ink, allowing the emissivity valuation for this case, which provided a value of $\epsilon = 0.85$. For the chip case, it was evaluated in its temperature range $\epsilon = 0.4$. It is also important to highlight the camera settings, factors as integration time and filters are essential to determine a reliable measurements due to the amount of eletromagnetic radiation received on camera's sensors. The higher are the temperatures higher is the energy produced, then smaller should be the integration time, which is the time that sensor of energy receives radiation and converts into temperature afterwards. These configurations allowed measurements in a range from 200 $^{o}$C until 900 $^{o}$C.
 	
-	The tool material was uncoated carbide insert (Sandvik H13A), with rake angle 6$^{o}$, clearance angle 3$^{o}$, cutting radius r$_{\beta}$ < 5$\mu$m and width 4.4 mm. The workpiece material was AISI 1045 normalized and its dimensions were 3.5 x 200 x 80 mm (width, lengh, heigth respectively). For the given range of temperature, the thermal conductivity was estimated in $k = 75.4 W/mK$ and for tool heat capaciy was built a regression function ($c(T)$) for corresponding temperature and heat capacity [$J/kgK$] (FAZER TABELA DE REFERENCIA E CITAR).
+	The tool material was uncoated carbide insert (Sandvik H13A), with rake angle 6$^{o}$, clearance angle 3$^{o}$, cutting radius r$_{\beta}$ < 5$\mu$m and width 4.4 mm. The workpiece material was AISI 1045 normalized and its dimensions were 3.5 x 200 x 80 mm (width, lengh, heigth respectively). For the given range of temperature, the thermal conductivity was estimated in $k = 75.4 W/mK$ and for tool heat capaciy was built a regression function ($c(T)$) for corresponding temperature and heat capacity REFERENCIA.
 	
-	For force acquisition during the process, it was used a three-component piezoelectric force platform, determining the cutting force and passive force. Since the cutting process is carried out in a linear and constant motion, it is possible to determine the overall power $P$ with velocity and cutting force.
+	For force acquisition during the process, it was used a three-component piezoelectric force platform, determining the cutting force and passive force. Since the cutting process is carried out in a linear and constant motion, it is possible to determine the overall power $P$ with velocity and cutting force. From the values obtained of forces along the cutting process it was taken a mean value to be used on power calculation afterwards, equation \ref{eq_power}. 
 	
-	All the experiments were held without coolant, with velocities of 100 $m/min$ and 150 $m/min$ and a$_{p}$ = [0.2, 0.3, 0.4, 0.5] mm.
+	All the experiments were held without coolant, with velocities of 100 $m/min$ and 150 $m/min$ and a$_{p}$ = [0.2, 0.3, 0.4, 0.5] mm (table \ref{tab:design}).
 	The analysis method was built on MATLAB platform with the support of its image processing toolbox. This was the chosen software due the easy connection between FLIR software and MATLAB, since FLIR software can export its images to .mat format, which are indexed matrices prejected to MATLAB environment. Each pixel from the exported images contains information about position and its temperature.
 
-	The design of the experiments are listed on the table \ref{tab:design}:
-
-	\begin{table}[h]
+	\begin{table}[H]
 		\centering
 		\captionsetup{justification=centering}
 		\includegraphics[scale = 0.6]{Cap3/tabexpset.png}
@@ -35,6 +33,14 @@
 
 	\section{Methods}
 	\label{methods}
+	
+	\subsection{Power calculation}
+	This is a known simple method that is stated on the following equation \ref{eq_power}
+
+	\begin{equation} 
+	\label{eq_power}
+		P = F_{c}v_{c}
+	\end{equation}
 	
 	\subsection{Thermal enegy - chip and tool}
 	The methods used in this paper to calculate heat flow through the tool and the energy carried away by chip are based on \cite{boothroyd1963temperatures}.
