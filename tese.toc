@@ -13,24 +13,24 @@
 \contentsline {subsection}{\numberline {3.2.1}Power calculation}{23}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Thermal enegy - chip and tool}{23}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Volume control}{24}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Code Implementation}{25}{chapter.4}
-\contentsline {section}{\numberline {4.1}MATLAB environment}{25}{section.4.1}
-\contentsline {section}{\numberline {4.2}Auxiliar functions}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Contour plot}{26}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Hough lines transformation}{27}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Implementation steps}{27}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Overview}{27}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{28}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{29}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{29}{subsubsection.4.3.2.2}
-\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{29}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{29}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{30}{subsection.4.3.5}
-\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{30}{subsubsection.4.3.5.1}
+\contentsline {chapter}{\numberline {4}Code Implementation}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}MATLAB environment}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Auxiliar functions}{27}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Contour plot}{27}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Hough lines transformation}{28}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Implementation steps}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Overview}{28}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{29}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{30}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{30}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{30}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{30}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{31}{subsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{31}{subsubsection.4.3.5.1}
 \contentsline {chapter}{\numberline {5}Results}{32}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{33}{chapter.6}
-\contentsline {chapter}{Bibliography}{34}{chapter.7}
+\contentsline {chapter}{\numberline {6}Conclusion}{36}{chapter.6}
+\contentsline {chapter}{Bibliography}{37}{chapter.7}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Source Code}{35}{appendix.A}
-\contentsline {section}{\numberline {A.1}Temperature Analysis}{35}{section.A.1}
-\contentsline {chapter}{Glossary}{46}{appendix.B}
+\contentsline {chapter}{\numberline {A}Source Code}{38}{appendix.A}
+\contentsline {section}{\numberline {A.1}Temperature Analysis}{38}{section.A.1}
+\contentsline {chapter}{Glossary}{49}{appendix.B}

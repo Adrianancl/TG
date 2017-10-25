@@ -80,3 +80,27 @@
 	That way, having the location and the temperature of each pixel related to the isotherms and the line of end of contact chip - tool, the math necessary to perform these equations is simple, providing reliable outcomes.
 
 	\subsection{Volume control}
+
+	For matter of validation of the presented method and the lack of measurable temperatures on the workpiece surface, it was designed the control volume on figure \ref{fig:volControl}.
+
+	\begin{figure}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.7]{Imagens/volumeControl.png}
+		\caption{Control volume}
+		\label{fig:volControl}
+	\end{figure}
+
+	The shear energy used to raise the temperature of the heat zones is calculated by means of equation \ref{eq_shear}
+
+	\begin{equation} 
+	\label{eq_shear}
+	\dot{Q}_{shear} = F_{c}v_{c} - F_{p}v_{chip}
+	\end{equation}
+
+	It is estimated that $10\%$ of this energy generated in the primary shear zone ($\dot{Q}_{shear}$) is converted into heat and soon dissipated out the control volume(CITAR FONTE AQUI). Then, the energy balance of the control volume will provide:
+
+	\begin{equation} 
+	\label{eq_energybalance}
+	\dot{Q}_{W} = P - \dot{Q}_{T} - \dot{Q}_{C}^{out} - 0.1\dot{Q}_{shear}
+	\end{equation}
