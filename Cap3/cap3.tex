@@ -11,13 +11,13 @@
 		\label{fig:exinfrared}
 	\end{figure}
 
-	An important factor for a reliable temperature measurement is the correct choice of the components emissivity. To make it easier, the tool was coated with a black ink, allowing the emissivity valuation for this case, which provided a value of $\epsilon = 0.85$. For the chip case, it was evaluated in its temperature range $\epsilon = 0.4$. It is also important to highlight the camera settings, factors as integration time and filters are essential to determine a reliable measurements due to the amount of eletromagnetic radiation received on camera's sensors. The higher are the temperatures higher is the energy produced, then smaller should be the integration time, which is the time that sensor of energy receives radiation and converts into temperature afterwards. These configurations allowed measurements in a range from 200 $^{o}$C until 900 $^{o}$C.
+	An important factor for a reliable temperature measurement is the correct choice of the components emissivity. To make it easier, the tool was coated with a black ink, allowing the emissivity valuation for this case, which provided a value of $\epsilon = 0.85$. It is also important to highlight the camera settings, factors as integration time and filters are essential to determine a reliable measurements due to the amount of eletromagnetic radiation received on camera's sensors. The higher are the temperatures higher is the energy produced, then smaller should be the integration time, which is the time that sensor of energy receives radiation and converts into temperature afterwards. These configurations allowed measurements in a range from 200 $^{o}$C until 900 $^{o}$C.
 	
-	The tool material was uncoated carbide insert (Sandvik H13A), with rake angle 6$^{o}$, clearance angle 3$^{o}$, cutting radius r$_{\beta}$ < 5$\mu$m and width 4.4 mm. The workpiece material was AISI 1045 normalized and its dimensions were 3.5 x 200 x 80 mm (width, lengh, heigth respectively). For the given range of temperature, the thermal conductivity was estimated in $k = 75.4 W/mK$ and for tool heat capaciy was built a regression function ($c(T)$) for corresponding temperature and heat capacity REFERENCIA.
+	The tool material was uncoated carbide insert (Sandvik H13A), with rake angle 6$^{o}$, clearance angle 3$^{o}$, cutting radius r$_{\beta}$ < 5$\mu$m and width 4.4 mm. The workpiece material was AISI 1045 normalized and its dimensions were 3.5 x 200 x 80 mm (width, lengh, heigth respectively). For the given range of temperature, the thermal conductivity was estimated in $k = 75.4 W/mK$ and for tool heat capaciy was built a regression function ($c(T)$) for corresponding temperature and heat capacity (equations \ref{eq_heatCapTool} and \ref{eq_heatCapWork}).
 	
 	For force acquisition during the process, it was used a three-component piezoelectric force platform, determining the cutting force and passive force. Since the cutting process is carried out in a linear and constant motion, it is possible to determine the overall power $P$ with velocity and cutting force. From the values obtained of forces along the cutting process it was taken a mean value to be used on power calculation afterwards, equation \ref{eq_power}. 
 	
-	All the experiments were held without coolant, with velocities of 100 $m/min$ and 150 $m/min$ and a$_{p}$ = [0.2, 0.3, 0.4, 0.5] mm (table \ref{tab:design}).
+	All the experiments were held without coolant, with cutting velocities of 100 $m/min$ and 150 $m/min$ and a$_{p}$ = [0.2, 0.3, 0.4, 0.5] mm (table \ref{tab:design}).
 	The analysis method was built on MATLAB platform with the support of its image processing toolbox. This was the chosen software due the easy connection between FLIR software and MATLAB, since FLIR software can export its images to .mat format, which are indexed matrices prejected to MATLAB environment. Each pixel from the exported images contains information about position and its temperature.
 
 	\begin{table}[H]
@@ -27,9 +27,28 @@
 		\caption{Design of experiments \cite{augspurger2016experimental}}
 		\label{tab:design}
 	\end{table}
- 
-	% #fazer figura da ferramenta com dimensões e peça tbm
-	%fazer figura tool no flir e tool no matlab
+
+	As a machining process, the orthogonal cutting performance is subjected to many parameter like material of workpiece, shape of tool, depth of cut and others. Because of it, the developed algorithm needs the information about all these parameters to work as close as possible of real conditions. Then, all the input data necessary to the  can be summarize on the following table
+
+	\begin{table}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale = 0.6]{Imagens/Inputs.png}
+		\caption{Algorithm inputs \cite{augspurger2016experimental}}
+		\label{tab:inputs}
+	\end{table}
+
+	The heat capacities of tool and workpiece material are used as an interpolation function on the code, given by the following equations,
+
+	\begin{equation} 
+	\label{eq_heatCapTool}
+		c_{p}^{T} = 2.51\times 10^{- 10}\times T^{3} - 1.99\times 10^{- 6} \times T^{2} + 0.0027 \times T + 3.09
+	\end{equation}
+
+	\begin{equation} 
+	\label{eq_heatCapWork}
+		c_{p}^{W} = -4.39\times 10^{- 7}\times T^{3} - 7.07\times 10^{- 4} \times T^{2} + 0.0489 \times T + 481.21
+	\end{equation}
 
 	\section{Methods}
 	\label{methods}
@@ -48,7 +67,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[scale=0.75]{Cap4/ToolHeat.png}
+		\includegraphics[scale=0.6]{Cap4/ToolHeat.png}
 		\caption{Heat flow through tool}
 		\label{fig:heattool}
 	\end{figure}
@@ -57,15 +76,15 @@
 
 	\begin{equation} 
 	\label{eq_heattool}
-		\dot{Q}_{T} = kL\frac{d\theta}{dz}w
+		\dot{Q}_{T} = kL\frac{dT}{dz}w
 	\end{equation}
 
-	For the energy carried away by the chip when it flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{C}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{f}$, the chip thickness $t_{C}$ and the chip width $w$.
+	For the energy carried away by the chip when it flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{C}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{chip}$, the chip thickness $t_{C}$ and the chip width $w$.
 
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[scale=0.75]{Cap4/energyChip.png}
+		\includegraphics[scale=0.6]{Cap4/energyChip.png}
 		\caption{Thermal energy carried away by chip}
 		\label{fig:energychip}
 	\end{figure}
@@ -74,7 +93,7 @@
 
 	\begin{equation} 
 	\label{eq_energychip}
-		\dot{Q}_{C}^{out} = c_{p}(T_{C}^{out})(T_{C}^{out} - T_{e})v_{f}t_{C}w
+		\dot{Q}_{C}^{out} = c_{p}^{W}(T_{C}^{out} - T_{e})v_{chip}t_{C}w
 	\end{equation}
 
 	That way, having the location and the temperature of each pixel related to the isotherms and the line of end of contact chip - tool, the math necessary to perform these equations is simple, providing reliable outcomes.
@@ -86,7 +105,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[scale=0.7]{Imagens/volumeControl.png}
+		\includegraphics[scale=0.6]{Imagens/volumeControl.png}
 		\caption{Control volume}
 		\label{fig:volControl}
 	\end{figure}

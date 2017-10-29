@@ -1,15 +1,15 @@
 \section{MATLAB environment}
-	As mentioned on chapter \textbf{\ref{ch:setup}}, FLIR software provides as output variables indexed matrices in .mat format, which is MATLAB variable format. Each pixel contains temperature information about itself, it is possible to visualize an example on a scaled image on the following figure:
+	As mentioned on chapter \ref{ch:setup}, FLIR software provides as output variables indexed matrices in .mat format, which is MATLAB variable format. Each pixel contains temperature information about itself, it is possible to visualize an example on a scaled image on the following figure:
 
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[scale=0.75]{Cap4/TempDist.jpg}
+		\includegraphics[scale=0.6]{Cap4/TempDist.jpg}
 		\caption{Scaled image showing temperature distribution}
 		\label{fig:tempdist}
 	\end{figure}
 
-	From figure \textbf{\ref{fig:tempdist}} with MATLAB Image Processing Toolbox support it possible to extract many informations about the image, such as:
+	From figure \ref{fig:tempdist} with MATLAB Image Processing Toolbox support it possible to extract many informations about the image, such as:
 
 	\begin{itemize}
 		\item Edges recognition
@@ -26,7 +26,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[scale=0.75]{Cap4/contour.jpg}
+		\includegraphics[scale=0.6]{Cap4/contour.jpg}
 		\caption{Contour plot}
 		\label{fig:contour}
 	\end{figure}
@@ -40,7 +40,7 @@
 	\begin{figure}[H]
 		\centering
 		\captionsetup{justification=centering}
-		\includegraphics[scale = 0.75]{Cap4/imgset.jpg}
+		\includegraphics[scale = 0.65]{Cap4/imgset.jpg}
 		\caption{Placement of tool}
 		\label{fig:imgset}
 	\end{figure}
@@ -52,7 +52,7 @@
 
 	The final aim of the program was be able to identify the tool and chip shapes, then the analysis could extract and provide features that were essential for the results of this paper. By means of image processing and some input data, features like maximum cutting zone temperature, maximum chip temperature, heat flows through chip and tool are some examples of what the code is able to provide.	
 
-	FAZER tabela COM INPUT/OUTPUT
+	FAZER tabela OUTPUT
 	\subsection{Finding tool edges}
 
 	As mentioned in the subsection \nameref{ch:sechough}, the method to find tool edges has to provide an accurate range of angles that the rake and clearence angles are inserted. The process is simple and it is demonstrated as follow:
@@ -89,7 +89,7 @@
 
 		\begin{mdframed}[backgroundcolor=lightgray!25!]
 		\begin{alltt}\fontsize{9pt}{8pt}\fontfamily{pcr}\selectfont
-		C =     [C(1) C(2) C(3) ...C(k)... C(N)]
+		C    =  [C(1) C(2) C(3) ...C(k)... C(N)]
 		C(k) =  [level x(1) x(2)...
 		         numxy y(1) y(2)...]
 		\end{alltt}
