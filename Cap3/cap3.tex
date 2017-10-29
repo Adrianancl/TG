@@ -1,7 +1,7 @@
 	\section{Experimental Setup and Materials}
 	\label{sec:exSetup}
 
-	The experiments were carried out on WZL shop floor, located in Aachen in Germany, acquiring thermal images by means of high speed infrared camera FLIR SC7600 (with framerate of 328 fps and a resoloution of 640 x 512 pixels), it was equipped with a macro lens 1:1 and FOV 9.6 x 7.7 mm. The test bench works in a way that the tool stays in a fixed position in relation to the camera, keeping the relative distance between tool and camera constant, then the scale factor provided by this setting was 15 $\mu$m/pixel. It allows the metric conversion for future post processing of images.
+	The experiments were carried out on WZL shop floor, located in Aachen in Germany, acquiring thermal images by means of high speed infrared camera FLIR SC7600 (with frame rate of 328 fps and a resolution of 640 x 512 pixels), it was equipped with a macro lens 1:1 and FOV 9.6 x 7.7 mm. The test bench works in a way that the tool stays in a fixed position in relation to the camera, keeping the relative distance between tool and camera constant, then the scale factor provided by this setting was 15 $\mu$m/pixel. It allows the metric conversion for future post processing of images.
 
 	\begin{figure}[H]
 		\centering
@@ -11,14 +11,14 @@
 		\label{fig:exinfrared}
 	\end{figure}
 
-	An important factor for a reliable temperature measurement is the correct choice of the components emissivity. To make it easier, the tool was coated with a black ink, allowing the emissivity valuation for this case, which provided a value of $\epsilon = 0.85$. It is also important to highlight the camera settings, factors as integration time and filters are essential to determine a reliable measurements due to the amount of eletromagnetic radiation received on camera's sensors. The higher are the temperatures higher is the energy produced, then smaller should be the integration time, which is the time that sensor of energy receives radiation and converts into temperature afterwards. These configurations allowed measurements in a range from 200 $^{o}$C until 900 $^{o}$C.
+	An important factor for a reliable temperature measurement is the correct choice of the components' emissivity. To make it easier, the tool was coated with a black ink, allowing the emissivity valuation for this case, which provided a value of $\epsilon = 0.85$. It is also important to highlight the camera settings, factors as integration time and filters are essential to determine a reliable measurements due to the amount of electromagnetic radiation received on camera's sensors. The higher are the temperatures higher is the energy produced, then smaller should be the integration time, which is the time that sensor of energy receives radiation and converts into temperature afterwards. These configurations allowed measurements in a range from 200 $^{o}$C until 900 $^{o}$C.
 	
-	The tool material was uncoated carbide insert (Sandvik H13A), with rake angle 6$^{o}$, clearance angle 3$^{o}$, cutting radius r$_{\beta}$ < 5$\mu$m and width 4.4 mm. The workpiece material was AISI 1045 normalized and its dimensions were 3.5 x 200 x 80 mm (width, lengh, heigth respectively). For the given range of temperature, the thermal conductivity was estimated in $k = 75.4 W/mK$ and for tool heat capaciy was built a regression function ($c(T)$) for corresponding temperature and heat capacity (equations \ref{eq_heatCapTool} and \ref{eq_heatCapWork}).
+	The tool material was uncoated carbide insert (Sandvik H13A), with rake angle 6$^{o}$, clearance angle 3$^{o}$, cutting radius r$_{\beta}$ < 5$\mu$m and width 4.4 mm. The workpiece material was AISI 1045 normalized and its dimensions were 3.5 x 200 x 80 mm (width, length, height respectively). For the given range of temperature, the thermal conductivity was estimated in $k = 75.4 W/mK$ and for tool heat capacity was built a regression function ($c(T)$) for corresponding temperature and heat capacity (equations \ref{eq_heatCapTool} and \ref{eq_heatCapWork}).
 	
 	For force acquisition during the process, it was used a three-component piezoelectric force platform, determining the cutting force and passive force. Since the cutting process is carried out in a linear and constant motion, it is possible to determine the overall power $P$ with velocity and cutting force. From the values obtained of forces along the cutting process it was taken a mean value to be used on power calculation afterwards, equation \ref{eq_power}. 
 	
 	All the experiments were held without coolant, with cutting velocities of 100 $m/min$ and 150 $m/min$ and a$_{p}$ = [0.2, 0.3, 0.4, 0.5] mm (table \ref{tab:design}).
-	The analysis method was built on MATLAB platform with the support of its image processing toolbox. This was the chosen software due the easy connection between FLIR software and MATLAB, since FLIR software can export its images to .mat format, which are indexed matrices prejected to MATLAB environment. Each pixel from the exported images contains information about position and its temperature.
+	The analysis method was built on MATLAB platform with the support of its image processing toolbox. This was the chosen software due the easy connection between FLIR software and MATLAB, since FLIR software can export its images to .mat format, which are indexed matrices projected to MATLAB environment. Each pixel from the exported images contains information about position and its temperature.
 
 	\begin{table}[H]
 		\centering
@@ -28,7 +28,7 @@
 		\label{tab:design}
 	\end{table}
 
-	As a machining process, the orthogonal cutting performance is subjected to many parameter like material of workpiece, shape of tool, depth of cut and others. Because of it, the developed algorithm needs the information about all these parameters to work as close as possible of real conditions. Then, all the input data necessary to the  can be summarize on the following table
+	As a machining process, the orthogonal cutting performance is subjected to many parameter like material of workpiece, shape of tool, depth of cut and others. Because of it, the developed algorithm needs the information about all these parameters to work as close as possible of real conditions. Then, all the input data necessary to the can be summarize on the following table
 
 	\begin{table}[H]
 		\centering
@@ -72,14 +72,14 @@
 		\label{fig:heattool}
 	\end{figure}
 
-	Besides the temperature matrix, it is necessary to calculate heat flow through tool the heat conductivity, the length of the chosen isothermal, the temperature gradient normal to this isothermal and the width of the tool. The calculation is given by the following equation:
+	Besides the temperature matrix, it is necessary to calculate heat flow through tool the heat conductivity, the length of the chosen isothermal line, the temperature gradient normal to this isotherm and the width of the tool. The calculation is given by the following equation:
 
 	\begin{equation} 
 	\label{eq_heattool}
 		\dot{Q}_{T} = kL\frac{dT}{dz}w
 	\end{equation}
 
-	For the energy carried away by the chip when it flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{C}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{chip}$, the chip thickness $t_{C}$ and the chip width $w$.
+	For the energy carried away by the chip when it is flowing through control volume, the variables necessary to calculate this value are the heat capacity function $c_{p}(T)$, the chip temperature distribution along the line where the chip loses contact with tool $T_{C}^{out}$, the environment temperature $T_{e}$, the velocity of chip normal to the line of end of contact $v_{chip}$, the chip thickness $t_{C}$ and the chip width $w$.
 
 	\begin{figure}[H]
 		\centering
@@ -117,7 +117,7 @@
 	\dot{Q}_{shear} = F_{c}v_{c} - F_{p}v_{chip}
 	\end{equation}
 
-	It is estimated that $10\%$ of this energy generated in the primary shear zone ($\dot{Q}_{shear}$) is converted into heat and soon dissipated out the control volume(CITAR FONTE AQUI). Then, the energy balance of the control volume will provide:
+	It is estimated that $90\%$ of this energy generated in the primary shear zone ($\dot{Q}_{shear}$) is converted into sensible heat \cite{trigger1942}, then the others $10\%$ are soon dissipated out the control volume. Then, the energy balance of the control volume will provide:
 
 	\begin{equation} 
 	\label{eq_energybalance}

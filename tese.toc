@@ -25,13 +25,13 @@
 \contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{29}{subsubsection.4.3.2.1}
 \contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{30}{subsubsection.4.3.2.2}
 \contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{30}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{30}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{31}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{31}{subsection.4.3.5}
 \contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{31}{subsubsection.4.3.5.1}
-\contentsline {chapter}{\numberline {5}Results}{32}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{36}{chapter.6}
-\contentsline {chapter}{Bibliography}{38}{chapter.7}
+\contentsline {chapter}{\numberline {5}Results}{33}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}
+\contentsline {chapter}{Bibliography}{39}{chapter.7}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Source Code}{39}{appendix.A}
-\contentsline {section}{\numberline {A.1}Temperature Analysis}{39}{section.A.1}
-\contentsline {chapter}{Glossary}{50}{appendix.B}
+\contentsline {chapter}{\numberline {A}Source Code}{40}{appendix.A}
+\contentsline {section}{\numberline {A.1}Temperature Analysis}{40}{section.A.1}
+\contentsline {chapter}{Glossary}{51}{appendix.B}

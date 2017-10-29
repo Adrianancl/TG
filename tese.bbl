@@ -59,4 +59,9 @@
 {SHAW, M.~C.; COOKSON, J. \textbf{Metal cutting principles}. [S.l.]: Oxford
   university press New York, 2005.}
 
+\bibitem[Trigger 1942]{trigger1942}
+\abntrefinfo{Trigger}{TRIGGER}{1942}
+{TRIGGER, K. An analytical evaluation of metal cutting temperature.
+\textbf{Transactions of ASME}, v.~73, p. 57--68, 1942.}
+
 \end{thebibliography}
