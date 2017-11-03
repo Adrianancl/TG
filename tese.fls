@@ -555,6 +555,12 @@ INPUT ./Cap3/tabexpset.png
 INPUT Imagens/Inputs.png
 INPUT ./Imagens/Inputs.png
 INPUT ./Imagens/Inputs.png
+INPUT Imagens/dataWorkpiece.png
+INPUT ./Imagens/dataWorkpiece.png
+INPUT ./Imagens/dataWorkpiece.png
+INPUT Imagens/dataTool.png
+INPUT ./Imagens/dataTool.png
+INPUT ./Imagens/dataTool.png
 INPUT Cap4/ToolHeat.png
 INPUT ./Cap4/ToolHeat.png
 INPUT ./Cap4/ToolHeat.png

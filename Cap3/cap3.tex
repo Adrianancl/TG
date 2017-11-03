@@ -38,7 +38,7 @@
 		\label{tab:inputs}
 	\end{table}
 
-	The heat capacities of tool and workpiece material are used as an interpolation function on the code, given by the following equations,
+	The heat capacities of tool and workpiece material are used as an interpolation function on the code, using da data provided on tables \ref{tab:dataW} and \ref{tab:dataT}. The functions are given by the following equations:
 
 	\begin{equation} 
 	\label{eq_heatCapTool}
@@ -49,6 +49,22 @@
 	\label{eq_heatCapWork}
 		c_{p}^{W} = -4.39\times 10^{- 7}\times T^{3} - 7.07\times 10^{- 4} \times T^{2} + 0.0489 \times T + 481.21
 	\end{equation}
+
+	\begin{table}[h]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale = 0.6]{Imagens/dataWorkpiece.png}
+		\caption{Workpiece material data \cite{augspurger2016experimental}}
+		\label{tab:dataW}
+	\end{table}
+
+	\begin{table}[h]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale = 0.6]{Imagens/dataTool.png}
+		\caption{Tool material data \cite{augspurger2016experimental}}
+		\label{tab:dataT}
+	\end{table}
 
 	\section{Methods}
 	\label{methods}

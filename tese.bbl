@@ -32,6 +32,12 @@
   curves in pictures.
 \textbf{Communications of the ACM}, ACM, v.~15, n.~1, p. 11--15, 1972.}
 
+\bibitem[Jeon e Kim 1988]{jeon1988optical}
+\abntrefinfo{Jeon e Kim}{JEON; KIM}{1988}
+{JEON, J.; KIM, S. Optical flank wear monitoring of cutting tools by image
+  processing.
+\textbf{Wear}, Elsevier, v.~127, n.~2, p. 207--217, 1988.}
+
 \bibitem[Komanduri e Hou 2000]{komanduri2000thermal}
 \abntrefinfo{Komanduri e Hou}{KOMANDURI; HOU}{2000}
 {KOMANDURI, R.; HOU, Z.~B. Thermal modeling of the metal cutting process: part
@@ -46,6 +52,11 @@
   chip interface.
 \textbf{International Journal of Mechanical Sciences}, Elsevier, v.~43, n.~1,
   p. 57--88, 2001.}
+
+\bibitem[Kurada e Bradley 1997]{kurada1997machine}
+\abntrefinfo{Kurada e Bradley}{KURADA; BRADLEY}{1997}
+{KURADA, S.; BRADLEY, C. A machine vision system for tool wear assessment.
+\textbf{Tribology International}, Elsevier, v.~30, n.~4, p. 295--304, 1997.}
 
 \bibitem[Maldague 2000]{maldague2000}
 \abntrefinfo{Maldague}{MALDAGUE}{2000}

@@ -10,24 +10,24 @@
 \contentsline {section}{\numberline {2.2}Image Processing}{20}{section.2.2}
 \contentsline {chapter}{\numberline {3}Materials and Methods}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}Experimental Setup and Materials}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{23}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Power calculation}{23}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Thermal enegy - chip and tool}{23}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.2}Methods}{24}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Power calculation}{24}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Thermal enegy - chip and tool}{24}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}Volume control}{25}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Code Implementation}{26}{chapter.4}
-\contentsline {section}{\numberline {4.1}MATLAB environment}{26}{section.4.1}
-\contentsline {section}{\numberline {4.2}Auxiliar functions}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Contour plot}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Hough lines transformation}{27}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Implementation steps}{28}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Overview}{28}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{28}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{29}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{30}{subsubsection.4.3.2.2}
-\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{30}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {4}Code Implementation}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}MATLAB environment}{27}{section.4.1}
+\contentsline {section}{\numberline {4.2}Auxiliar functions}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Contour plot}{28}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Hough lines transformation}{28}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Implementation steps}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Overview}{29}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{29}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{30}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{31}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{31}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Temperature fields}{31}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{31}{subsection.4.3.5}
-\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{31}{subsubsection.4.3.5.1}
+\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{32}{subsection.4.3.5}
+\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{32}{subsubsection.4.3.5.1}
 \contentsline {chapter}{\numberline {5}Results}{33}{chapter.5}
 \contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}
 \contentsline {chapter}{Bibliography}{39}{chapter.7}
