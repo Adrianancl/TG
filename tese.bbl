@@ -65,12 +65,30 @@
 {KURADA, S.; BRADLEY, C. A machine vision system for tool wear assessment.
 \textbf{Tribology International}, Elsevier, v.~30, n.~4, p. 295--304, 1997.}
 
+\bibitem[Lebar \textit{et al.} 2010]{lebar2010method}
+\abntrefinfo{Lebar \textit{et al.}}{LEBAR \textit{et al.}}{2010}
+{LEBAR, A.; JUNKAR, M.; POREDO{\v{S}}, A.; CVJETICANIN, M. Method for online
+  quality monitoring of awj cutting by infrared thermography.
+\textbf{CIRP journal of manufacturing science and technology}, Elsevier, v.~2,
+  n.~3, p. 170--175, 2010.}
+
+\bibitem[Lee \textit{et al.} 2011]{lee2011study}
+\abntrefinfo{Lee \textit{et al.}}{LEE \textit{et al.}}{2011}
+{LEE, S.; NAM, J.; HWANG, W.; KIM, J.; LEE, B. A study on integrity assessment
+  of the resistance spot weld by infrared thermography.
+\textbf{Procedia Engineering}, Elsevier, v.~10, p. 1748--1753, 2011.}
+
 \bibitem[Maldague 2000]{maldague2000}
 \abntrefinfo{Maldague}{MALDAGUE}{2000}
 {MALDAGUE, X. Applications of infrared thermography in nondestructive
   evaluation.
 \textbf{Trends in optical nondestructive testing}, Elsevier Science, p.
   591--609, 2000.}
+
+\bibitem[Poole e Sarvar 1989]{poole1989fundamentals}
+\abntrefinfo{Poole e Sarvar}{POOLE; SARVAR}{1989}
+{POOLE, N.; SARVAR, F. Fundamentals of heat transfer. In:  IET. \textbf{Thermal
+  Design of Electronic Systems, IEE Colloquium on}. [S.l.], 1989. p.~1--1.}
 
 \bibitem[Sarma \textit{et al.} 2009]{sarma2009surface}
 \abntrefinfo{Sarma \textit{et al.}}{SARMA \textit{et al.}}{2009}
