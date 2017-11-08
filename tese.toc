@@ -1,37 +1,43 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
 \contentsline {section}{\numberline {1.1}Overview of metal cutting}{15}{section.1.1}
-\contentsline {section}{\numberline {1.2}Heat zones}{15}{section.1.2}
-\contentsline {section}{\numberline {1.3}Mechanics of orthogonal cutting}{16}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objective}{18}{section.1.4}
-\contentsline {section}{\numberline {1.5}Structure}{18}{section.1.5}
-\contentsline {chapter}{\numberline {2}State of the Art}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}Infrared Termography}{19}{section.2.1}
-\contentsline {section}{\numberline {2.2}Image Processing}{20}{section.2.2}
-\contentsline {chapter}{\numberline {3}Materials and Methods}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Experimental Setup and Materials}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Methods}{24}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Power calculation}{24}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Thermal enegy - chip and tool}{24}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Volume control}{25}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Code Implementation}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}MATLAB environment}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Auxiliar functions}{28}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Contour plot}{28}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Hough lines transformation}{28}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Implementation steps}{29}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Overview}{29}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Finding tool edges}{29}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Rake and clearance face}{30}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}Tool tip coordinates}{31}{subsubsection.4.3.2.2}
-\contentsline {subsection}{\numberline {4.3.3}Maximum temperatures}{31}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Temperature fields}{31}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Heat flows - Chip and Tool}{32}{subsection.4.3.5}
-\contentsline {subsubsection}{\numberline {4.3.5.1}Heat partitions}{32}{subsubsection.4.3.5.1}
-\contentsline {chapter}{\numberline {5}Results}{33}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{37}{chapter.6}
-\contentsline {chapter}{Bibliography}{39}{chapter.7}
+\contentsline {section}{\numberline {1.2}Objective}{15}{section.1.2}
+\contentsline {section}{\numberline {1.3}Structure}{16}{section.1.3}
+\contentsline {chapter}{\numberline {2}Bibliographic Review }{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Thermal review}{17}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Thermodynamics}{17}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Heat zones in machining}{17}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Infrared thermography operation}{18}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Mechanical review}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Mechanics of orthogonal cutting}{19}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}State of the Art}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Infrared Termography}{21}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Image Processing}{21}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Materials and Methods}{24}{chapter.3}
+\contentsline {section}{\numberline {3.1}Experimental Setup and Materials}{24}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methods}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Power calculation}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Thermal enegy - chip and tool}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Volume control}{28}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Results}{30}{chapter.4}
+\contentsline {section}{\numberline {4.1}Code implementation}{30}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}MATLAB environment}{30}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Auxiliar functions}{31}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Contour plot}{31}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Hough lines transformation}{31}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Implementation steps}{32}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}Overview}{32}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}Finding tool edges}{32}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}Rake and clearance face}{33}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}Tool tip coordinates}{34}{subsubsection.4.1.3.4}
+\contentsline {subsubsection}{\numberline {4.1.3.5}Maximum temperatures}{34}{subsubsection.4.1.3.5}
+\contentsline {subsubsection}{\numberline {4.1.3.6}Temperature fields}{34}{subsubsection.4.1.3.6}
+\contentsline {subsubsection}{\numberline {4.1.3.7}Heat flows - Chip and Tool}{35}{subsubsection.4.1.3.7}
+\contentsline {subsubsection}{\numberline {4.1.3.8}Heat partitions}{35}{subsubsection.4.1.3.8}
+\contentsline {section}{\numberline {4.2}Method validation}{36}{section.4.2}
+\contentsline {chapter}{\numberline {5}Conclusions}{40}{chapter.5}
+\contentsline {chapter}{Bibliography}{42}{chapter.6}
 \SetAppendixTocName {Appendix}
-\contentsline {chapter}{\numberline {A}Source Code}{40}{appendix.A}
-\contentsline {section}{\numberline {A.1}Temperature Analysis}{40}{section.A.1}
-\contentsline {chapter}{Glossary}{51}{appendix.B}
+\contentsline {chapter}{\numberline {A}Source Code}{44}{appendix.A}
+\contentsline {section}{\numberline {A.1}Temperature Analysis}{44}{section.A.1}
+\contentsline {chapter}{Glossary}{55}{appendix.B}

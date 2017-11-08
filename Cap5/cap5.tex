@@ -1,69 +1,9 @@
-	The total power produced along this high speed machining was calculated as in the equation \ref{eq_power}, the values are shown on figure \ref{fig:totPower}.
+The results found when processing thermal images provided a reasonable understanding about heat distribution through tool and chip components. Most of the heat generated during the cutting process goes to dissipation on the removed chip, about 70\% of the total power generated. Most part of the data provided by the cutting process regards to transient state, but is also possible to note it reaching the steady state close to the end of the cutting process, which suggests that this computational method also may be extended for this part of the process.
 
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/Total_power.png}
-		\caption{Total power produced}
-		\label{fig:totPower}
-	\end{figure}
+One of the problems to elaborate this work was that many of the videos were damaged due to pieces of chip interfering on the ideal presentation of each thermal frame. Pieces of chip with different temperatures were captured on tool surface, disturbing the field of temperatures along the tool shape. This fact made impossible the use of some frames from the same video and entire other experiments sometimes.
 
-	As expected, the higher are the values of cutting velocity or depth of cut higher are the values of total power produced.
-	For each experiment, the computational method was able to provide the thermal energy that goes to tool, chip and workpiece by means of energy balance. Then, it can be observed the thermal behavior of every area of interest along the workpiece position. The measurement starts when a reasonable area of the cutting zone reaches the minimum temperature. For cutting velocity of $150 m/min$ it starts earlier because the rate of heat production is higher than when the cutting velocity is $100 m/min$.
+It may be noticed that for experiments with the same relation $v_{c}\times a_{p}$ (figure \ref{fig:energyChip}) seems to provide the same energy to be carried by the flowing chip. Since the thermography method is very sensible to external interference and many experiments were damaged as mentioned before, it would be necessary to perform new experiments to validate this hypothesis.
 
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/Inner_Energy.png}
-		\caption{Inner energy of tool along workpiece position}
-		\label{fig:innerTool}
-	\end{figure}
+The thermography method for temperatures measurement still presents some challenges, mainly when comes to set the correct emissivity. Even coating the tool and workpiece with black ink and carrying experiments to determine the emissivity of it, the ink cracks close to tool tip and along the chip. This fact can be a source of error providing an overestimation of the emissivity value and consequently an underestimation of the real temperature. But even taking a reasonable effort to determine the right emissivity for accomplishing a reliable measurement, the termography is still a powerful tool for inspection, specially for cutting processes as discussed in this paper. With a filter of camera capable of measure temperatures lower than 200 Celsius degrees, it would be possible to complete the study with the measurement of temperatures on the workpiece area, providing more results.
 
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/energyTool2.png}
-		\caption{Heat flow into tool}
-		\label{fig:hflowTool}
-	\end{figure}
-
-	As it can be observed on the previous figure \ref{fig:hflowTool}, the change rate of the inner energy of tool begins with a higher value than in the end of process. The rate starts to stabilize, indicating the beginning of the steady state. 
-
-	To exemplify the results, it will be taken to represent the outcomes concerning heat partitions the experiment with cutting velocity $v_{c} = 150 m/min$ and depth of cut $a_{p} = 500 \mu m$. All the others experiments had approximately the same behavior during the cutting process.
-	Concerning about the heat partition through tool, workpiece and the energy carried away by chip, their behaviors can be observed on the figure \ref{fig:hpartExp}. There is a slight decrement in the heat flow through tool, which it was expected due to the steady state as discussed before. As for the energy carried by chip, it may be noticed a slight increment.
-
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/partition500150.png}
-		\caption{Heat partition for experiment with a$_{p}$ = 500$\mu$m and v$_{c}$ = 150 m/min}
-		\label{fig:hpartExp}
-	\end{figure}
-
-	It is important to highlight the total power produced during the cutting process, which has a significant value because of the high values of cutting velocity and force. Also, it must be noticed the amount of energy that goes to chip (figure \ref{fig:energyChip} and \ref{fig:hpartChip}). The chip takes around 70\% of the total energy produced, this fact may be explained due to the high temperatures that the region can reach and the high velocity of flowing.
-
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/energyChip.png}
-		\caption{Thermal energy into chip}
-		\label{fig:energyChip}
-	\end{figure}
-
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/PartChip.png}
-		\caption{Heat partition ratio for chip}
-		\label{fig:hpartChip}
-	\end{figure}
-
-	As for the tool (figure \ref{fig:hpartTool}), the partition of energy reaches a much smaller range when close to the steady state. The values of the partition to tool in this stage goes from 4\% until 8\%.
-
-	\begin{figure}[H]
-		\centering
-		\captionsetup{justification=centering}
-		\includegraphics[scale=0.55]{Imagens/partTool.png}
-		\caption{Heat partition ratio for tool}
-		\label{fig:hpartTool}
-	\end{figure}
+Computer vision, as image recognition patterns and image processing, is being used each time more nowadays processes. For a future study beyond this paper, computer vision can become an even stronger tool when combined with machine learning, which is revolutionizing most diverse areas. The principles used to build this computational method could be converted to analyze others types of cutting processes, as milling. Then, it could be turned into an intelligent system to support machining processes, improving all cutting parameters in order to obtain higher efficiency of tool, increasing tool life, better surface finishing of the workpiece and lower cutting time.

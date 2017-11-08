@@ -38,6 +38,13 @@
   processing.
 \textbf{Wear}, Elsevier, v.~127, n.~2, p. 207--217, 1988.}
 
+\bibitem[Khalifa \textit{et al.} 2006]{khalifa2006image}
+\abntrefinfo{Khalifa \textit{et al.}}{KHALIFA \textit{et al.}}{2006}
+{KHALIFA, O.~O.; DENSIBALI, A.; FARIS, W. Image processing for chatter
+  identification in machining processes.
+\textbf{The International Journal of Advanced Manufacturing Technology},
+  Springer, v.~31, n.~5, p. 443--449, 2006.}
+
 \bibitem[Komanduri e Hou 2000]{komanduri2000thermal}
 \abntrefinfo{Komanduri e Hou}{KOMANDURI; HOU}{2000}
 {KOMANDURI, R.; HOU, Z.~B. Thermal modeling of the metal cutting process: part
@@ -65,6 +72,14 @@
 \textbf{Trends in optical nondestructive testing}, Elsevier Science, p.
   591--609, 2000.}
 
+\bibitem[Sarma \textit{et al.} 2009]{sarma2009surface}
+\abntrefinfo{Sarma \textit{et al.}}{SARMA \textit{et al.}}{2009}
+{SARMA, P.; KARUNAMOORTHY, L.; PALANIKUMAR, K. Surface roughness parameters
+  evaluation in machining gfrp composites by pcd tool using digital image
+  processing.
+\textbf{Journal of reinforced plastics and composites}, Sage Publications Sage
+  UK: London, England, v.~28, n.~13, p. 1567--1585, 2009.}
+
 \bibitem[Shaw e Cookson 2005]{shaw2005metal}
 \abntrefinfo{Shaw e Cookson}{SHAW; COOKSON}{2005}
 {SHAW, M.~C.; COOKSON, J. \textbf{Metal cutting principles}. [S.l.]: Oxford
@@ -74,5 +89,13 @@
 \abntrefinfo{Trigger}{TRIGGER}{1942}
 {TRIGGER, K. An analytical evaluation of metal cutting temperature.
 \textbf{Transactions of ASME}, v.~73, p. 57--68, 1942.}
+
+\bibitem[Usamentiaga \textit{et al.} 2014]{usamentiaga2014}
+\abntrefinfo{Usamentiaga \textit{et al.}}{USAMENTIAGA \textit{et al.}}{2014}
+{USAMENTIAGA, R.; VENEGAS, P.; GUEREDIAGA, J.; VEGA, L.; MOLLEDA, J.; BULNES,
+  F.~G. Infrared thermography for temperature measurement and non-destructive
+  testing.
+\textbf{Sensors (Basel, Switzerland)}, MDPI, v.~14, n.~7, p. 12305--12348,
+  2014.}
 
 \end{thebibliography}

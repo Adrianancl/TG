@@ -1,6 +1,126 @@
-\section{Infrared Termography}
+\section{Thermal review}
+	\subsection{Thermodynamics}
+
+	\subsection{Heat zones in machining}
+
+	In machining there are 3 main regions of interest from where comes the heat produced during the cutting process \cite{shaw2005metal}. The first area represented on figure \ref{fig:heatZones} is called primary shear zone and it is located along the shear plane, which is the boundary between undeformed workpiece and chip. The second area is the plane of contact between tool and chip, also known as secondary shear zone or friction zone. As for third one, it is related to the wear caused due the friction between tool and finished workpiece surface, due to it is called wear zone.
+
+	\begin{figure}[h]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.5]{Imagens/heatZones.png}
+		\caption{Regions of interest}
+		\label{fig:heatZones}
+	\end{figure}
+
+	\subsection{Infrared thermography operation}
+
+	Infrared termography is a non-contact way to measure infrared electromagnetic energy. The humam eye can not detect the range of infrared radiation. However, there are infrared cameras able to detect this energy and process the radiation into information (figure \ref{fig:thermog}).
+
+	\begin{figure}[H]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.5]{Imagens/thermography.png}
+		\caption{Radiation received by infrared camera \cite{usamentiaga2014}}
+		\label{fig:thermog}
+	\end{figure}
+
+	It makes possible all thermal energy produced during a cutting process to be received by the infrared camera and to be synthesize in a matrix of temperatures afterwards. Since every body is able to emit infrared radiation when its temperature is above absolute zero, it is possible to observe contours of different bodies due to their temperature distribution. For this reason, thermography is a very important technology in military use, because it allows objects be seen even without proper illumination or in total lack of light situations.
+
+	Thermography is able to work in two different ways: passive and active. The passive way occurs when the subject matter has its temperature different from the environment (often higher). On the other hand, the active way needs an external heat source to induce a reasonable contrast between the object and the background \cite{maldague2000}.
+
+	As it can be observed on figure \ref{fig:thermog}, there are external sources of infrared radiation that can interfere on the target's temperature measurement. To correct the situation, the IR camera has a internal process called compensation \cite{usamentiaga2014}.
+
+	The total energy received ($W_{tot}$) is composed by the sum of three parts, the emission from the main object ($E_{obj}$), the emission of the vicinity reflected by the object ($E_{refl}$) and the emission of the atmosphere ($E_{atm}$) as shown on figure \ref{fig:thermog}. Then it is possible to extract the real tempareture of the target object \cite{usamentiaga2014}.
+
+
+\section{Mechanical review}
+	\subsection{Mechanics of orthogonal cutting}
+
+	In this section it will be shown numerous relations among forces, stresses and dimensions for example. For this purpose it is important to discuss geometrical correlations in the composite cutting force circle (figure \ref{fig:circlec}).
+
+	\begin{figure}[h]
+		\centering
+		\captionsetup{justification=centering}
+		\includegraphics[scale=0.5]{Cap1/circlec.png}
+		\caption{Cutting forces \cite{shaw2005metal}}
+		\label{fig:circlec}
+	\end{figure}
+
+	From the figure \ref{fig:circlec} it can be stated about forces on the primary shear zone reference $F_{S}$ and $N_{S}$:
+
+	\begin{equation} 
+	\label{}
+	F_{S} = F_{P}\cos\phi - F_{Q}\sin\phi
+	\end{equation}
+	\begin{equation} 
+	\label{}
+	N_{S} = F_{Q}\cos\phi + F_{P}\sin\phi
+	\end{equation}
+
+	Also, for the forces on the chip flow direction reference:
+
+	\begin{equation} 
+	\label{}
+	F_{C} = F_{P}\sin\alpha + F_{Q}\cos\alpha
+	\end{equation}
+	\begin{equation} 
+	\label{}
+	N_{C} = F_{P}\cos\alpha - F_{Q}\sin\alpha
+	\end{equation}
+
+	These equations provide all auxiliary forces related to the known passive force $F_{Q}$ and force on the cutting direction $F_{P}$. Now the variables of interest can be easily calculated, as the friction coefficient:
+
+	\begin{equation} 
+	\label{eq_friction}
+	\mu = \frac{F_{C}}{N_{C}} = \frac{F_{Q} + F_{P}\tan\alpha}{F_{P} - F_{Q}\tan\alpha}
+	\end{equation}
+
+	Now the equations concerning about stresses are:
+
+	\begin{equation} 
+	\label{}
+	A_{S} = \frac{wa_{p}}{\sin\phi}
+	\end{equation}
+
+	\begin{equation} 
+	\label{}
+	\tau = \frac{F_{S}}{A_{S}} = \frac{(F_{P}\cos\phi - F_{Q}\sin\phi)\sin\phi}{wa_{p}}
+	\end{equation}
+
+	\begin{equation} 
+	\label{}
+	\sigma = \frac{N_{S}}{A_{S}} = \frac{(F_{P}\sin\phi + F_{Q}\cos\phi)\sin\phi}{wa_{p}}
+	\end{equation}
+
+	Where $A_{S}$ is the area of the shear plane, $\tau$ is the shear stress and $\sigma$ is the normal stress.
+
+	Another important parameter is the cutting ratio $r$, which can provide an important relation between the main cutting velocity and the chip outlet velocity. It is found experimentally that there is no change in density of metal during the cutting process and also when $w/a_{p} \geq 5$ makes the width of the chip the same of the workpiece. Then, the equations are:
+
+	\begin{equation} 
+	\label{}
+	a_{p}wl = a_{pc}w_{c}l_{c}
+	\end{equation}
+
+	Where $a_{p}$, w and l are the depth of cut, width of cut and length of cut respectively. Then, the cutting ratio is defined by:
+
+	\begin{equation} 
+	\label{}
+	r = \frac{a_{p}}{a_{pc}} = \frac{l_{c}}{l}
+	\end{equation}
+
+	Having the cutting ratio, it is now possible to correlate cutting velocity $v$ and chip outlet velocity $v_{c}$ by means of the following equation:
+
+	\begin{equation} 
+	\label{}
+	v_{c} = rv
+	\end{equation}
+
+\section{State of the Art}
+
+\subsection{Infrared Termography}
 	\label{sec:infrared}
 	\input{Cap2/Infrared/infrared} %done
 
-\section{Image Processing}
+\subsection{Image Processing}
 	\input{Cap2/ImgPro/imgpro}

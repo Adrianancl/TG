@@ -1,26 +1,27 @@
 \select@language {english}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Regions of interest\relax }}{16}{figure.caption.9}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Cutting forces \cite {shaw2005metal}\relax }}{17}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Infrared photography of a cutting process \cite {abukhshim2006heat}\relax }}{19}{figure.caption.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Regions of interest\relax }}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Radiation received by infrared camera \cite {usamentiaga2014}\relax }}{18}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cutting forces \cite {shaw2005metal}\relax }}{19}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Infrared photography of a cutting process \cite {abukhshim2006heat}\relax }}{21}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagram of machine vision system \cite {sarma2009surface}\relax }}{22}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Experimental setup \cite {augspurger2016experimental}\relax }}{21}{figure.caption.12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Heat flow through tool\relax }}{24}{figure.caption.17}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Thermal energy carried away by chip\relax }}{25}{figure.caption.18}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Control volume\relax }}{26}{figure.caption.19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Experimental setup \cite {augspurger2016experimental}\relax }}{24}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Heat flow through tool\relax }}{27}{figure.caption.19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Thermal energy carried away by chip\relax }}{28}{figure.caption.20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Control volume\relax }}{29}{figure.caption.21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Scaled image showing temperature distribution\relax }}{27}{figure.caption.20}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Contour plot\relax }}{28}{figure.caption.21}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Placement of tool\relax }}{29}{figure.caption.22}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Lines detected by hough transformation method\relax }}{31}{figure.caption.23}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Total power produced\relax }}{33}{figure.caption.24}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Inner energy of tool along workpiece position\relax }}{34}{figure.caption.25}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Heat flow into tool\relax }}{34}{figure.caption.26}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Heat partition for experiment with a$_{p}$ = 500$\mu $m and v$_{c}$ = 150 m/min\relax }}{35}{figure.caption.27}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Thermal energy into chip\relax }}{35}{figure.caption.28}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Heat partition ratio for chip\relax }}{36}{figure.caption.29}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Heat partition ratio for tool\relax }}{36}{figure.caption.30}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Scaled image showing temperature distribution\relax }}{30}{figure.caption.22}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Contour plot\relax }}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Placement of tool\relax }}{32}{figure.caption.24}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Lines detected by hough transformation method\relax }}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Total power produced\relax }}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Inner energy of tool along workpiece position\relax }}{37}{figure.caption.27}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Heat flow into tool\relax }}{37}{figure.caption.28}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Heat partition for experiment with a$_{p}$ = 500$\mu $m and v$_{c}$ = 150 m/min\relax }}{38}{figure.caption.29}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Thermal energy into chip\relax }}{38}{figure.caption.30}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Heat partition ratio for chip\relax }}{39}{figure.caption.31}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Heat partition ratio for tool\relax }}{39}{figure.caption.32}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
