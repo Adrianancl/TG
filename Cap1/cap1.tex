@@ -1,17 +1,25 @@
-	The knowlegde concerning machining of metals is not fully understood yet. Some questions as the location and shape of heat sources, and the effects of the combination of deformation and temperature distribution still prevail.
+	There are different ways to modify raw material, such as additive and subtractive methods \cite{shaw2005metal}. The additive processes occur when separate materials are put together, like in 3D printing or welding. On the other hand, the subtractive precesses remove unnecessary material, which happens for machining processes such as turning, milling and, as discussed in this paper, orthogonal cutting. 
 
-	In many machining cases, orthogonal cutting may be considered a good approximation to perform on the major cutting edge, that is why it has been extensively studied \cite{shaw2005metal}. For instance, planing and facing processes are some examples that orthogonal cutting conditions can be observed.
+	In many machining cases, orthogonal cutting may be considered a good approximation to perform on the major cutting edge, that is why it has been extensively studied \cite{shaw2005metal}. For instance, planing and facing processes are some examples in which orthogonal cutting conditions can be observed.
 
-	Also, it is known that high temperatures and thermal behavior during cutting processes has an strong influence on tool life, surface finish and metallurgical structure of workpiece, machinability, tool wear and thermal deformation of tool, which is the largest source of error in machining processes. Then, the thermal analysis on orthogonal cutting case shall be able to provide a better comprehension of many studies concerning thermal modeling and predction of metal cutting \cite{komanduri2000thermal}, \cite{komanduri2001thermal}, \cite{abukhshim2006heat}.
-	
-	\section{Overview of metal cutting}
-	
-	There are different ways to modify raw material, as additive and subtractive \cite{shaw2005metal}. The additive processes occur when separated materials are put together, like 3D printing or welding. On the other hand, the subtractive way removes unnecessary material, which happens for machining processes as turning, milling and, in this paper, orthogonal cutting. The cutting process is composed basically by chip, tool and workpiece (figure \ref{fig:heatZones}).
-	Many parameters are responsible for a good performance and final result, as surface finish of workpieces. Depth of cut, cutting velocity, cutting material are some of these parameters. It is fundamental to use the right parameters for each type of cutting process, otherwise it can damage the expected result and the process itself.
+	The cutting zone is composed basically by chip, tool and workpiece. Many parameters are responsible for a good performance and final result of machining processes, as well as for good surface finishing of workpieces. Depth of cut, cutting velocity, cutting material are some of these parameters. It is fundamental to use the right parameters for each type of cutting process, otherwise it can affect negatively the expected result and the process itself.
+
+	Also, it is known that high temperatures and thermal behavior during cutting processes have a strong influence on tool life, surface finish, metallurgical structure of the workpiece, machinability, tool wear and thermal deformation of the tool, which is the largest source of errors in machining processes. However, the knowledge concerning machining of metals is not yet fully understood. Some questions about the location and shape of heat sources and the effects of the combination of deformation and temperature distribution still prevail.
+
+	Many studies have been conducted in order to measure temperature fields to a better understanding of the thermal behavior in the cutting zone. There are several ways of obtaining temperature measurements of the cutting zone. A critical review is made in \cite{komanduri2000thermal}, \cite{komanduri2001thermal}, \cite{abukhshim2006heat}.
+
+	Thermocouple method uses two dissimilar metals that are put together, making two junctions. When the junctions have different temperatures, an electromotive force is generated, which its value depends on the material used in the thermocouples and the temperatures in each junction. This method has advantages such as low cost, simplicity in operation and in construction. On the other hand, for embedded thermocouples it is necessary to make fine holes in the tool structure, which interfere in heat and temperature measurements \cite{komanduri2001thermal}.
+
+	Another way to measure temperature during machining is by the infrared photographic technique developed by \citeonline{boothroyd1961photographic}. It is able to measure temperature fields on the shear zone and tool-chip interface. The method uses an infrared sensitive photographic plate to capture information from the cutting zone and then measures the density of this plate with a microdensitometer.	However, this technique does not allow for a fast inspection, because the acquisition rate is low for a HSM, which demands a high fps to get enough thermal images in order to analyze the entire cutting process.
+
+	There are also thermal paintings capable of change their color according to the temperature. It is very simple to apply and cheap. But this is a method to be used on systems with controlled heat conditions \cite{komanduri2001thermal}.
+
+	The use of radiation techniques is interesting for cutting processes with high velocities. It has a fast response in getting temperature distribution all over the cutting surface and does not require any kind of contact with the object of interest, which makes it the most suitable method for temperature measurement in HSM \cite{abukhshim2006heat}. Due to the high velocities used in the experiments discussed in this paper, the infrared camera will be the tool used for temperature measurement in the orthogonal cutting experiments.
+
 	
 	\section{Objective}
 
-	The aim of this paper is to develop a computational method to analyze thermal images generated during orthogonal cutting of AISI 1045 metal, focusing on the transient state due to the short time of cutting. It will be analyzed temperature distribution along the cutting tool, heat flows through tool, chip and workpiece. The method will be validated by means of the current results in the literature afterwards.
+	The aim of this paper is to develop a computational method to analyze thermal images generated during orthogonal cutting of AISI 1045 steel, which focus on the transient state due to the short cutting time. The data that will be analyzed are the temperature distribution along the cutting tool, and the heat flows through tool, chip and workpiece. The method comes to provide a fast implementation tool to be used in validation of future studies on heat generation in cutting zones.
 
 	\section{Structure}
 	
@@ -19,7 +27,7 @@
 	
 	The second chapter, \textbf{\nameref{ch:state}}, describes the existing technology which is relevant for the scope of this paper.
 
-	The third chapter, \textbf{\nameref{ch:setup}}, describes the materials and methods that conducted the experiments.
+	The third chapter, \textbf{\nameref{ch:setup}}, describes the materials and methods that guided the experiments.
 	
 	The fourth, \textbf{\nameref{ch:results}}, presents the results and discussions about code implementation and model validation.
 	

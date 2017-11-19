@@ -1,54 +1,57 @@
 \section{Thermal review}
 
 	\subsection{Heat zones in machining}
+	\label{subsec:heatzones}
 
-	In machining there are 3 main regions of interest from where comes the heat produced during the cutting process \cite{shaw2005metal}. The first area represented on figure \ref{fig:heatZones} is called primary shear zone and it is located along the shear plane, which is the boundary between undeformed workpiece and chip. The second area is the plane of contact between tool and chip, also known as secondary shear zone or friction zone. As for third one, it is related to the wear caused due the friction between tool and finished workpiece surface, due to it is called wear zone.
+	In machining there are 3 main regions of interest from where comes the heat produced during the cutting process \cite{shaw2005metal}. The first area represented on figure \ref{fig:heatZones} is called primary shear zone and it is located along the shear plane, which is the boundary between undeformed workpiece and chip. The second area is the contact plane between tool and chip, also known as secondary shear zone or friction zone. As for the third one, it is related to the wear caused due to the friction between tool and finished workpiece surface. It is called wear zone or tertiary zone.
 
 	\begin{figure}[h]
 		\centering
 		\captionsetup{justification=centering}
 		\includegraphics[scale=0.5]{Imagens/heatZones.png}
-		\caption{Regions of interest}
+		\caption{Regions of interest during tool-chip interaction}
 		\label{fig:heatZones}
 	\end{figure}
 
-	All the heat generated in these three zones are removed from the system by means of tool, chip and workpiece. Since the cutting velocities used in this study are high, it classifies the cutting process in high speed machining. Since the process is more adiabatic as the cutting velocity raises because of the short time of process, it prevents the heat of being dissipated from the heat source directly to the environment. 
+	All the heat generated in these three zones is removed from the system by means of tool, chip and workpiece. Since the cutting velocities used in this study are high, the cutting process is classified as high speed machining. The process is more adiabatic as the cutting velocity raises because of the short process time prevents the heat of being dissipated from the heat source directly to the environment. 
+
+	It is important to highlight that the heat generation on primary and secondary shear zones is highly influenced by the cutting conditions, while for the tertiary zone is mainly dependent on tool flank wear \cite{abukhshim2006heat}. In this study, each cutting experiment was performed with sharp tools, so that the wear zone had a minor influence on total heat generation \cite{shaw2005metal}.
 
 	\subsection{Fundamentals of heat transfer}
 
-	Heat transfer occurs in basic three ways: Conduction, convection and radiation. Each situation can present one or more of these modes happening at the same time \cite{poole1989fundamentals}. Regarding conduction, this is a mechanism that heat is transferred from a region with high temperatures for another region with lower temperatures in a material. The general equation for heat conduction in three dimensions is given by:
+	Heat transfer occurs in three basic ways: Conduction, convection and radiation. Each situation can present one or more of these modes happening at the same time \cite{poole1989fundamentals}. Regarding conduction, this is a mechanism in which heat is transferred from a region with high temperatures to another region with lower temperatures in a material. The general equation for heat conduction in three dimensions is given by:
 
 	\begin{equation} 
 	\label{}
 	k(\frac{\partial ^{2}T}{\partial x^{2}} + \frac{\partial ^{2}T}{\partial y^{2}} + \frac{\partial ^{2}T}{\partial z^{2}}) + q = \rho c_{p}\frac{\partial T}{\partial t}
 	\end{equation}
 
-	Where $q$ is the heat generated per volume, $k$ is the heat conductivity, $T$ is temperature, $t$ is time, $\rho$ is the density of the material, $c_{p}$ is the specific heat capacity and x, y and z are directions of heat propagation.
+	Where $q$ is the heat generated per volume, $k$ is the heat conductivity, $T$ is temperature, $t$ is time, $\rho$ is the density of the material, $c_{p}$ is the specific heat capacity and $x$, $y$ and $z$ are the directions of heat propagation.
 
-	Convection is the way of heat propagation between bodies and fluids and within fluids. It happens because of density difference caused by the difference of temperatures. The equation that rules this mode is:
+	Convection is the way of heat propagation between bodies and fluids and within fluids. It happens because of density difference caused by the temperature difference. The equation that rules this mode is:
 
 	\begin{equation} 
 	\label{}
 	q = h_{c}A(T_{f} - T{s})
 	\end{equation}
 
-	Being $h_{c}$ the convective heat transfer coefficient, $A$ is the area of the body in contact with the fluid and $T_{f}$ and $T_{s}$ are the temperatures of the fluid and surface respectively.
+	Where $h_{c}$ is the convective heat transfer coefficient, $A$ is the area of the body in contact with the fluid and $T_{f}$ and $T_{s}$ are the temperatures of the fluid and surface, respectively.
 
-	For the third mode, the presence of a transport medium is not necessary. Radiation makes possible heat transfer in vacuum and any body above absolute zero emits electromagnetic energy causing heat propagation. Given two bodies with absolute temperatures $T_{1}$ and $T_{2}$, the heat propagation is:
+	For the third mode, the presence of a transport medium is not necessary. Radiation makes it possible for heat transfer in vacuum and any body above absolute zero emits electromagnetic energy causing heat propagation. Given two bodies with absolute temperatures $T_{1}$ and $T_{2}$, the heat propagation is:
 
 	\begin{equation} 
 	\label{}
 	q = \epsilon \sigma_{B}A(T_{1}^{4} - T_{2}^{4})
 	\end{equation}
 
-	$\sigma_{B}$ is the Stefan-Boltzmann constant, $\epsilon$ is the emissivity and $A$ is the enclosed are of the body.
+	$\sigma_{B}$ is the Stefan-Boltzmann constant, $\epsilon$ is the emissivity and $A$ is the enclosed area of the body.
 
-	Besides radiation, which comes to be the prevailing mode in infrared thermography, that will be discussed on the following subsection \ref{subsec:infraOp}, the focus of this paper is in the conduction transfer present in the cutting zone.
+	Besides radiation, which comes to be the prevailing mode in infrared thermography, which will be discussed on the following subsection \ref{subsec:infraOp}, the focus of this paper is in the conduction transfer present in the cutting zone.
 
 	\subsection{Infrared thermography operation}
 	\label{subsec:infraOp}
 
-	Infrared termography is a non-contact way to measure infrared electromagnetic energy. The human eye can not detect the range of infrared radiation. However, there are infrared cameras able to detect this energy and process the radiation into information (figure \ref{fig:thermog}).
+	Infrared termography is a non-contact way of measuring infrared electromagnetic energy. The human eye cannot detect the range of infrared radiation. However, there are infrared cameras which are able to detect this energy and process the radiation into visual information (figure \ref{fig:thermog}).
 
 	\begin{figure}[H]
 		\centering
@@ -58,19 +61,19 @@
 		\label{fig:thermog}
 	\end{figure}
 
-	It makes possible all thermal energy produced during a cutting process to be received by the infrared camera and to be synthesize in a matrix of temperatures afterwards. Since every body is able to emit infrared radiation when its temperature is above absolute zero, it is possible to observe contours of different bodies due to their temperature distribution. For this reason, thermography is a very important technology in military use, because it allows objects be seen even without proper illumination or in total lack of light situations.
+	It makes it possible for all thermal energy produced during a cutting process to be received by the infrared camera and to be later synthesize into a temperature matrix. Since every body is able to emit infrared radiation when its temperature is above absolute zero, it is possible to observe contours of different bodies due to their temperature distribution. For this reason, thermography is a very important technology in military use, because it allows objects to be seen even without proper illumination or in total lack of light situations.
 
-	Thermography is able to work in two different ways: passive and active. The passive way occurs when the subject matter has its temperature different from the environment (often higher). On the other hand, the active way needs an external heat source to induce a reasonable contrast between the object and the background \cite{maldague2000}.
+	Thermography is able to work in two different ways: passive and active. The passive variety occurs when the subject has its temperature different from the environment (often higher). On the other hand, active thermography needs an external heat source to induce a reasonable contrast between the object and the background \cite{maldague2000}.
 
-	As it can be observed on figure \ref{fig:thermog}, there are external sources of infrared radiation that can interfere on the target's temperature measurement. To correct the situation, the IR camera has an internal process called compensation \cite{usamentiaga2014}.
+	As it can be observed on Figure \ref{fig:thermog}, there are external sources of infrared radiation that can interfere in the target's temperature measurement. To correct this situation, the IR camera has an internal process called compensation \cite{usamentiaga2014}.
 
-	The total energy received ($W_{tot}$) is composed by the sum of three parts, the emission from the main object ($E_{obj}$), the emission of the vicinity reflected by the object ($E_{refl}$) and the emission of the atmosphere ($E_{atm}$) as shown on figure \ref{fig:thermog}. Then it is possible to extract the real temperature of the target object \cite{usamentiaga2014}.
+	The total energy received ($W_{tot}$) is composed by the sum of three parts: the emission from the main object ($E_{obj}$), the emission of the vicinity reflected by the object ($E_{refl}$) and the emission of the atmosphere ($E_{atm}$) as shown on figure \ref{fig:thermog}. Then it is possible to extract the real temperature of the target object \cite{usamentiaga2014}.
 
 
 \section{Mechanical review}
 	\subsection{Mechanics of orthogonal cutting}
 
-	In this section it will be shown numerous relations among forces, stresses and dimensions for example. For this purpose it is important to discuss geometrical correlations in the composite cutting force circle (figure \ref{fig:circlec}).
+	In this section it will be shown innumerous relations among forces, stresses and dimensions, for example. For this purpose it is important to discuss geometrical correlations in the composite cutting force circle (figure \ref{fig:circlec}).
 
 	\begin{figure}[h]
 		\centering
@@ -104,14 +107,14 @@
 	N_{C} = F_{P}\cos\alpha - F_{Q}\sin\alpha
 	\end{equation}
 
-	These equations provide all auxiliary forces related to the known passive force $F_{Q}$ and force on the cutting direction $F_{P}$. Now the variables of interest can be easily calculated, as the friction coefficient:
+	These equations provide all auxiliary forces related to the known passive force $F_{Q}$ and the force on the cutting direction $F_{P}$. Now the variables of interest can be easily calculated, such as the friction coefficient:
 
 	\begin{equation} 
 	\label{eq_friction}
 	\mu = \frac{F_{C}}{N_{C}} = \frac{F_{Q} + F_{P}\tan\alpha}{F_{P} - F_{Q}\tan\alpha}
 	\end{equation}
 
-	Now the equations concerning about stresses are:
+	The equations concerning stresses are:
 
 	\begin{equation} 
 	\label{}
@@ -130,21 +133,21 @@
 
 	Where $A_{S}$ is the area of the shear plane, $\tau$ is the shear stress and $\sigma$ is the normal stress.
 
-	Another important parameter is the cutting ratio $r$, which can provide an important relation between the main cutting velocity and the chip outlet velocity. It is found experimentally that there is no change in density of metal during the cutting process and also when $w/a_{p} \geq 5$ makes the width of the chip the same of the workpiece. Then, the equations are:
+	Another important parameter is the cutting ratio $r$, which can provide an important relation between the main cutting velocity and the chip outlet velocity. It has been found experimentally that there is no change in density of metal during the cutting process and also that $w/a_{p} \geq 5$ makes the width of the chip the same than that of the workpiece. Thus, the equations are:
 
 	\begin{equation} 
 	\label{}
 	a_{p}wl = a_{pc}w_{c}l_{c}
 	\end{equation}
 
-	Where $a_{p}$, w and l are the depth of cut, width of cut and length of cut respectively. Then, the cutting ratio is defined by:
+	Where $a_{p}$, $w$ and $l$ are the depth of cut, width of cut and length of cut, respectively. Then, the cutting ratio is defined by:
 
 	\begin{equation} 
 	\label{}
 	r = \frac{a_{p}}{a_{pc}} = \frac{l_{c}}{l}
 	\end{equation}
 
-	Having the cutting ratio, it is now possible to correlate cutting velocity $v$ and chip outlet velocity $v_{c}$ by means of the following equation:
+	With the cutting ratio, it is now possible to correlate cutting velocity $v$ and chip outlet velocity $v_{c}$ by means of the following equation:
 
 	\begin{equation} 
 	\label{}

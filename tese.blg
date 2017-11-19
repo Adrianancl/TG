@@ -14,6 +14,8 @@ Database file #1: abnt-options.bib
 Database file #2: Referencias/referencias.bib
 Warning--entry type for "augspurger2016experimental" isn't style-file defined
 --line 20 of file Referencias/referencias.bib
+Warning--entry type for "augspurger2016modelling" isn't style-file defined
+--line 29 of file Referencias/referencias.bib
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -24,45 +26,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 22 entries,
+You've used 25 entries,
             6480 wiz_defined-function locations,
-            1280 strings with 12461 characters,
-and the built_in function-call counts, 17806 in all, are:
-= -- 1387
-> -- 623
-< -- 55
-+ -- 289
-- -- 184
-* -- 1310
-:= -- 2270
-add.period$ -- 55
-call.type$ -- 24
-change.case$ -- 222
-chr.to.int$ -- 69
-cite$ -- 17
-duplicate$ -- 824
-empty$ -- 1327
-format.name$ -- 909
-if$ -- 4264
-int.to.chr$ -- 4
+            1298 strings with 13033 characters,
+and the built_in function-call counts, 20529 in all, are:
+= -- 1563
+> -- 756
+< -- 63
++ -- 342
+- -- 222
+* -- 1536
+:= -- 2622
+add.period$ -- 65
+call.type$ -- 27
+change.case$ -- 264
+chr.to.int$ -- 77
+cite$ -- 20
+duplicate$ -- 954
+empty$ -- 1498
+format.name$ -- 1106
+if$ -- 4903
+int.to.chr$ -- 5
 int.to.str$ -- 3
-missing$ -- 370
-newline$ -- 91
-num.names$ -- 85
-pop$ -- 416
+missing$ -- 427
+newline$ -- 106
+num.names$ -- 100
+pop$ -- 486
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 101
 quote$ -- 0
-skip$ -- 1128
+skip$ -- 1269
 stack$ -- 1
-substring$ -- 843
-swap$ -- 461
-text.length$ -- 39
+substring$ -- 914
+swap$ -- 534
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 148
+while$ -- 169
 width$ -- 0
-write$ -- 300
-(There was 1 warning)
+write$ -- 350
+(There were 2 warnings)

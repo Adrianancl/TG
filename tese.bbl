@@ -14,11 +14,25 @@
   v.~46, n.~7, p. 782--800, 2006.}
 
 \bibitem[Augspurger \textit{et al.} 2016]{augspurger2016experimental}
-\abntrefinfo{Augspurger \textit{et al.}}{AUGSPURGER \textit{et al.}}{2016}
+\abntrefinfo{Augspurger \textit{et al.}}{AUGSPURGER \textit{et al.}}{2016a}
 {AUGSPURGER, T.; KLOCKE, F.; D{\"O}BBELER, B.; BROCKMANN, M.; LIMA, A.
   \textbf{Experimental investigation of temperatures and heat flows for
   orthogonal cutting 1045 steel by thermal imaging}. 08 2016.
 6~p.}
+
+\bibitem[Augspurger \textit{et al.} 2016]{augspurger2016modelling}
+\abntrefinfo{Augspurger \textit{et al.}}{AUGSPURGER \textit{et al.}}{2016b}
+{AUGSPURGER, T.; KLOCKE, F.; D{\"O}BBELER, B.; BROCKMANN, M.; GIERLINGS, S.;
+  LIMA, A. \textbf{Modelling of Transient Thermal Conditions in Cutting}. 08
+  2016.
+8~p.}
+
+\bibitem[Boothroyd 1961]{boothroyd1961photographic}
+\abntrefinfo{Boothroyd}{BOOTHROYD}{1961}
+{BOOTHROYD, G. Photographic technique for the determination of metal cutting
+  temperatures.
+\textbf{British Journal of Applied Physics}, IOP Publishing, v.~12, n.~5,
+  p.~238, 1961.}
 
 \bibitem[Boothroyd 1963]{boothroyd1963temperatures}
 \abntrefinfo{Boothroyd}{BOOTHROYD}{1963}
@@ -103,9 +117,15 @@
 {SHAW, M.~C.; COOKSON, J. \textbf{Metal cutting principles}. [S.l.]: Oxford
   university press New York, 2005.}
 
-\bibitem[Trigger 1942]{trigger1942}
-\abntrefinfo{Trigger}{TRIGGER}{1942}
-{TRIGGER, K. An analytical evaluation of metal cutting temperature.
+\bibitem[Takeuchi \textit{et al.} 1982]{takeuchi1982improvement}
+\abntrefinfo{Takeuchi \textit{et al.}}{TAKEUCHI \textit{et al.}}{1982}
+{TAKEUCHI, Y.; SAKAMOTO, M.; SATA, T. Improvement in the working accuracy of an
+  nc lathe by compensating for thermal expansion.
+\textbf{Precision Engineering}, Elsevier, v.~4, n.~1, p. 19--24, 1982.}
+
+\bibitem[Trigger e Chao 1942]{trigger1942}
+\abntrefinfo{Trigger e Chao}{TRIGGER; CHAO}{1942}
+{TRIGGER, K.; CHAO, B. An analytical evaluation of metal cutting temperature.
 \textbf{Transactions of ASME}, v.~73, p. 57--68, 1942.}
 
 \bibitem[Usamentiaga \textit{et al.} 2014]{usamentiaga2014}
